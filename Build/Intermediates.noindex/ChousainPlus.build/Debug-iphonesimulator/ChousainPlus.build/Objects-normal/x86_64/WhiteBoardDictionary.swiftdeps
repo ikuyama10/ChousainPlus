@@ -1,0 +1,295 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WhiteBoardDictionary"
+provides-nominal:
+- "12ChousainPlus20WhiteBoardDictionaryC"
+provides-member:
+- ["12ChousainPlus20WhiteBoardDictionaryC", ""]
+provides-dynamic-lookup:
+- "dsp_x"
+- "dsp_y"
+- "height"
+- "item_name"
+- "item_no"
+- "rule"
+- "unit"
+- "wb_type"
+- "wbid"
+- "width"
+depends-top-level:
+- "Object"
+- "StringLiteralType"
+- "WhiteBoardDictionary"
+depends-member:
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", ""]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
+- ["SK", "init"]
+- ["SK", "init"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["Se", "init"]
+- ["Se", "init"]
+- ["SE", "init"]
+- ["SE", "init"]
+- ["SQ", ""]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", ""]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSObjectC", "dsp_x"]
+- ["So8NSObjectC", "dsp_y"]
+- ["So8NSObjectC", "height"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "item_name"]
+- ["So8NSObjectC", "item_no"]
+- ["So8NSObjectC", "rule"]
+- ["So8NSObjectC", "unit"]
+- ["So8NSObjectC", "wb_type"]
+- ["So8NSObjectC", "wbid"]
+- ["So8NSObjectC", "width"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- ["10RealmSwift6ObjectC", ""]
+- ["10RealmSwift6ObjectC", "dsp_x"]
+- ["10RealmSwift6ObjectC", "dsp_y"]
+- ["10RealmSwift6ObjectC", "height"]
+- ["10RealmSwift6ObjectC", "init"]
+- !private ["10RealmSwift6ObjectC", "init"]
+- ["10RealmSwift6ObjectC", "item_name"]
+- ["10RealmSwift6ObjectC", "item_no"]
+- ["10RealmSwift6ObjectC", "rule"]
+- ["10RealmSwift6ObjectC", "unit"]
+- ["10RealmSwift6ObjectC", "wb_type"]
+- ["10RealmSwift6ObjectC", "wbid"]
+- ["10RealmSwift6ObjectC", "width"]
+- ["So13RLMObjectBaseC", "dsp_x"]
+- ["So13RLMObjectBaseC", "dsp_y"]
+- ["So13RLMObjectBaseC", "height"]
+- ["So13RLMObjectBaseC", "init"]
+- !private ["So13RLMObjectBaseC", "init"]
+- ["So13RLMObjectBaseC", "item_name"]
+- ["So13RLMObjectBaseC", "item_no"]
+- ["So13RLMObjectBaseC", "rule"]
+- ["So13RLMObjectBaseC", "unit"]
+- ["So13RLMObjectBaseC", "wb_type"]
+- ["So13RLMObjectBaseC", "wbid"]
+- ["So13RLMObjectBaseC", "width"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["10RealmSwift0A15CollectionValueP", ""]
+- ["10RealmSwift0A15CollectionValueP", "init"]
+- ["10RealmSwift0A15CollectionValueP", "init"]
+- ["ST", "init"]
+- ["ST", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["10RealmSwift14ThreadConfinedP", ""]
+- !private ["10RealmSwift14ThreadConfinedP", "init"]
+- !private ["10RealmSwift14ThreadConfinedP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["12ChousainPlus20WhiteBoardDictionaryC", "dsp_x"]
+- ["12ChousainPlus20WhiteBoardDictionaryC", "dsp_y"]
+- ["12ChousainPlus20WhiteBoardDictionaryC", "height"]
+- ["12ChousainPlus20WhiteBoardDictionaryC", "init"]
+- ["12ChousainPlus20WhiteBoardDictionaryC", "item_name"]
+- ["12ChousainPlus20WhiteBoardDictionaryC", "item_no"]
+- ["12ChousainPlus20WhiteBoardDictionaryC", "rule"]
+- ["12ChousainPlus20WhiteBoardDictionaryC", "unit"]
+- ["12ChousainPlus20WhiteBoardDictionaryC", "wb_type"]
+- ["12ChousainPlus20WhiteBoardDictionaryC", "wbid"]
+- ["12ChousainPlus20WhiteBoardDictionaryC", "width"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "10RealmSwift28AssistedObjectiveCBridgeableP"
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "10RealmSwift6ObjectC"
+- "So13RLMObjectBaseC"
+- "Sm"
+- "10RealmSwift0A15CollectionValueP"
+- "ST"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "10RealmSwift14ThreadConfinedP"
+- "9Alamofire14URLConvertibleP"
+- "12ChousainPlus20WhiteBoardDictionaryC"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/LNZTreeView/LNZTreeView.framework/Modules/LNZTreeView.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/LNZTreeView/LNZTreeView.framework/Headers/LNZTreeView-umbrella.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/LNZTreeView/LNZTreeView.framework/Headers/LNZTreeView-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/LNZTreeView/LNZTreeView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6184d7d89547215d754b3ad01bcd4585"

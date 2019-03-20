@@ -1,0 +1,1292 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Object"
+- "PropertyChange"
+- "ObjectChange"
+- "DynamicObject"
+- "ObjectUtil"
+provides-nominal:
+- "10RealmSwift6ObjectC"
+- "10RealmSwift14PropertyChangeV"
+- "10RealmSwift12ObjectChangeO"
+- "10RealmSwift13DynamicObjectC"
+- "10RealmSwift10ObjectUtilC"
+provides-member:
+- ["10RealmSwift6ObjectC", ""]
+- ["10RealmSwift14PropertyChangeV", ""]
+- ["10RealmSwift12ObjectChangeO", ""]
+- ["10RealmSwift13DynamicObjectC", ""]
+- ["10RealmSwift10ObjectUtilC", ""]
+- ["10RealmSwift6ObjectC", "addNotificationBlock"]
+- ["10RealmSwift6ObjectC", "isEqual"]
+provides-dynamic-lookup:
+- "description"
+- "getSwiftProperties"
+- "ignoredProperties"
+- "ignoredPropertiesForClass"
+- "indexedProperties"
+- "indexedPropertiesForClass"
+- "isInvalidated"
+- "linkingObjectsPropertiesForClass"
+- "objectUtilClass"
+- "primaryKey"
+- "requiredPropertiesForClass"
+- "setValue"
+- "shouldIncludeInDefaultSchema"
+- "subscript"
+- "swiftVersion"
+- "value"
+depends-top-level:
+- !private "+"
+- !private "..<"
+- !private "=="
+- "AnyClass"
+- "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "AssistedObjectiveCBridgeable"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "Data"
+- !private "Date"
+- !private "Double"
+- "DynamicObject"
+- !private "ExpressibleByNilLiteral"
+- !private "Float"
+- "FloatLiteralType"
+- "Int"
+- !private "Int16"
+- !private "Int32"
+- !private "Int64"
+- !private "Int8"
+- "IntegerLiteralType"
+- !private "LinkingObjectsBase"
+- "List"
+- "Mirror"
+- "NSArray"
+- "NSDictionary"
+- "NSError"
+- "NSObject"
+- "NSString"
+- "NotificationToken"
+- "Object"
+- "ObjectChange"
+- "ObjectSchema"
+- "ObjectUtil"
+- !private "Optional"
+- "PropertyChange"
+- !private "PropertyType"
+- "RLMArray"
+- !private "RLMDynamicGetByName"
+- !private "RLMDynamicValidatedSet"
+- !private "RLMListBase"
+- !private "RLMObjectAddNotificationBlock"
+- "RLMObjectBase"
+- !private "RLMObjectBaseAreEqual"
+- !private "RLMObjectBaseObjectSchema"
+- !private "RLMObjectBaseRealm"
+- "RLMObjectSchema"
+- !private "RLMOptionalBase"
+- "RLMRealm"
+- "RLMSchema"
+- "RLMSwiftPropertyMetadata"
+- "Realm"
+- "RealmCollectionValue"
+- !private "RealmOptional"
+- !private "Set"
+- "String"
+- "ThreadConfined"
+- !private "UnicodeScalarType"
+- "Void"
+- !private "fatalError"
+- !private "forceCastToInferred"
+- !private "noWarnUnsafeBitCast"
+- !private "swiftLanguageVersion"
+- !private "throwRealmException"
+- !private "type"
+- !private "||"
+depends-member:
+- !private ["s13AnyCollectionV", "filter"]
+- !private ["Sa", "count"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "enumerated"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "List"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "ObjectSchema"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "ObjectUtil"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "PropertyChange"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "RLMArray"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "RLMDynamicGetByName"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "RLMDynamicValidatedSet"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "RLMObjectAddNotificationBlock"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "RLMObjectBaseAreEqual"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "RLMObjectBaseObjectSchema"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "RLMObjectBaseRealm"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "Realm"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", ""]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "_nilValue"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "_rlmArray"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "bridged"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "bridging"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "className"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "fatalError"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "forceCastToInferred"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "ignoredProperties"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "indexedProperties"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "isInvalidated"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "noWarnUnsafeBitCast"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "realm"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "setValue"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "subscript"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "unsafeCastToRLMObject"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "value"]
+- !private ["SK", "count"]
+- !private ["SK", "enumerated"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "lowerBound"]
+- !private ["SK", "map"]
+- !private ["SK", "range"]
+- !private ["SK", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["s7CVarArgP", "List"]
+- !private ["s7CVarArgP", "Mirror"]
+- !private ["s7CVarArgP", "ObjectSchema"]
+- !private ["s7CVarArgP", "ObjectUtil"]
+- !private ["s7CVarArgP", "PropertyChange"]
+- !private ["s7CVarArgP", "RLMArray"]
+- !private ["s7CVarArgP", "RLMDynamicGetByName"]
+- !private ["s7CVarArgP", "RLMDynamicValidatedSet"]
+- !private ["s7CVarArgP", "RLMObjectAddNotificationBlock"]
+- !private ["s7CVarArgP", "RLMObjectBaseAreEqual"]
+- !private ["s7CVarArgP", "RLMObjectBaseObjectSchema"]
+- !private ["s7CVarArgP", "RLMObjectBaseRealm"]
+- !private ["s7CVarArgP", "RLMSwiftPropertyMetadata"]
+- !private ["s7CVarArgP", "Realm"]
+- !private ["s7CVarArgP", "Set"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "_nilValue"]
+- ["s7CVarArgP", "_rlmArray"]
+- !private ["s7CVarArgP", "baseName"]
+- ["s7CVarArgP", "bridged"]
+- ["s7CVarArgP", "bridging"]
+- !private ["s7CVarArgP", "className"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "forceCastToInferred"]
+- !private ["s7CVarArgP", "getNonIgnoredMirrorChildren"]
+- !private ["s7CVarArgP", "getOptionalPropertyMetadata"]
+- !private ["s7CVarArgP", "ignoredProperties"]
+- !private ["s7CVarArgP", "indexedProperties"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "isInvalidated"]
+- !private ["s7CVarArgP", "noWarnUnsafeBitCast"]
+- !private ["s7CVarArgP", "objectClassName"]
+- !private ["s7CVarArgP", "partialPrivateShared"]
+- !private ["s7CVarArgP", "propertyName"]
+- !private ["s7CVarArgP", "range"]
+- ["s7CVarArgP", "realm"]
+- !private ["s7CVarArgP", "setValue"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "swiftLanguageVersion"]
+- !private ["s7CVarArgP", "throwRealmException"]
+- !private ["s7CVarArgP", "type"]
+- !private ["s7CVarArgP", "unsafeCastToRLMObject"]
+- !private ["s7CVarArgP", "value"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "count"]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "lowerBound"]
+- !private ["Sl", "map"]
+- !private ["Sl", "range"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "range"]
+- !private ["SL", "subscript"]
+- !private ["So22NSStringCompareOptionsV", "anchored"]
+- !private ["So22NSStringCompareOptionsV", "backwards"]
+- !private ["s28CustomDebugStringConvertibleP", "List"]
+- !private ["s28CustomDebugStringConvertibleP", "Mirror"]
+- !private ["s28CustomDebugStringConvertibleP", "ObjectSchema"]
+- !private ["s28CustomDebugStringConvertibleP", "ObjectUtil"]
+- !private ["s28CustomDebugStringConvertibleP", "PropertyChange"]
+- !private ["s28CustomDebugStringConvertibleP", "RLMArray"]
+- !private ["s28CustomDebugStringConvertibleP", "RLMDynamicGetByName"]
+- !private ["s28CustomDebugStringConvertibleP", "RLMDynamicValidatedSet"]
+- !private ["s28CustomDebugStringConvertibleP", "RLMObjectAddNotificationBlock"]
+- !private ["s28CustomDebugStringConvertibleP", "RLMObjectBaseAreEqual"]
+- !private ["s28CustomDebugStringConvertibleP", "RLMObjectBaseObjectSchema"]
+- !private ["s28CustomDebugStringConvertibleP", "RLMObjectBaseRealm"]
+- !private ["s28CustomDebugStringConvertibleP", "RLMSwiftPropertyMetadata"]
+- !private ["s28CustomDebugStringConvertibleP", "Realm"]
+- !private ["s28CustomDebugStringConvertibleP", "Set"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_nilValue"]
+- ["s28CustomDebugStringConvertibleP", "_rlmArray"]
+- !private ["s28CustomDebugStringConvertibleP", "baseName"]
+- ["s28CustomDebugStringConvertibleP", "bridged"]
+- ["s28CustomDebugStringConvertibleP", "bridging"]
+- !private ["s28CustomDebugStringConvertibleP", "className"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "forceCastToInferred"]
+- !private ["s28CustomDebugStringConvertibleP", "getNonIgnoredMirrorChildren"]
+- !private ["s28CustomDebugStringConvertibleP", "getOptionalPropertyMetadata"]
+- !private ["s28CustomDebugStringConvertibleP", "ignoredProperties"]
+- !private ["s28CustomDebugStringConvertibleP", "indexedProperties"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "isInvalidated"]
+- !private ["s28CustomDebugStringConvertibleP", "lowerBound"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "noWarnUnsafeBitCast"]
+- !private ["s28CustomDebugStringConvertibleP", "objectClassName"]
+- !private ["s28CustomDebugStringConvertibleP", "optional"]
+- !private ["s28CustomDebugStringConvertibleP", "partialPrivateShared"]
+- !private ["s28CustomDebugStringConvertibleP", "propertyName"]
+- !private ["s28CustomDebugStringConvertibleP", "range"]
+- ["s28CustomDebugStringConvertibleP", "realm"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "swiftLanguageVersion"]
+- !private ["s28CustomDebugStringConvertibleP", "throwRealmException"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s28CustomDebugStringConvertibleP", "unsafeCastToRLMObject"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "optional"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "range"]
+- !private ["s29CustomPlaygroundQuickLookableP", "subscript"]
+- ["s17CustomReflectableP", "Child"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "children"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "displayStyle"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "lowerBound"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "optional"]
+- !private ["s17CustomReflectableP", "range"]
+- !private ["s17CustomReflectableP", "subjectType"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "Child"]
+- !private ["s23CustomStringConvertibleP", "List"]
+- !private ["s23CustomStringConvertibleP", "Mirror"]
+- !private ["s23CustomStringConvertibleP", "ObjectSchema"]
+- !private ["s23CustomStringConvertibleP", "ObjectUtil"]
+- !private ["s23CustomStringConvertibleP", "PropertyChange"]
+- !private ["s23CustomStringConvertibleP", "RLMArray"]
+- !private ["s23CustomStringConvertibleP", "RLMDynamicGetByName"]
+- !private ["s23CustomStringConvertibleP", "RLMDynamicValidatedSet"]
+- !private ["s23CustomStringConvertibleP", "RLMObjectAddNotificationBlock"]
+- !private ["s23CustomStringConvertibleP", "RLMObjectBaseAreEqual"]
+- !private ["s23CustomStringConvertibleP", "RLMObjectBaseObjectSchema"]
+- !private ["s23CustomStringConvertibleP", "RLMObjectBaseRealm"]
+- !private ["s23CustomStringConvertibleP", "RLMSwiftPropertyMetadata"]
+- !private ["s23CustomStringConvertibleP", "Realm"]
+- !private ["s23CustomStringConvertibleP", "Set"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "_nilValue"]
+- ["s23CustomStringConvertibleP", "_rlmArray"]
+- !private ["s23CustomStringConvertibleP", "baseName"]
+- ["s23CustomStringConvertibleP", "bridged"]
+- ["s23CustomStringConvertibleP", "bridging"]
+- !private ["s23CustomStringConvertibleP", "children"]
+- !private ["s23CustomStringConvertibleP", "className"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "displayStyle"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "forceCastToInferred"]
+- !private ["s23CustomStringConvertibleP", "getNonIgnoredMirrorChildren"]
+- !private ["s23CustomStringConvertibleP", "getOptionalPropertyMetadata"]
+- !private ["s23CustomStringConvertibleP", "ignoredProperties"]
+- !private ["s23CustomStringConvertibleP", "indexedProperties"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "isInvalidated"]
+- !private ["s23CustomStringConvertibleP", "lowerBound"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "noWarnUnsafeBitCast"]
+- !private ["s23CustomStringConvertibleP", "objectClassName"]
+- !private ["s23CustomStringConvertibleP", "partialPrivateShared"]
+- !private ["s23CustomStringConvertibleP", "propertyName"]
+- !private ["s23CustomStringConvertibleP", "range"]
+- ["s23CustomStringConvertibleP", "realm"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "subjectType"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "swiftLanguageVersion"]
+- !private ["s23CustomStringConvertibleP", "throwRealmException"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s23CustomStringConvertibleP", "unsafeCastToRLMObject"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "contains"]
+- !private ["Se", "count"]
+- !private ["Se", "enumerated"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "optional"]
+- !private ["Se", "range"]
+- !private ["Se", "subscript"]
+- !private ["s6MirrorV12DisplayStyleO", "optional"]
+- ["Sd", "deinit"]
+- !private ["10RealmSwift13DynamicObjectC", "AnyObject"]
+- ["10RealmSwift13DynamicObjectC", "Bool"]
+- ["10RealmSwift13DynamicObjectC", "DynamicObject"]
+- ["10RealmSwift13DynamicObjectC", "List"]
+- !private ["10RealmSwift13DynamicObjectC", "RLMArray"]
+- !private ["10RealmSwift13DynamicObjectC", "RLMDynamicGetByName"]
+- !private ["10RealmSwift13DynamicObjectC", "RLMDynamicValidatedSet"]
+- ["10RealmSwift13DynamicObjectC", "String"]
+- ["10RealmSwift13DynamicObjectC", "deinit"]
+- ["10RealmSwift13DynamicObjectC", "dynamicList"]
+- ["10RealmSwift13DynamicObjectC", "init"]
+- ["10RealmSwift13DynamicObjectC", "setValue"]
+- ["10RealmSwift13DynamicObjectC", "shouldIncludeInDefaultSchema"]
+- ["10RealmSwift13DynamicObjectC", "subscript"]
+- ["10RealmSwift13DynamicObjectC", "value"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "contains"]
+- !private ["SE", "count"]
+- !private ["SE", "enumerated"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "optional"]
+- !private ["SE", "range"]
+- !private ["SE", "subscript"]
+- !private ["s18EnumeratedSequenceV", "map"]
+- !private ["SQ", "List"]
+- !private ["SQ", "Mirror"]
+- !private ["SQ", "ObjectSchema"]
+- !private ["SQ", "ObjectUtil"]
+- !private ["SQ", "PropertyChange"]
+- !private ["SQ", "RLMArray"]
+- !private ["SQ", "RLMDynamicGetByName"]
+- !private ["SQ", "RLMDynamicValidatedSet"]
+- !private ["SQ", "RLMObjectAddNotificationBlock"]
+- !private ["SQ", "RLMObjectBaseAreEqual"]
+- !private ["SQ", "RLMObjectBaseObjectSchema"]
+- !private ["SQ", "RLMObjectBaseRealm"]
+- !private ["SQ", "RLMSwiftPropertyMetadata"]
+- !private ["SQ", "Realm"]
+- !private ["SQ", "Set"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "_nilValue"]
+- ["SQ", "_rlmArray"]
+- !private ["SQ", "anchored"]
+- !private ["SQ", "backwards"]
+- !private ["SQ", "baseName"]
+- !private ["SQ", "bool"]
+- ["SQ", "bridged"]
+- ["SQ", "bridging"]
+- !private ["SQ", "className"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "count"]
+- !private ["SQ", "data"]
+- !private ["SQ", "date"]
+- !private ["SQ", "description"]
+- !private ["SQ", "double"]
+- !private ["SQ", "enumerated"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "float"]
+- !private ["SQ", "forceCastToInferred"]
+- !private ["SQ", "getNonIgnoredMirrorChildren"]
+- !private ["SQ", "getOptionalPropertyMetadata"]
+- !private ["SQ", "ignoredProperties"]
+- !private ["SQ", "indexedProperties"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "int"]
+- ["SQ", "isInvalidated"]
+- !private ["SQ", "lowerBound"]
+- !private ["SQ", "map"]
+- !private ["SQ", "noWarnUnsafeBitCast"]
+- !private ["SQ", "object"]
+- !private ["SQ", "objectClassName"]
+- !private ["SQ", "optional"]
+- !private ["SQ", "partialPrivateShared"]
+- !private ["SQ", "propertyName"]
+- !private ["SQ", "range"]
+- ["SQ", "realm"]
+- !private ["SQ", "setValue"]
+- !private ["SQ", "string"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "swiftLanguageVersion"]
+- !private ["SQ", "throwRealmException"]
+- !private ["SQ", "type"]
+- !private ["SQ", "unsafeCastToRLMObject"]
+- !private ["SQ", "value"]
+- !private ["s25ExpressibleByArrayLiteralP", "anchored"]
+- !private ["s25ExpressibleByArrayLiteralP", "backwards"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "range"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "optional"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "range"]
+- !private ["s26ExpressibleByStringLiteralP", "subscript"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "range"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- ["Sf", "deinit"]
+- !private ["SH", "List"]
+- !private ["SH", "Mirror"]
+- !private ["SH", "ObjectSchema"]
+- !private ["SH", "ObjectUtil"]
+- !private ["SH", "PropertyChange"]
+- !private ["SH", "RLMArray"]
+- !private ["SH", "RLMDynamicGetByName"]
+- !private ["SH", "RLMDynamicValidatedSet"]
+- !private ["SH", "RLMObjectAddNotificationBlock"]
+- !private ["SH", "RLMObjectBaseAreEqual"]
+- !private ["SH", "RLMObjectBaseObjectSchema"]
+- !private ["SH", "RLMObjectBaseRealm"]
+- !private ["SH", "RLMSwiftPropertyMetadata"]
+- !private ["SH", "Realm"]
+- !private ["SH", "Set"]
+- !private ["SH", "String"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "_nilValue"]
+- ["SH", "_rlmArray"]
+- !private ["SH", "baseName"]
+- !private ["SH", "bool"]
+- ["SH", "bridged"]
+- ["SH", "bridging"]
+- !private ["SH", "className"]
+- !private ["SH", "contains"]
+- !private ["SH", "count"]
+- !private ["SH", "data"]
+- !private ["SH", "date"]
+- !private ["SH", "description"]
+- !private ["SH", "double"]
+- !private ["SH", "enumerated"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "float"]
+- !private ["SH", "forceCastToInferred"]
+- !private ["SH", "getNonIgnoredMirrorChildren"]
+- !private ["SH", "getOptionalPropertyMetadata"]
+- !private ["SH", "ignoredProperties"]
+- !private ["SH", "indexedProperties"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "int"]
+- ["SH", "isInvalidated"]
+- !private ["SH", "lowerBound"]
+- !private ["SH", "map"]
+- !private ["SH", "noWarnUnsafeBitCast"]
+- !private ["SH", "object"]
+- !private ["SH", "objectClassName"]
+- !private ["SH", "optional"]
+- !private ["SH", "partialPrivateShared"]
+- !private ["SH", "propertyName"]
+- !private ["SH", "range"]
+- ["SH", "realm"]
+- !private ["SH", "setValue"]
+- !private ["SH", "string"]
+- !private ["SH", "subscript"]
+- !private ["SH", "swiftLanguageVersion"]
+- !private ["SH", "throwRealmException"]
+- !private ["SH", "type"]
+- !private ["SH", "unsafeCastToRLMObject"]
+- !private ["SH", "value"]
+- ["Si", "deinit"]
+- ["s5Int16V", "deinit"]
+- ["s5Int32V", "deinit"]
+- ["s5Int64V", "deinit"]
+- ["s4Int8V", "deinit"]
+- !private ["s22LazyCollectionProtocolP", "init"]
+- !private ["s20LazySequenceProtocolP", "init"]
+- !private ["10RealmSwift18LinkingObjectsBaseC", "objectClassName"]
+- !private ["10RealmSwift18LinkingObjectsBaseC", "propertyName"]
+- !private ["10RealmSwift4ListC", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "range"]
+- !private ["s25LosslessStringConvertibleP", "subscript"]
+- ["s6MirrorV", "Child"]
+- !private ["s6MirrorV", "children"]
+- !private ["s6MirrorV", "displayStyle"]
+- !private ["s6MirrorV", "init"]
+- !private ["s6MirrorV", "subjectType"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "range"]
+- !private ["s10MirrorPathP", "subscript"]
+- !private ["SM", "count"]
+- !private ["SM", "enumerated"]
+- !private ["SM", "init"]
+- !private ["SM", "subscript"]
+- !private ["So8NSCodingP", "range"]
+- !private ["So8NSCodingP", "subscript"]
+- !private ["So9NSCopyingP", "partialPrivateShared"]
+- !private ["So9NSCopyingP", "range"]
+- !private ["So9NSCopyingP", "subscript"]
+- !private ["So17NSFastEnumerationP", "init"]
+- !private ["So17NSFastEnumerationP", "objectClassName"]
+- !private ["So17NSFastEnumerationP", "propertyName"]
+- !private ["So21NSItemProviderReadingP", "range"]
+- !private ["So21NSItemProviderReadingP", "subscript"]
+- !private ["So21NSItemProviderWritingP", "range"]
+- !private ["So21NSItemProviderWritingP", "subscript"]
+- !private ["So16NSMutableCopyingP", "range"]
+- !private ["So16NSMutableCopyingP", "subscript"]
+- ["So8NSObjectC", "AnyClass"]
+- ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Data"]
+- !private ["So8NSObjectC", "Date"]
+- !private ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "DynamicObject"]
+- !private ["So8NSObjectC", "ExpressibleByNilLiteral"]
+- !private ["So8NSObjectC", "Float"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "Int16"]
+- !private ["So8NSObjectC", "Int32"]
+- !private ["So8NSObjectC", "Int64"]
+- !private ["So8NSObjectC", "Int8"]
+- !private ["So8NSObjectC", "LinkingObjectsBase"]
+- ["So8NSObjectC", "List"]
+- ["So8NSObjectC", "Mirror"]
+- ["So8NSObjectC", "NSArray"]
+- ["So8NSObjectC", "NSDictionary"]
+- !private ["So8NSObjectC", "NSError"]
+- ["So8NSObjectC", "NSString"]
+- ["So8NSObjectC", "NotificationToken"]
+- ["So8NSObjectC", "Object"]
+- ["So8NSObjectC", "ObjectChange"]
+- ["So8NSObjectC", "ObjectSchema"]
+- !private ["So8NSObjectC", "ObjectUtil"]
+- !private ["So8NSObjectC", "Optional"]
+- !private ["So8NSObjectC", "PropertyChange"]
+- !private ["So8NSObjectC", "PropertyType"]
+- ["So8NSObjectC", "RLMArray"]
+- !private ["So8NSObjectC", "RLMDynamicGetByName"]
+- !private ["So8NSObjectC", "RLMDynamicValidatedSet"]
+- !private ["So8NSObjectC", "RLMListBase"]
+- !private ["So8NSObjectC", "RLMObjectAddNotificationBlock"]
+- !private ["So8NSObjectC", "RLMObjectBaseAreEqual"]
+- !private ["So8NSObjectC", "RLMObjectBaseObjectSchema"]
+- !private ["So8NSObjectC", "RLMObjectBaseRealm"]
+- ["So8NSObjectC", "RLMObjectSchema"]
+- !private ["So8NSObjectC", "RLMOptionalBase"]
+- ["So8NSObjectC", "RLMRealm"]
+- ["So8NSObjectC", "RLMSchema"]
+- ["So8NSObjectC", "RLMSwiftPropertyMetadata"]
+- ["So8NSObjectC", "Realm"]
+- !private ["So8NSObjectC", "RealmOptional"]
+- !private ["So8NSObjectC", "Set"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "_nilValue"]
+- ["So8NSObjectC", "_rlmArray"]
+- ["So8NSObjectC", "addNotificationBlock"]
+- ["So8NSObjectC", "baseName"]
+- ["So8NSObjectC", "bridged"]
+- ["So8NSObjectC", "bridging"]
+- !private ["So8NSObjectC", "className"]
+- ["So8NSObjectC", "description"]
+- ["So8NSObjectC", "dynamicList"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "forceCastToInferred"]
+- ["So8NSObjectC", "getNonIgnoredMirrorChildren"]
+- ["So8NSObjectC", "getOptionalPropertyMetadata"]
+- ["So8NSObjectC", "getSwiftProperties"]
+- ["So8NSObjectC", "ignoredProperties"]
+- ["So8NSObjectC", "ignoredPropertiesForClass"]
+- ["So8NSObjectC", "indexedProperties"]
+- ["So8NSObjectC", "indexedPropertiesForClass"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isEqual"]
+- ["So8NSObjectC", "isInvalidated"]
+- ["So8NSObjectC", "isSameObject"]
+- ["So8NSObjectC", "linkingObjectsPropertiesForClass"]
+- !private ["So8NSObjectC", "noWarnUnsafeBitCast"]
+- !private ["So8NSObjectC", "objectClassName"]
+- ["So8NSObjectC", "objectSchema"]
+- ["So8NSObjectC", "objectUtilClass"]
+- ["So8NSObjectC", "observe"]
+- !private ["So8NSObjectC", "partialPrivateShared"]
+- ["So8NSObjectC", "primaryKey"]
+- !private ["So8NSObjectC", "propertyName"]
+- !private ["So8NSObjectC", "range"]
+- ["So8NSObjectC", "realm"]
+- ["So8NSObjectC", "requiredPropertiesForClass"]
+- ["So8NSObjectC", "setValue"]
+- ["So8NSObjectC", "shouldIncludeInDefaultSchema"]
+- ["So8NSObjectC", "subscript"]
+- !private ["So8NSObjectC", "swiftLanguageVersion"]
+- ["So8NSObjectC", "swiftVersion"]
+- !private ["So8NSObjectC", "throwRealmException"]
+- !private ["So8NSObjectC", "type"]
+- !private ["So8NSObjectC", "unsafeCastToRLMObject"]
+- ["So8NSObjectC", "value"]
+- !private ["So8NSObjectP", "List"]
+- !private ["So8NSObjectP", "Mirror"]
+- !private ["So8NSObjectP", "ObjectSchema"]
+- !private ["So8NSObjectP", "ObjectUtil"]
+- !private ["So8NSObjectP", "PropertyChange"]
+- !private ["So8NSObjectP", "RLMArray"]
+- !private ["So8NSObjectP", "RLMDynamicGetByName"]
+- !private ["So8NSObjectP", "RLMDynamicValidatedSet"]
+- !private ["So8NSObjectP", "RLMObjectAddNotificationBlock"]
+- !private ["So8NSObjectP", "RLMObjectBaseAreEqual"]
+- !private ["So8NSObjectP", "RLMObjectBaseObjectSchema"]
+- !private ["So8NSObjectP", "RLMObjectBaseRealm"]
+- !private ["So8NSObjectP", "RLMSwiftPropertyMetadata"]
+- !private ["So8NSObjectP", "Realm"]
+- !private ["So8NSObjectP", "Set"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "_nilValue"]
+- ["So8NSObjectP", "_rlmArray"]
+- !private ["So8NSObjectP", "baseName"]
+- ["So8NSObjectP", "bridged"]
+- ["So8NSObjectP", "bridging"]
+- !private ["So8NSObjectP", "className"]
+- !private ["So8NSObjectP", "description"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "forceCastToInferred"]
+- !private ["So8NSObjectP", "getNonIgnoredMirrorChildren"]
+- !private ["So8NSObjectP", "getOptionalPropertyMetadata"]
+- !private ["So8NSObjectP", "ignoredProperties"]
+- !private ["So8NSObjectP", "indexedProperties"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "isInvalidated"]
+- !private ["So8NSObjectP", "noWarnUnsafeBitCast"]
+- !private ["So8NSObjectP", "objectClassName"]
+- !private ["So8NSObjectP", "partialPrivateShared"]
+- !private ["So8NSObjectP", "propertyName"]
+- !private ["So8NSObjectP", "range"]
+- ["So8NSObjectP", "realm"]
+- !private ["So8NSObjectP", "setValue"]
+- !private ["So8NSObjectP", "subscript"]
+- !private ["So8NSObjectP", "swiftLanguageVersion"]
+- !private ["So8NSObjectP", "throwRealmException"]
+- !private ["So8NSObjectP", "type"]
+- !private ["So8NSObjectP", "unsafeCastToRLMObject"]
+- !private ["So8NSObjectP", "value"]
+- !private ["So14NSSecureCodingP", "range"]
+- !private ["So14NSSecureCodingP", "subscript"]
+- !private ["So8NSStringC", "range"]
+- !private ["So8NSStringC", "subscript"]
+- ["10RealmSwift6ObjectC", "AnyClass"]
+- ["10RealmSwift6ObjectC", "AnyObject"]
+- ["10RealmSwift6ObjectC", "Bool"]
+- ["10RealmSwift6ObjectC", "DynamicObject"]
+- ["10RealmSwift6ObjectC", "List"]
+- !private ["10RealmSwift6ObjectC", "NSError"]
+- ["10RealmSwift6ObjectC", "NotificationToken"]
+- ["10RealmSwift6ObjectC", "Object"]
+- ["10RealmSwift6ObjectC", "ObjectChange"]
+- ["10RealmSwift6ObjectC", "ObjectSchema"]
+- !private ["10RealmSwift6ObjectC", "ObjectUtil"]
+- !private ["10RealmSwift6ObjectC", "PropertyChange"]
+- ["10RealmSwift6ObjectC", "RLMArray"]
+- !private ["10RealmSwift6ObjectC", "RLMDynamicGetByName"]
+- !private ["10RealmSwift6ObjectC", "RLMDynamicValidatedSet"]
+- !private ["10RealmSwift6ObjectC", "RLMListBase"]
+- !private ["10RealmSwift6ObjectC", "RLMObjectAddNotificationBlock"]
+- !private ["10RealmSwift6ObjectC", "RLMObjectBaseAreEqual"]
+- !private ["10RealmSwift6ObjectC", "RLMObjectBaseObjectSchema"]
+- !private ["10RealmSwift6ObjectC", "RLMObjectBaseRealm"]
+- ["10RealmSwift6ObjectC", "RLMObjectSchema"]
+- ["10RealmSwift6ObjectC", "RLMRealm"]
+- ["10RealmSwift6ObjectC", "RLMSchema"]
+- ["10RealmSwift6ObjectC", "Realm"]
+- ["10RealmSwift6ObjectC", "String"]
+- ["10RealmSwift6ObjectC", "Void"]
+- ["10RealmSwift6ObjectC", ""]
+- ["10RealmSwift6ObjectC", "_nilValue"]
+- ["10RealmSwift6ObjectC", "_rlmArray"]
+- ["10RealmSwift6ObjectC", "addNotificationBlock"]
+- ["10RealmSwift6ObjectC", "bridged"]
+- ["10RealmSwift6ObjectC", "bridging"]
+- !private ["10RealmSwift6ObjectC", "className"]
+- ["10RealmSwift6ObjectC", "deinit"]
+- ["10RealmSwift6ObjectC", "description"]
+- ["10RealmSwift6ObjectC", "dynamicList"]
+- !private ["10RealmSwift6ObjectC", "fatalError"]
+- !private ["10RealmSwift6ObjectC", "forceCastToInferred"]
+- ["10RealmSwift6ObjectC", "ignoredProperties"]
+- ["10RealmSwift6ObjectC", "indexedProperties"]
+- ["10RealmSwift6ObjectC", "init"]
+- !private ["10RealmSwift6ObjectC", "init"]
+- ["10RealmSwift6ObjectC", "isEqual"]
+- ["10RealmSwift6ObjectC", "isInvalidated"]
+- ["10RealmSwift6ObjectC", "isSameObject"]
+- !private ["10RealmSwift6ObjectC", "noWarnUnsafeBitCast"]
+- ["10RealmSwift6ObjectC", "objectSchema"]
+- ["10RealmSwift6ObjectC", "objectUtilClass"]
+- ["10RealmSwift6ObjectC", "observe"]
+- ["10RealmSwift6ObjectC", "primaryKey"]
+- ["10RealmSwift6ObjectC", "realm"]
+- ["10RealmSwift6ObjectC", "setValue"]
+- ["10RealmSwift6ObjectC", "shouldIncludeInDefaultSchema"]
+- ["10RealmSwift6ObjectC", "subscript"]
+- !private ["10RealmSwift6ObjectC", "unsafeCastToRLMObject"]
+- ["10RealmSwift6ObjectC", "value"]
+- ["10RealmSwift12ObjectChangeO", "NSError"]
+- ["10RealmSwift12ObjectChangeO", "PropertyChange"]
+- ["10RealmSwift12ObjectChangeO", "change"]
+- ["10RealmSwift12ObjectChangeO", "deleted"]
+- ["10RealmSwift12ObjectChangeO", "error"]
+- !private ["10RealmSwift12ObjectSchemaV", "init"]
+- ["10RealmSwift10ObjectUtilC", "AnyClass"]
+- !private ["10RealmSwift10ObjectUtilC", "Bool"]
+- !private ["10RealmSwift10ObjectUtilC", "Data"]
+- !private ["10RealmSwift10ObjectUtilC", "Date"]
+- !private ["10RealmSwift10ObjectUtilC", "Double"]
+- !private ["10RealmSwift10ObjectUtilC", "ExpressibleByNilLiteral"]
+- !private ["10RealmSwift10ObjectUtilC", "Float"]
+- ["10RealmSwift10ObjectUtilC", "Int"]
+- !private ["10RealmSwift10ObjectUtilC", "Int16"]
+- !private ["10RealmSwift10ObjectUtilC", "Int32"]
+- !private ["10RealmSwift10ObjectUtilC", "Int64"]
+- !private ["10RealmSwift10ObjectUtilC", "Int8"]
+- !private ["10RealmSwift10ObjectUtilC", "LinkingObjectsBase"]
+- ["10RealmSwift10ObjectUtilC", "Mirror"]
+- ["10RealmSwift10ObjectUtilC", "NSArray"]
+- ["10RealmSwift10ObjectUtilC", "NSDictionary"]
+- ["10RealmSwift10ObjectUtilC", "NSString"]
+- !private ["10RealmSwift10ObjectUtilC", "Object"]
+- !private ["10RealmSwift10ObjectUtilC", "Optional"]
+- !private ["10RealmSwift10ObjectUtilC", "PropertyType"]
+- !private ["10RealmSwift10ObjectUtilC", "RLMListBase"]
+- !private ["10RealmSwift10ObjectUtilC", "RLMOptionalBase"]
+- ["10RealmSwift10ObjectUtilC", "RLMSwiftPropertyMetadata"]
+- !private ["10RealmSwift10ObjectUtilC", "RealmOptional"]
+- !private ["10RealmSwift10ObjectUtilC", "Set"]
+- ["10RealmSwift10ObjectUtilC", "String"]
+- !private ["10RealmSwift10ObjectUtilC", "baseName"]
+- !private ["10RealmSwift10ObjectUtilC", "getNonIgnoredMirrorChildren"]
+- !private ["10RealmSwift10ObjectUtilC", "getOptionalPropertyMetadata"]
+- !private ["10RealmSwift10ObjectUtilC", "getSwiftProperties"]
+- !private ["10RealmSwift10ObjectUtilC", "ignoredPropertiesForClass"]
+- !private ["10RealmSwift10ObjectUtilC", "indexedPropertiesForClass"]
+- ["10RealmSwift10ObjectUtilC", "init"]
+- !private ["10RealmSwift10ObjectUtilC", "linkingObjectsPropertiesForClass"]
+- !private ["10RealmSwift10ObjectUtilC", "requiredPropertiesForClass"]
+- !private ["10RealmSwift10ObjectUtilC", "swiftLanguageVersion"]
+- !private ["10RealmSwift10ObjectUtilC", "swiftVersion"]
+- !private ["10RealmSwift10ObjectUtilC", "throwRealmException"]
+- !private ["10RealmSwift10ObjectUtilC", "type"]
+- !private ["s9OptionSetP", "anchored"]
+- !private ["s9OptionSetP", "backwards"]
+- !private ["Sq", "optional"]
+- !private ["10RealmSwift16OptionalProtocolP", "optional"]
+- ["10RealmSwift14PropertyChangeV", "String"]
+- ["10RealmSwift14PropertyChangeV", "init"]
+- ["10RealmSwift14PropertyChangeV", "name"]
+- ["10RealmSwift14PropertyChangeV", "newValue"]
+- ["10RealmSwift14PropertyChangeV", "oldValue"]
+- !private ["So8RLMArrayC", "init"]
+- !private ["So13RLMCollectionP", "init"]
+- ["So13RLMObjectBaseC", "AnyClass"]
+- ["So13RLMObjectBaseC", "AnyObject"]
+- ["So13RLMObjectBaseC", "Bool"]
+- ["So13RLMObjectBaseC", "DynamicObject"]
+- ["So13RLMObjectBaseC", "List"]
+- !private ["So13RLMObjectBaseC", "NSError"]
+- ["So13RLMObjectBaseC", "NotificationToken"]
+- ["So13RLMObjectBaseC", "Object"]
+- ["So13RLMObjectBaseC", "ObjectChange"]
+- ["So13RLMObjectBaseC", "ObjectSchema"]
+- !private ["So13RLMObjectBaseC", "ObjectUtil"]
+- !private ["So13RLMObjectBaseC", "PropertyChange"]
+- ["So13RLMObjectBaseC", "RLMArray"]
+- !private ["So13RLMObjectBaseC", "RLMDynamicGetByName"]
+- !private ["So13RLMObjectBaseC", "RLMDynamicValidatedSet"]
+- !private ["So13RLMObjectBaseC", "RLMListBase"]
+- !private ["So13RLMObjectBaseC", "RLMObjectAddNotificationBlock"]
+- !private ["So13RLMObjectBaseC", "RLMObjectBaseAreEqual"]
+- !private ["So13RLMObjectBaseC", "RLMObjectBaseObjectSchema"]
+- !private ["So13RLMObjectBaseC", "RLMObjectBaseRealm"]
+- ["So13RLMObjectBaseC", "RLMObjectSchema"]
+- ["So13RLMObjectBaseC", "RLMRealm"]
+- ["So13RLMObjectBaseC", "RLMSchema"]
+- ["So13RLMObjectBaseC", "Realm"]
+- ["So13RLMObjectBaseC", "String"]
+- ["So13RLMObjectBaseC", "Void"]
+- ["So13RLMObjectBaseC", ""]
+- ["So13RLMObjectBaseC", "_nilValue"]
+- ["So13RLMObjectBaseC", "_rlmArray"]
+- ["So13RLMObjectBaseC", "addNotificationBlock"]
+- ["So13RLMObjectBaseC", "bridged"]
+- ["So13RLMObjectBaseC", "bridging"]
+- !private ["So13RLMObjectBaseC", "className"]
+- ["So13RLMObjectBaseC", "description"]
+- ["So13RLMObjectBaseC", "dynamicList"]
+- !private ["So13RLMObjectBaseC", "fatalError"]
+- !private ["So13RLMObjectBaseC", "forceCastToInferred"]
+- ["So13RLMObjectBaseC", "ignoredProperties"]
+- ["So13RLMObjectBaseC", "indexedProperties"]
+- ["So13RLMObjectBaseC", "init"]
+- !private ["So13RLMObjectBaseC", "init"]
+- ["So13RLMObjectBaseC", "isEqual"]
+- ["So13RLMObjectBaseC", "isInvalidated"]
+- ["So13RLMObjectBaseC", "isSameObject"]
+- !private ["So13RLMObjectBaseC", "noWarnUnsafeBitCast"]
+- ["So13RLMObjectBaseC", "objectSchema"]
+- ["So13RLMObjectBaseC", "objectUtilClass"]
+- ["So13RLMObjectBaseC", "observe"]
+- ["So13RLMObjectBaseC", "primaryKey"]
+- ["So13RLMObjectBaseC", "realm"]
+- ["So13RLMObjectBaseC", "setValue"]
+- ["So13RLMObjectBaseC", "shouldIncludeInDefaultSchema"]
+- ["So13RLMObjectBaseC", "subscript"]
+- !private ["So13RLMObjectBaseC", "unsafeCastToRLMObject"]
+- ["So13RLMObjectBaseC", "value"]
+- !private ["So15RLMPropertyTypeV", "bool"]
+- !private ["So15RLMPropertyTypeV", "data"]
+- !private ["So15RLMPropertyTypeV", "date"]
+- !private ["So15RLMPropertyTypeV", "double"]
+- !private ["So15RLMPropertyTypeV", "float"]
+- !private ["So15RLMPropertyTypeV", "int"]
+- !private ["So15RLMPropertyTypeV", "object"]
+- !private ["So15RLMPropertyTypeV", "string"]
+- !private ["So9RLMSchemaC", "partialPrivateShared"]
+- !private ["So24RLMSwiftPropertyMetadataC", "init"]
+- !private ["So17RLMThreadConfinedP", "init"]
+- !private ["Sk", "count"]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "init"]
+- !private ["Sk", "lowerBound"]
+- !private ["Sk", "map"]
+- !private ["Sk", "subscript"]
+- !private ["Sn", "lowerBound"]
+- !private ["Sn", "map"]
+- !private ["SX", "lowerBound"]
+- !private ["SX", "map"]
+- !private ["Sm", "count"]
+- !private ["Sm", "enumerated"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "range"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "anchored"]
+- !private ["SY", "backwards"]
+- !private ["SY", "bool"]
+- !private ["SY", "data"]
+- !private ["SY", "date"]
+- !private ["SY", "double"]
+- !private ["SY", "float"]
+- !private ["SY", "int"]
+- !private ["SY", "object"]
+- !private ["SY", "string"]
+- !private ["10RealmSwift0A0C", "deinit"]
+- !private ["10RealmSwift0A0C", "init"]
+- !private ["10RealmSwift0A10CollectionP", "init"]
+- !private ["10RealmSwift0A14CollectionBaseP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "List"]
+- !private ["10RealmSwift0A15CollectionValueP", "ObjectSchema"]
+- !private ["10RealmSwift0A15CollectionValueP", "ObjectUtil"]
+- !private ["10RealmSwift0A15CollectionValueP", "PropertyChange"]
+- !private ["10RealmSwift0A15CollectionValueP", "RLMArray"]
+- !private ["10RealmSwift0A15CollectionValueP", "RLMDynamicGetByName"]
+- !private ["10RealmSwift0A15CollectionValueP", "RLMDynamicValidatedSet"]
+- !private ["10RealmSwift0A15CollectionValueP", "RLMObjectAddNotificationBlock"]
+- !private ["10RealmSwift0A15CollectionValueP", "RLMObjectBaseAreEqual"]
+- !private ["10RealmSwift0A15CollectionValueP", "RLMObjectBaseObjectSchema"]
+- !private ["10RealmSwift0A15CollectionValueP", "RLMObjectBaseRealm"]
+- !private ["10RealmSwift0A15CollectionValueP", "Realm"]
+- ["10RealmSwift0A15CollectionValueP", ""]
+- !private ["10RealmSwift0A15CollectionValueP", "_getBuiltinLogicValue"]
+- ["10RealmSwift0A15CollectionValueP", "_nilValue"]
+- ["10RealmSwift0A15CollectionValueP", "_rlmArray"]
+- ["10RealmSwift0A15CollectionValueP", "bridged"]
+- ["10RealmSwift0A15CollectionValueP", "bridging"]
+- !private ["10RealmSwift0A15CollectionValueP", "className"]
+- !private ["10RealmSwift0A15CollectionValueP", "fatalError"]
+- !private ["10RealmSwift0A15CollectionValueP", "forceCastToInferred"]
+- !private ["10RealmSwift0A15CollectionValueP", "ignoredProperties"]
+- !private ["10RealmSwift0A15CollectionValueP", "indexedProperties"]
+- !private ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "init"]
+- ["10RealmSwift0A15CollectionValueP", "isInvalidated"]
+- !private ["10RealmSwift0A15CollectionValueP", "noWarnUnsafeBitCast"]
+- !private ["10RealmSwift0A15CollectionValueP", "optional"]
+- !private ["10RealmSwift0A15CollectionValueP", "range"]
+- ["10RealmSwift0A15CollectionValueP", "realm"]
+- !private ["10RealmSwift0A15CollectionValueP", "setValue"]
+- !private ["10RealmSwift0A15CollectionValueP", "subscript"]
+- !private ["10RealmSwift0A15CollectionValueP", "unsafeCastToRLMObject"]
+- !private ["10RealmSwift0A15CollectionValueP", "value"]
+- !private ["10RealmSwift0A12OptionalTypeP", "_getBuiltinLogicValue"]
+- !private ["ST", "contains"]
+- !private ["ST", "count"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "filter"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "lowerBound"]
+- !private ["ST", "map"]
+- !private ["ST", "range"]
+- !private ["ST", "subscript"]
+- !private ["Sh", "contains"]
+- !private ["Sh", "init"]
+- !private ["s10SetAlgebraP", "anchored"]
+- !private ["s10SetAlgebraP", "backwards"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "range"]
+- !private ["SS", "subscript"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "range"]
+- !private ["Sy", "subscript"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "range"]
+- !private ["s16TextOutputStreamP", "subscript"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "range"]
+- !private ["s20TextOutputStreamableP", "subscript"]
+- !private ["10RealmSwift14ThreadConfinedP", "List"]
+- !private ["10RealmSwift14ThreadConfinedP", "ObjectSchema"]
+- !private ["10RealmSwift14ThreadConfinedP", "ObjectUtil"]
+- !private ["10RealmSwift14ThreadConfinedP", "PropertyChange"]
+- !private ["10RealmSwift14ThreadConfinedP", "RLMArray"]
+- !private ["10RealmSwift14ThreadConfinedP", "RLMDynamicGetByName"]
+- !private ["10RealmSwift14ThreadConfinedP", "RLMDynamicValidatedSet"]
+- !private ["10RealmSwift14ThreadConfinedP", "RLMObjectAddNotificationBlock"]
+- !private ["10RealmSwift14ThreadConfinedP", "RLMObjectBaseAreEqual"]
+- !private ["10RealmSwift14ThreadConfinedP", "RLMObjectBaseObjectSchema"]
+- !private ["10RealmSwift14ThreadConfinedP", "RLMObjectBaseRealm"]
+- !private ["10RealmSwift14ThreadConfinedP", "Realm"]
+- ["10RealmSwift14ThreadConfinedP", ""]
+- ["10RealmSwift14ThreadConfinedP", "_nilValue"]
+- ["10RealmSwift14ThreadConfinedP", "_rlmArray"]
+- ["10RealmSwift14ThreadConfinedP", "bridged"]
+- ["10RealmSwift14ThreadConfinedP", "bridging"]
+- !private ["10RealmSwift14ThreadConfinedP", "className"]
+- !private ["10RealmSwift14ThreadConfinedP", "fatalError"]
+- !private ["10RealmSwift14ThreadConfinedP", "forceCastToInferred"]
+- !private ["10RealmSwift14ThreadConfinedP", "ignoredProperties"]
+- !private ["10RealmSwift14ThreadConfinedP", "indexedProperties"]
+- !private ["10RealmSwift14ThreadConfinedP", "init"]
+- !private ["10RealmSwift14ThreadConfinedP", "init"]
+- ["10RealmSwift14ThreadConfinedP", "isInvalidated"]
+- !private ["10RealmSwift14ThreadConfinedP", "noWarnUnsafeBitCast"]
+- ["10RealmSwift14ThreadConfinedP", "realm"]
+- !private ["10RealmSwift14ThreadConfinedP", "setValue"]
+- !private ["10RealmSwift14ThreadConfinedP", "subscript"]
+- !private ["10RealmSwift14ThreadConfinedP", "unsafeCastToRLMObject"]
+- !private ["10RealmSwift14ThreadConfinedP", "value"]
+- !private ["s22_AnyCollectionProtocolP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "range"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "range"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "subscript"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "range"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "subscript"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "range"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "subscript"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "range"]
+- !private ["s33_ExpressibleByStringInterpolationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "range"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "List"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Mirror"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ObjectSchema"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ObjectUtil"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PropertyChange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RLMArray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RLMDynamicGetByName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RLMDynamicValidatedSet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RLMObjectAddNotificationBlock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RLMObjectBaseAreEqual"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RLMObjectBaseObjectSchema"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RLMObjectBaseRealm"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RLMSwiftPropertyMetadata"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Realm"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Set"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "_nilValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "_rlmArray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "baseName"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "bridged"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "bridging"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "className"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "description"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "forceCastToInferred"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getNonIgnoredMirrorChildren"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getOptionalPropertyMetadata"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ignoredProperties"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indexedProperties"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "isInvalidated"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "noWarnUnsafeBitCast"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objectClassName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "partialPrivateShared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "propertyName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "range"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "realm"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "swiftLanguageVersion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "throwRealmException"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "type"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unsafeCastToRLMObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "optional"]
+- !private ["s21_ObjectiveCBridgeableP", "range"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s26_OptionalNilComparisonTypeV", "optional"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "range"]
+- !private ["s16_SwiftStringViewP", "subscript"]
+depends-nominal:
+- !private "s13AnyCollectionV"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "10RealmSwift28AssistedObjectiveCBridgeableP"
+- !private "SK"
+- "Sb"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "So22NSStringCompareOptionsV"
+- "s28CustomDebugStringConvertibleP"
+- !private "10RealmSwift26CustomObjectiveCBridgeableP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s6MirrorV12DisplayStyleO"
+- "Sd"
+- "10RealmSwift13DynamicObjectC"
+- !private "SE"
+- !private "s18EnumeratedSequenceV"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "Sf"
+- "SH"
+- "Si"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "s4Int8V"
+- !private "s22LazyCollectionProtocolP"
+- !private "s20LazySequenceProtocolP"
+- !private "10RealmSwift18LinkingObjectsBaseC"
+- !private "10RealmSwift4ListC"
+- !private "s25LosslessStringConvertibleP"
+- "s6MirrorV"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So17NSFastEnumerationP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "10RealmSwift6ObjectC"
+- "10RealmSwift12ObjectChangeO"
+- !private "10RealmSwift12ObjectSchemaV"
+- "10RealmSwift10ObjectUtilC"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "10RealmSwift16OptionalProtocolP"
+- "10RealmSwift14PropertyChangeV"
+- !private "So8RLMArrayC"
+- !private "So13RLMCollectionP"
+- "So13RLMObjectBaseC"
+- !private "So15RLMPropertyTypeV"
+- !private "So9RLMSchemaC"
+- !private "So24RLMSwiftPropertyMetadataC"
+- !private "So17RLMThreadConfinedP"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- !private "Sm"
+- !private "SY"
+- !private "10RealmSwift0A0C"
+- !private "10RealmSwift0A10CollectionP"
+- !private "10RealmSwift0A14CollectionBaseP"
+- "10RealmSwift0A15CollectionValueP"
+- !private "10RealmSwift0A12OptionalTypeP"
+- !private "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "10RealmSwift14ThreadConfinedP"
+- !private "s22_AnyCollectionProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Pods/Target Support Files/RealmSwift/RealmSwift-umbrella.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/unextended-module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Realm.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "aabf2a724e4213ec383abbec8d4b817d"

@@ -1,0 +1,719 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PlaneNode"
+provides-nominal:
+- "12ChousainPlus9PlaneNodeC"
+provides-member:
+- ["12ChousainPlus9PlaneNodeC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "-"
+- !private "/"
+- "ARPlaneAnchor"
+- "AssignmentPrecedence"
+- !private "CGFloat"
+- "CastingPrecedence"
+- !private "Float"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSCoder"
+- "PlaneNode"
+- !private "SCNMatrix4MakeRotation"
+- "SCNNode"
+- !private "SCNPlane"
+- !private "SCNVector3"
+- !private "StringLiteralType"
+- !private "UIColor"
+- !private "fatalError"
+depends-member:
+- !private ["So8ARAnchorC", "center"]
+- !private ["So8ARAnchorC", "extent"]
+- !private ["So15ARAnchorCopyingP", "center"]
+- !private ["So15ARAnchorCopyingP", "extent"]
+- !private ["So13ARPlaneAnchorC", "center"]
+- !private ["So13ARPlaneAnchorC", "extent"]
+- !private ["10RealmSwift11AddableTypeP", "pi"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SB", "init"]
+- !private ["SB", "pi"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["s7CVarArgP", "CGFloat"]
+- !private ["s7CVarArgP", "Float"]
+- !private ["s7CVarArgP", "SCNMatrix4MakeRotation"]
+- !private ["s7CVarArgP", "SCNPlane"]
+- !private ["s7CVarArgP", "SCNVector3"]
+- !private ["s7CVarArgP", "UIColor"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "center"]
+- !private ["s7CVarArgP", "contents"]
+- !private ["s7CVarArgP", "diffuse"]
+- !private ["s7CVarArgP", "extent"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "firstMaterial"]
+- !private ["s7CVarArgP", "geometry"]
+- !private ["s7CVarArgP", "green"]
+- !private ["s7CVarArgP", "height"]
+- !private ["s7CVarArgP", "heightSegmentCount"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pi"]
+- !private ["s7CVarArgP", "position"]
+- !private ["s7CVarArgP", "transform"]
+- !private ["s7CVarArgP", "width"]
+- !private ["s7CVarArgP", "widthSegmentCount"]
+- !private ["s7CVarArgP", "withAlphaComponent"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "x"]
+- !private ["Sl", "y"]
+- !private ["Sl", "z"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "pi"]
+- !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- !private ["s28CustomDebugStringConvertibleP", "SCNMatrix4MakeRotation"]
+- !private ["s28CustomDebugStringConvertibleP", "SCNPlane"]
+- !private ["s28CustomDebugStringConvertibleP", "SCNVector3"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "center"]
+- !private ["s28CustomDebugStringConvertibleP", "contents"]
+- !private ["s28CustomDebugStringConvertibleP", "diffuse"]
+- !private ["s28CustomDebugStringConvertibleP", "extent"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "firstMaterial"]
+- !private ["s28CustomDebugStringConvertibleP", "geometry"]
+- !private ["s28CustomDebugStringConvertibleP", "green"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "heightSegmentCount"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "pi"]
+- !private ["s28CustomDebugStringConvertibleP", "position"]
+- !private ["s28CustomDebugStringConvertibleP", "transform"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "widthSegmentCount"]
+- !private ["s28CustomDebugStringConvertibleP", "withAlphaComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s28CustomDebugStringConvertibleP", "z"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "pi"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pi"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "pi"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- !private ["s23CustomStringConvertibleP", "SCNMatrix4MakeRotation"]
+- !private ["s23CustomStringConvertibleP", "SCNPlane"]
+- !private ["s23CustomStringConvertibleP", "SCNVector3"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "center"]
+- !private ["s23CustomStringConvertibleP", "contents"]
+- !private ["s23CustomStringConvertibleP", "diffuse"]
+- !private ["s23CustomStringConvertibleP", "extent"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "firstMaterial"]
+- !private ["s23CustomStringConvertibleP", "geometry"]
+- !private ["s23CustomStringConvertibleP", "green"]
+- !private ["s23CustomStringConvertibleP", "height"]
+- !private ["s23CustomStringConvertibleP", "heightSegmentCount"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "pi"]
+- !private ["s23CustomStringConvertibleP", "position"]
+- !private ["s23CustomStringConvertibleP", "transform"]
+- !private ["s23CustomStringConvertibleP", "width"]
+- !private ["s23CustomStringConvertibleP", "widthSegmentCount"]
+- !private ["s23CustomStringConvertibleP", "withAlphaComponent"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "pi"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "pi"]
+- !private ["SQ", "CGFloat"]
+- !private ["SQ", "Float"]
+- !private ["SQ", "SCNMatrix4MakeRotation"]
+- !private ["SQ", "SCNPlane"]
+- !private ["SQ", "SCNVector3"]
+- !private ["SQ", "UIColor"]
+- ["SQ", ""]
+- !private ["SQ", "center"]
+- !private ["SQ", "contents"]
+- !private ["SQ", "diffuse"]
+- !private ["SQ", "extent"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "firstMaterial"]
+- !private ["SQ", "geometry"]
+- !private ["SQ", "green"]
+- !private ["SQ", "height"]
+- !private ["SQ", "heightSegmentCount"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "pi"]
+- !private ["SQ", "position"]
+- !private ["SQ", "transform"]
+- !private ["SQ", "width"]
+- !private ["SQ", "widthSegmentCount"]
+- !private ["SQ", "withAlphaComponent"]
+- !private ["SQ", "x"]
+- !private ["SQ", "y"]
+- !private ["SQ", "z"]
+- !private ["s25ExpressibleByArrayLiteralP", "x"]
+- !private ["s25ExpressibleByArrayLiteralP", "y"]
+- !private ["s25ExpressibleByArrayLiteralP", "z"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "pi"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "pi"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["Sf", "pi"]
+- !private ["SF", "init"]
+- !private ["SF", "pi"]
+- !private ["SH", "CGFloat"]
+- !private ["SH", "Float"]
+- !private ["SH", "SCNMatrix4MakeRotation"]
+- !private ["SH", "SCNPlane"]
+- !private ["SH", "SCNVector3"]
+- !private ["SH", "UIColor"]
+- ["SH", ""]
+- !private ["SH", "center"]
+- !private ["SH", "contents"]
+- !private ["SH", "diffuse"]
+- !private ["SH", "extent"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "firstMaterial"]
+- !private ["SH", "geometry"]
+- !private ["SH", "green"]
+- !private ["SH", "height"]
+- !private ["SH", "heightSegmentCount"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "pi"]
+- !private ["SH", "position"]
+- !private ["SH", "transform"]
+- !private ["SH", "width"]
+- !private ["SH", "widthSegmentCount"]
+- !private ["SH", "withAlphaComponent"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "pi"]
+- !private ["10RealmSwift10MinMaxTypeP", "pi"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "CGFloat"]
+- !private ["So8NSCodingP", "Float"]
+- !private ["So8NSCodingP", "SCNMatrix4MakeRotation"]
+- !private ["So8NSCodingP", "SCNPlane"]
+- !private ["So8NSCodingP", "SCNVector3"]
+- !private ["So8NSCodingP", "UIColor"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "center"]
+- !private ["So8NSCodingP", "contents"]
+- !private ["So8NSCodingP", "diffuse"]
+- !private ["So8NSCodingP", "extent"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "firstMaterial"]
+- !private ["So8NSCodingP", "geometry"]
+- !private ["So8NSCodingP", "green"]
+- !private ["So8NSCodingP", "height"]
+- !private ["So8NSCodingP", "heightSegmentCount"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "position"]
+- !private ["So8NSCodingP", "transform"]
+- !private ["So8NSCodingP", "width"]
+- !private ["So8NSCodingP", "widthSegmentCount"]
+- !private ["So8NSCodingP", "withAlphaComponent"]
+- !private ["So9NSCopyingP", "CGFloat"]
+- !private ["So9NSCopyingP", "Float"]
+- !private ["So9NSCopyingP", "SCNMatrix4MakeRotation"]
+- !private ["So9NSCopyingP", "SCNPlane"]
+- !private ["So9NSCopyingP", "SCNVector3"]
+- !private ["So9NSCopyingP", "UIColor"]
+- ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "center"]
+- !private ["So9NSCopyingP", "diffuse"]
+- !private ["So9NSCopyingP", "extent"]
+- !private ["So9NSCopyingP", "fatalError"]
+- !private ["So9NSCopyingP", "firstMaterial"]
+- !private ["So9NSCopyingP", "geometry"]
+- !private ["So9NSCopyingP", "green"]
+- !private ["So9NSCopyingP", "height"]
+- !private ["So9NSCopyingP", "heightSegmentCount"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "position"]
+- !private ["So9NSCopyingP", "transform"]
+- !private ["So9NSCopyingP", "width"]
+- !private ["So9NSCopyingP", "widthSegmentCount"]
+- !private ["So9NSCopyingP", "withAlphaComponent"]
+- !private ["So21NSItemProviderReadingP", "green"]
+- !private ["So21NSItemProviderReadingP", "withAlphaComponent"]
+- !private ["So21NSItemProviderWritingP", "green"]
+- !private ["So21NSItemProviderWritingP", "withAlphaComponent"]
+- ["So8NSObjectC", "ARPlaneAnchor"]
+- !private ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "Float"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "SCNMatrix4MakeRotation"]
+- !private ["So8NSObjectC", "SCNPlane"]
+- !private ["So8NSObjectC", "SCNVector3"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "center"]
+- !private ["So8NSObjectC", "contents"]
+- !private ["So8NSObjectC", "diffuse"]
+- !private ["So8NSObjectC", "extent"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "firstMaterial"]
+- !private ["So8NSObjectC", "geometry"]
+- !private ["So8NSObjectC", "green"]
+- !private ["So8NSObjectC", "height"]
+- !private ["So8NSObjectC", "heightSegmentCount"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "position"]
+- !private ["So8NSObjectC", "transform"]
+- ["So8NSObjectC", "update"]
+- !private ["So8NSObjectC", "width"]
+- !private ["So8NSObjectC", "widthSegmentCount"]
+- !private ["So8NSObjectC", "withAlphaComponent"]
+- !private ["So8NSObjectP", "CGFloat"]
+- !private ["So8NSObjectP", "Float"]
+- !private ["So8NSObjectP", "SCNMatrix4MakeRotation"]
+- !private ["So8NSObjectP", "SCNPlane"]
+- !private ["So8NSObjectP", "SCNVector3"]
+- !private ["So8NSObjectP", "UIColor"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "center"]
+- !private ["So8NSObjectP", "contents"]
+- !private ["So8NSObjectP", "diffuse"]
+- !private ["So8NSObjectP", "extent"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "firstMaterial"]
+- !private ["So8NSObjectP", "geometry"]
+- !private ["So8NSObjectP", "green"]
+- !private ["So8NSObjectP", "height"]
+- !private ["So8NSObjectP", "heightSegmentCount"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "position"]
+- !private ["So8NSObjectP", "transform"]
+- !private ["So8NSObjectP", "width"]
+- !private ["So8NSObjectP", "widthSegmentCount"]
+- !private ["So8NSObjectP", "withAlphaComponent"]
+- !private ["So14NSSecureCodingP", "CGFloat"]
+- !private ["So14NSSecureCodingP", "Float"]
+- !private ["So14NSSecureCodingP", "SCNMatrix4MakeRotation"]
+- !private ["So14NSSecureCodingP", "SCNPlane"]
+- !private ["So14NSSecureCodingP", "SCNVector3"]
+- !private ["So14NSSecureCodingP", "UIColor"]
+- ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "center"]
+- !private ["So14NSSecureCodingP", "contents"]
+- !private ["So14NSSecureCodingP", "diffuse"]
+- !private ["So14NSSecureCodingP", "extent"]
+- !private ["So14NSSecureCodingP", "fatalError"]
+- !private ["So14NSSecureCodingP", "firstMaterial"]
+- !private ["So14NSSecureCodingP", "geometry"]
+- !private ["So14NSSecureCodingP", "green"]
+- !private ["So14NSSecureCodingP", "height"]
+- !private ["So14NSSecureCodingP", "heightSegmentCount"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "position"]
+- !private ["So14NSSecureCodingP", "transform"]
+- !private ["So14NSSecureCodingP", "width"]
+- !private ["So14NSSecureCodingP", "widthSegmentCount"]
+- !private ["So14NSSecureCodingP", "withAlphaComponent"]
+- !private ["Sj", "init"]
+- !private ["Sj", "pi"]
+- ["12ChousainPlus9PlaneNodeC", "ARPlaneAnchor"]
+- !private ["12ChousainPlus9PlaneNodeC", "CGFloat"]
+- !private ["12ChousainPlus9PlaneNodeC", "Float"]
+- ["12ChousainPlus9PlaneNodeC", "NSCoder"]
+- !private ["12ChousainPlus9PlaneNodeC", "SCNMatrix4MakeRotation"]
+- !private ["12ChousainPlus9PlaneNodeC", "SCNPlane"]
+- !private ["12ChousainPlus9PlaneNodeC", "SCNVector3"]
+- !private ["12ChousainPlus9PlaneNodeC", "UIColor"]
+- !private ["12ChousainPlus9PlaneNodeC", "fatalError"]
+- !private ["12ChousainPlus9PlaneNodeC", "geometry"]
+- ["12ChousainPlus9PlaneNodeC", "init"]
+- !private ["12ChousainPlus9PlaneNodeC", "position"]
+- !private ["12ChousainPlus9PlaneNodeC", "transform"]
+- ["12ChousainPlus9PlaneNodeC", "update"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "pi"]
+- !private ["10RealmSwift0A12OptionalTypeP", "pi"]
+- !private ["So13SCNActionableP", "CGFloat"]
+- !private ["So13SCNActionableP", "Float"]
+- !private ["So13SCNActionableP", "SCNMatrix4MakeRotation"]
+- !private ["So13SCNActionableP", "SCNPlane"]
+- !private ["So13SCNActionableP", "SCNVector3"]
+- !private ["So13SCNActionableP", "UIColor"]
+- ["So13SCNActionableP", ""]
+- !private ["So13SCNActionableP", "fatalError"]
+- !private ["So13SCNActionableP", "geometry"]
+- !private ["So13SCNActionableP", "init"]
+- !private ["So13SCNActionableP", "position"]
+- !private ["So13SCNActionableP", "transform"]
+- !private ["So13SCNAnimatableP", "CGFloat"]
+- !private ["So13SCNAnimatableP", "Float"]
+- !private ["So13SCNAnimatableP", "SCNMatrix4MakeRotation"]
+- !private ["So13SCNAnimatableP", "SCNPlane"]
+- !private ["So13SCNAnimatableP", "SCNVector3"]
+- !private ["So13SCNAnimatableP", "UIColor"]
+- ["So13SCNAnimatableP", ""]
+- !private ["So13SCNAnimatableP", "contents"]
+- !private ["So13SCNAnimatableP", "diffuse"]
+- !private ["So13SCNAnimatableP", "fatalError"]
+- !private ["So13SCNAnimatableP", "firstMaterial"]
+- !private ["So13SCNAnimatableP", "geometry"]
+- !private ["So13SCNAnimatableP", "height"]
+- !private ["So13SCNAnimatableP", "heightSegmentCount"]
+- !private ["So13SCNAnimatableP", "init"]
+- !private ["So13SCNAnimatableP", "position"]
+- !private ["So13SCNAnimatableP", "transform"]
+- !private ["So13SCNAnimatableP", "width"]
+- !private ["So13SCNAnimatableP", "widthSegmentCount"]
+- !private ["So17SCNBoundingVolumeP", "CGFloat"]
+- !private ["So17SCNBoundingVolumeP", "Float"]
+- !private ["So17SCNBoundingVolumeP", "SCNMatrix4MakeRotation"]
+- !private ["So17SCNBoundingVolumeP", "SCNPlane"]
+- !private ["So17SCNBoundingVolumeP", "SCNVector3"]
+- !private ["So17SCNBoundingVolumeP", "UIColor"]
+- ["So17SCNBoundingVolumeP", ""]
+- !private ["So17SCNBoundingVolumeP", "fatalError"]
+- !private ["So17SCNBoundingVolumeP", "firstMaterial"]
+- !private ["So17SCNBoundingVolumeP", "geometry"]
+- !private ["So17SCNBoundingVolumeP", "height"]
+- !private ["So17SCNBoundingVolumeP", "heightSegmentCount"]
+- !private ["So17SCNBoundingVolumeP", "init"]
+- !private ["So17SCNBoundingVolumeP", "position"]
+- !private ["So17SCNBoundingVolumeP", "transform"]
+- !private ["So17SCNBoundingVolumeP", "width"]
+- !private ["So17SCNBoundingVolumeP", "widthSegmentCount"]
+- !private ["So11SCNGeometryC", "firstMaterial"]
+- !private ["So11SCNGeometryC", "height"]
+- !private ["So11SCNGeometryC", "heightSegmentCount"]
+- !private ["So11SCNGeometryC", "init"]
+- !private ["So11SCNGeometryC", "width"]
+- !private ["So11SCNGeometryC", "widthSegmentCount"]
+- !private ["So11SCNMaterialC", "diffuse"]
+- !private ["So19SCNMaterialPropertyC", "contents"]
+- ["So7SCNNodeC", "ARPlaneAnchor"]
+- !private ["So7SCNNodeC", "CGFloat"]
+- !private ["So7SCNNodeC", "Float"]
+- ["So7SCNNodeC", "NSCoder"]
+- !private ["So7SCNNodeC", "SCNMatrix4MakeRotation"]
+- !private ["So7SCNNodeC", "SCNPlane"]
+- !private ["So7SCNNodeC", "SCNVector3"]
+- !private ["So7SCNNodeC", "UIColor"]
+- ["So7SCNNodeC", ""]
+- !private ["So7SCNNodeC", "fatalError"]
+- !private ["So7SCNNodeC", "geometry"]
+- ["So7SCNNodeC", "init"]
+- !private ["So7SCNNodeC", "position"]
+- !private ["So7SCNNodeC", "transform"]
+- ["So7SCNNodeC", "update"]
+- !private ["So8SCNPlaneC", "firstMaterial"]
+- !private ["So8SCNPlaneC", "height"]
+- !private ["So8SCNPlaneC", "heightSegmentCount"]
+- !private ["So8SCNPlaneC", "init"]
+- !private ["So8SCNPlaneC", "width"]
+- !private ["So8SCNPlaneC", "widthSegmentCount"]
+- !private ["So11SCNShadableP", "diffuse"]
+- !private ["So11SCNShadableP", "firstMaterial"]
+- !private ["So11SCNShadableP", "height"]
+- !private ["So11SCNShadableP", "heightSegmentCount"]
+- !private ["So11SCNShadableP", "init"]
+- !private ["So11SCNShadableP", "width"]
+- !private ["So11SCNShadableP", "widthSegmentCount"]
+- !private ["So10SCNVector3V", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "x"]
+- !private ["ST", "y"]
+- !private ["ST", "z"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "pi"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- !private ["Sx", "pi"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So7UIColorC", "green"]
+- !private ["So7UIColorC", "withAlphaComponent"]
+- !private ["So18UIFocusEnvironmentP", "CGFloat"]
+- !private ["So18UIFocusEnvironmentP", "Float"]
+- !private ["So18UIFocusEnvironmentP", "SCNMatrix4MakeRotation"]
+- !private ["So18UIFocusEnvironmentP", "SCNPlane"]
+- !private ["So18UIFocusEnvironmentP", "SCNVector3"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- !private ["So18UIFocusEnvironmentP", "geometry"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "position"]
+- !private ["So18UIFocusEnvironmentP", "transform"]
+- !private ["So11UIFocusItemP", "CGFloat"]
+- !private ["So11UIFocusItemP", "Float"]
+- !private ["So11UIFocusItemP", "SCNMatrix4MakeRotation"]
+- !private ["So11UIFocusItemP", "SCNPlane"]
+- !private ["So11UIFocusItemP", "SCNVector3"]
+- !private ["So11UIFocusItemP", "UIColor"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "fatalError"]
+- !private ["So11UIFocusItemP", "geometry"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "position"]
+- !private ["So11UIFocusItemP", "transform"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "pi"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "pi"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "pi"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "pi"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "green"]
+- !private ["s26_ExpressibleByColorLiteralP", "withAlphaComponent"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "pi"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Float"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SCNMatrix4MakeRotation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SCNPlane"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SCNVector3"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "center"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "diffuse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "extent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "firstMaterial"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "geometry"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "green"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "height"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "heightSegmentCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "position"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "transform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "width"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "widthSegmentCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "withAlphaComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "pi"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["4simd6float3V", "x"]
+- !private ["4simd6float3V", "y"]
+- !private ["4simd6float3V", "z"]
+depends-nominal:
+- !private "So8ARAnchorC"
+- !private "So15ARAnchorCopyingP"
+- !private "So13ARPlaneAnchorC"
+- !private "10RealmSwift11AddableTypeP"
+- !private "SK"
+- !private "SB"
+- !private "12CoreGraphics7CGFloatV"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "10RealmSwift26CustomObjectiveCBridgeableP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "Sf"
+- !private "SF"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "10RealmSwift10MinMaxTypeP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- !private "Sj"
+- "12ChousainPlus9PlaneNodeC"
+- !private "Sm"
+- !private "10RealmSwift0A15CollectionValueP"
+- !private "10RealmSwift0A12OptionalTypeP"
+- "So13SCNActionableP"
+- "So13SCNAnimatableP"
+- "So17SCNBoundingVolumeP"
+- !private "So11SCNGeometryC"
+- !private "So11SCNMaterialC"
+- !private "So19SCNMaterialPropertyC"
+- "So7SCNNodeC"
+- !private "So8SCNPlaneC"
+- !private "So11SCNShadableP"
+- !private "So10SCNVector3V"
+- !private "ST"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So7UIColorC"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+- !private "4simd6float3V"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/LNZTreeView/LNZTreeView.framework/Modules/LNZTreeView.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/LNZTreeView/LNZTreeView.framework/Headers/LNZTreeView-umbrella.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/LNZTreeView/LNZTreeView.framework/Headers/LNZTreeView-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/LNZTreeView/LNZTreeView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "fcf75c1d0ac523f0221844386901fadf"

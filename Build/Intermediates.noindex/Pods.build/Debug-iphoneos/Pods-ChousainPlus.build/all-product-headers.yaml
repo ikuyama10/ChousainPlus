@@ -1,0 +1,109 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/LNZTreeView/LNZTreeView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "LNZTreeView-Swift.h",
+          'external-contents': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/LNZTreeView/LNZTreeView.framework/Headers/LNZTreeView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "LNZTreeView-umbrella.h",
+          'external-contents': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Pods/Target Support Files/LNZTreeView/LNZTreeView-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/LNZTreeView/LNZTreeView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/LNZTreeView.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Pods_ChousainPlus.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-ChousainPlus-umbrella.h",
+          'external-contents': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Pods/Target Support Files/Pods-ChousainPlus/Pods-ChousainPlus-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_ChousainPlus-Swift.h",
+          'external-contents': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Pods_ChousainPlus.framework/Headers/Pods_ChousainPlus-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Pods_ChousainPlus.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-ChousainPlus.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Realm-Swift.h",
+          'external-contents': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/Realm-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Realm.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RealmSwift-Swift.h",
+          'external-contents': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RealmSwift-umbrella.h",
+          'external-contents': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Pods/Target Support Files/RealmSwift/RealmSwift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/RealmSwift.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

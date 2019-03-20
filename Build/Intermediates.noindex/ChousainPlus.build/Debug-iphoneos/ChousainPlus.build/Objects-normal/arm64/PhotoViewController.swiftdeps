@@ -1,0 +1,1292 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PhotoViewController"
+provides-nominal:
+- "12ChousainPlus19PhotoViewControllerC"
+provides-member:
+- ["12ChousainPlus19PhotoViewControllerC", ""]
+provides-dynamic-lookup:
+- "btnCloseup"
+- "closeUpPhoto"
+- "deletePhoto"
+- "finishVIew"
+- "image"
+- "viewDidLoad"
+- "viewWillAppear"
+depends-top-level:
+- !private "!="
+- !private "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CameraCloseupViewController"
+- "CastingPrecedence"
+- !private "FileManager"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "Photo"
+- !private "PhotoController"
+- !private "PhotoManager"
+- !private "PhotoNew"
+- "PhotoViewController"
+- !private "Realm"
+- "String"
+- "StringLiteralType"
+- !private "UIAlertAction"
+- !private "UIAlertController"
+- "UIButton"
+- !private "UIImage"
+- "UIImageView"
+- "UIViewController"
+- "UnicodeScalarType"
+- !private "Void"
+depends-member:
+- !private ["So17ARSCNViewDelegateP", "division"]
+- !private ["So17ARSCNViewDelegateP", "photo_num"]
+- !private ["So17ARSCNViewDelegateP", "room_name"]
+- !private ["So17ARSCNViewDelegateP", "view"]
+- !private ["So17ARSCNViewDelegateP", "wb_id"]
+- !private ["So17ARSessionDelegateP", "division"]
+- !private ["So17ARSessionDelegateP", "photo_num"]
+- !private ["So17ARSessionDelegateP", "room_name"]
+- !private ["So17ARSessionDelegateP", "view"]
+- !private ["So17ARSessionDelegateP", "wb_id"]
+- !private ["So17ARSessionObserverP", "division"]
+- !private ["So17ARSessionObserverP", "photo_num"]
+- !private ["So17ARSessionObserverP", "room_name"]
+- !private ["So17ARSessionObserverP", "view"]
+- !private ["So17ARSessionObserverP", "wb_id"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "count"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "filter"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "status"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "subscript"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "url2"]
+- !private ["SK", "count"]
+- !private ["SK", "filter"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "status"]
+- !private ["SK", "subscript"]
+- !private ["SK", "url2"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["s7CVarArgP", "FileManager"]
+- !private ["s7CVarArgP", "Photo"]
+- !private ["s7CVarArgP", "PhotoManager"]
+- !private ["s7CVarArgP", "PhotoNew"]
+- !private ["s7CVarArgP", "Realm"]
+- !private ["s7CVarArgP", "UIAlertAction"]
+- !private ["s7CVarArgP", "UIAlertController"]
+- !private ["s7CVarArgP", "UIImage"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addAction"]
+- !private ["s7CVarArgP", "alertFinish"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "deletePhoto"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "division"]
+- !private ["s7CVarArgP", "dsp"]
+- !private ["s7CVarArgP", "filename1"]
+- !private ["s7CVarArgP", "filename2"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "image"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "photo_mode"]
+- !private ["s7CVarArgP", "photo_num"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "presentingViewController"]
+- !private ["s7CVarArgP", "room_name"]
+- !private ["s7CVarArgP", "stage"]
+- !private ["s7CVarArgP", "status"]
+- !private ["s7CVarArgP", "storyboard"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "updateTableView"]
+- !private ["s7CVarArgP", "url2"]
+- !private ["s7CVarArgP", "urls"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "wb_id"]
+- !private ["12ChousainPlus27CameraCloseupViewControllerC", "division"]
+- !private ["12ChousainPlus27CameraCloseupViewControllerC", "photo_num"]
+- !private ["12ChousainPlus27CameraCloseupViewControllerC", "room_name"]
+- !private ["12ChousainPlus27CameraCloseupViewControllerC", "view"]
+- !private ["12ChousainPlus27CameraCloseupViewControllerC", "wb_id"]
+- !private ["Sl", "count"]
+- !private ["Sl", "filter"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "status"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "url2"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "FileManager"]
+- !private ["s28CustomDebugStringConvertibleP", "Photo"]
+- !private ["s28CustomDebugStringConvertibleP", "PhotoManager"]
+- !private ["s28CustomDebugStringConvertibleP", "PhotoNew"]
+- !private ["s28CustomDebugStringConvertibleP", "Realm"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addAction"]
+- !private ["s28CustomDebugStringConvertibleP", "alertFinish"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "deletePhoto"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "division"]
+- !private ["s28CustomDebugStringConvertibleP", "dsp"]
+- !private ["s28CustomDebugStringConvertibleP", "filename1"]
+- !private ["s28CustomDebugStringConvertibleP", "filename2"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "photo_mode"]
+- !private ["s28CustomDebugStringConvertibleP", "photo_num"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "presentingViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "room_name"]
+- !private ["s28CustomDebugStringConvertibleP", "stage"]
+- !private ["s28CustomDebugStringConvertibleP", "status"]
+- !private ["s28CustomDebugStringConvertibleP", "storyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "updateTableView"]
+- !private ["s28CustomDebugStringConvertibleP", "url2"]
+- !private ["s28CustomDebugStringConvertibleP", "urls"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "wb_id"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "image"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "path"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "image"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "FileManager"]
+- !private ["s23CustomStringConvertibleP", "Photo"]
+- !private ["s23CustomStringConvertibleP", "PhotoManager"]
+- !private ["s23CustomStringConvertibleP", "PhotoNew"]
+- !private ["s23CustomStringConvertibleP", "Realm"]
+- !private ["s23CustomStringConvertibleP", "UIAlertAction"]
+- !private ["s23CustomStringConvertibleP", "UIAlertController"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addAction"]
+- !private ["s23CustomStringConvertibleP", "alertFinish"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "deletePhoto"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "division"]
+- !private ["s23CustomStringConvertibleP", "dsp"]
+- !private ["s23CustomStringConvertibleP", "filename1"]
+- !private ["s23CustomStringConvertibleP", "filename2"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "photo_mode"]
+- !private ["s23CustomStringConvertibleP", "photo_num"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "presentingViewController"]
+- !private ["s23CustomStringConvertibleP", "room_name"]
+- !private ["s23CustomStringConvertibleP", "stage"]
+- !private ["s23CustomStringConvertibleP", "status"]
+- !private ["s23CustomStringConvertibleP", "storyboard"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "updateTableView"]
+- !private ["s23CustomStringConvertibleP", "url2"]
+- !private ["s23CustomStringConvertibleP", "urls"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "wb_id"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "appendingPathComponent"]
+- !private ["Se", "image"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "path"]
+- !private ["Se", "subscript"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "appendingPathComponent"]
+- !private ["SE", "image"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "path"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "FileManager"]
+- !private ["SQ", "Photo"]
+- !private ["SQ", "PhotoManager"]
+- !private ["SQ", "PhotoNew"]
+- !private ["SQ", "Realm"]
+- !private ["SQ", "UIAlertAction"]
+- !private ["SQ", "UIAlertController"]
+- !private ["SQ", "UIImage"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addAction"]
+- !private ["SQ", "alert"]
+- !private ["SQ", "alertFinish"]
+- !private ["SQ", "appendingPathComponent"]
+- !private ["SQ", "count"]
+- !private ["SQ", "default"]
+- !private ["SQ", "delete"]
+- !private ["SQ", "deletePhoto"]
+- !private ["SQ", "dismiss"]
+- !private ["SQ", "division"]
+- !private ["SQ", "documentDirectory"]
+- !private ["SQ", "dsp"]
+- !private ["SQ", "filename1"]
+- !private ["SQ", "filename2"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "image"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "objects"]
+- !private ["SQ", "path"]
+- !private ["SQ", "photo_mode"]
+- !private ["SQ", "photo_num"]
+- !private ["SQ", "present"]
+- !private ["SQ", "presentingViewController"]
+- !private ["SQ", "room_name"]
+- !private ["SQ", "stage"]
+- !private ["SQ", "status"]
+- !private ["SQ", "storyboard"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "updateTableView"]
+- !private ["SQ", "url2"]
+- !private ["SQ", "urls"]
+- !private ["SQ", "userDomainMask"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "wb_id"]
+- !private ["SQ", "write"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "image"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So13NSFileManagerC", "default"]
+- !private ["So13NSFileManagerC", "urls"]
+- !private ["SH", "FileManager"]
+- !private ["SH", "Photo"]
+- !private ["SH", "PhotoManager"]
+- !private ["SH", "PhotoNew"]
+- !private ["SH", "Realm"]
+- !private ["SH", "UIAlertAction"]
+- !private ["SH", "UIAlertController"]
+- !private ["SH", "UIImage"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addAction"]
+- !private ["SH", "alert"]
+- !private ["SH", "alertFinish"]
+- !private ["SH", "appendingPathComponent"]
+- !private ["SH", "count"]
+- !private ["SH", "default"]
+- !private ["SH", "deletePhoto"]
+- !private ["SH", "dismiss"]
+- !private ["SH", "division"]
+- !private ["SH", "documentDirectory"]
+- !private ["SH", "dsp"]
+- !private ["SH", "filename1"]
+- !private ["SH", "filename2"]
+- !private ["SH", "filter"]
+- !private ["SH", "image"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "instantiateViewController"]
+- !private ["SH", "path"]
+- !private ["SH", "photo_mode"]
+- !private ["SH", "photo_num"]
+- !private ["SH", "present"]
+- !private ["SH", "presentingViewController"]
+- !private ["SH", "room_name"]
+- !private ["SH", "stage"]
+- !private ["SH", "status"]
+- !private ["SH", "storyboard"]
+- !private ["SH", "subscript"]
+- !private ["SH", "updateTableView"]
+- !private ["SH", "url2"]
+- !private ["SH", "urls"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "wb_id"]
+- !private ["11LNZTreeView0aB10DataSourceP", "updateTableView"]
+- !private ["11LNZTreeView0aB10DataSourceP", "view"]
+- !private ["11LNZTreeView0aB8DelegateP", "updateTableView"]
+- !private ["11LNZTreeView0aB8DelegateP", "view"]
+- !private ["s22LazyCollectionProtocolP", "count"]
+- !private ["s22LazyCollectionProtocolP", "filter"]
+- !private ["s22LazyCollectionProtocolP", "status"]
+- !private ["s22LazyCollectionProtocolP", "subscript"]
+- !private ["s22LazyCollectionProtocolP", "url2"]
+- !private ["s20LazySequenceProtocolP", "count"]
+- !private ["s20LazySequenceProtocolP", "filter"]
+- !private ["s20LazySequenceProtocolP", "status"]
+- !private ["s20LazySequenceProtocolP", "subscript"]
+- !private ["s20LazySequenceProtocolP", "url2"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "status"]
+- !private ["SM", "subscript"]
+- !private ["SM", "url2"]
+- !private ["So8NSCodingP", "FileManager"]
+- !private ["So8NSCodingP", "Photo"]
+- !private ["So8NSCodingP", "PhotoManager"]
+- !private ["So8NSCodingP", "PhotoNew"]
+- !private ["So8NSCodingP", "Realm"]
+- !private ["So8NSCodingP", "UIAlertAction"]
+- !private ["So8NSCodingP", "UIAlertController"]
+- !private ["So8NSCodingP", "UIImage"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addAction"]
+- !private ["So8NSCodingP", "alertFinish"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "division"]
+- !private ["So8NSCodingP", "dsp"]
+- !private ["So8NSCodingP", "filename1"]
+- !private ["So8NSCodingP", "filename2"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "photo_mode"]
+- !private ["So8NSCodingP", "photo_num"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "presentingViewController"]
+- !private ["So8NSCodingP", "room_name"]
+- !private ["So8NSCodingP", "stage"]
+- !private ["So8NSCodingP", "storyboard"]
+- !private ["So8NSCodingP", "updateTableView"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "wb_id"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "FileManager"]
+- !private ["So26NSExtensionRequestHandlingP", "Photo"]
+- !private ["So26NSExtensionRequestHandlingP", "PhotoManager"]
+- !private ["So26NSExtensionRequestHandlingP", "PhotoNew"]
+- !private ["So26NSExtensionRequestHandlingP", "Realm"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertAction"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertController"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImage"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "addAction"]
+- !private ["So26NSExtensionRequestHandlingP", "alertFinish"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "division"]
+- !private ["So26NSExtensionRequestHandlingP", "dsp"]
+- !private ["So26NSExtensionRequestHandlingP", "filename1"]
+- !private ["So26NSExtensionRequestHandlingP", "filename2"]
+- !private ["So26NSExtensionRequestHandlingP", "image"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "photo_mode"]
+- !private ["So26NSExtensionRequestHandlingP", "photo_num"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "presentingViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "room_name"]
+- !private ["So26NSExtensionRequestHandlingP", "stage"]
+- !private ["So26NSExtensionRequestHandlingP", "storyboard"]
+- !private ["So26NSExtensionRequestHandlingP", "updateTableView"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "wb_id"]
+- !private ["So17NSFastEnumerationP", "count"]
+- !private ["So17NSFastEnumerationP", "filter"]
+- !private ["So17NSFastEnumerationP", "subscript"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CameraCloseupViewController"]
+- !private ["So8NSObjectC", "FileManager"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "Photo"]
+- !private ["So8NSObjectC", "PhotoController"]
+- !private ["So8NSObjectC", "PhotoManager"]
+- !private ["So8NSObjectC", "PhotoNew"]
+- !private ["So8NSObjectC", "Realm"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIAlertAction"]
+- !private ["So8NSObjectC", "UIAlertController"]
+- ["So8NSObjectC", "UIButton"]
+- !private ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImageView"]
+- !private ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "addAction"]
+- ["So8NSObjectC", "alertFinish"]
+- ["So8NSObjectC", "btnCloseup"]
+- ["So8NSObjectC", "closeUpPhoto"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "deletePhoto"]
+- !private ["So8NSObjectC", "dismiss"]
+- ["So8NSObjectC", "division"]
+- ["So8NSObjectC", "dsp"]
+- ["So8NSObjectC", "filename1"]
+- ["So8NSObjectC", "filename2"]
+- !private ["So8NSObjectC", "filter"]
+- ["So8NSObjectC", "finishVIew"]
+- ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- ["So8NSObjectC", "photo_mode"]
+- ["So8NSObjectC", "photo_num"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "presentingViewController"]
+- ["So8NSObjectC", "room_name"]
+- ["So8NSObjectC", "stage"]
+- !private ["So8NSObjectC", "status"]
+- !private ["So8NSObjectC", "storyboard"]
+- !private ["So8NSObjectC", "subscript"]
+- !private ["So8NSObjectC", "updateTableView"]
+- !private ["So8NSObjectC", "url2"]
+- !private ["So8NSObjectC", "urls"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- ["So8NSObjectC", "wb_id"]
+- !private ["So8NSObjectP", "FileManager"]
+- !private ["So8NSObjectP", "Photo"]
+- !private ["So8NSObjectP", "PhotoManager"]
+- !private ["So8NSObjectP", "PhotoNew"]
+- !private ["So8NSObjectP", "Realm"]
+- !private ["So8NSObjectP", "UIAlertAction"]
+- !private ["So8NSObjectP", "UIAlertController"]
+- !private ["So8NSObjectP", "UIImage"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addAction"]
+- !private ["So8NSObjectP", "alertFinish"]
+- !private ["So8NSObjectP", "count"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "deletePhoto"]
+- !private ["So8NSObjectP", "dismiss"]
+- !private ["So8NSObjectP", "division"]
+- !private ["So8NSObjectP", "dsp"]
+- !private ["So8NSObjectP", "filename1"]
+- !private ["So8NSObjectP", "filename2"]
+- !private ["So8NSObjectP", "filter"]
+- !private ["So8NSObjectP", "image"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "photo_mode"]
+- !private ["So8NSObjectP", "photo_num"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "presentingViewController"]
+- !private ["So8NSObjectP", "room_name"]
+- !private ["So8NSObjectP", "stage"]
+- !private ["So8NSObjectP", "status"]
+- !private ["So8NSObjectP", "storyboard"]
+- !private ["So8NSObjectP", "subscript"]
+- !private ["So8NSObjectP", "updateTableView"]
+- !private ["So8NSObjectP", "url2"]
+- !private ["So8NSObjectP", "urls"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So8NSObjectP", "wb_id"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["10RealmSwift6ObjectC", "status"]
+- !private ["10RealmSwift6ObjectC", "url2"]
+- !private ["s9OptionSetP", "userDomainMask"]
+- !private ["Sq", "image"]
+- !private ["10RealmSwift16OptionalProtocolP", "image"]
+- !private ["12ChousainPlus5PhotoC", "deinit"]
+- !private ["12ChousainPlus5PhotoC", "status"]
+- !private ["12ChousainPlus15PhotoControllerC", "updateTableView"]
+- !private ["12ChousainPlus15PhotoControllerC", "view"]
+- !private ["12ChousainPlus12PhotoManagerC", "deletePhoto"]
+- !private ["12ChousainPlus12PhotoManagerC", "init"]
+- !private ["12ChousainPlus8PhotoNewC", "deinit"]
+- !private ["12ChousainPlus8PhotoNewC", "status"]
+- !private ["12ChousainPlus8PhotoNewC", "url2"]
+- ["12ChousainPlus19PhotoViewControllerC", "Bool"]
+- !private ["12ChousainPlus19PhotoViewControllerC", "CameraCloseupViewController"]
+- !private ["12ChousainPlus19PhotoViewControllerC", "FileManager"]
+- ["12ChousainPlus19PhotoViewControllerC", "Int"]
+- !private ["12ChousainPlus19PhotoViewControllerC", "Photo"]
+- !private ["12ChousainPlus19PhotoViewControllerC", "PhotoController"]
+- !private ["12ChousainPlus19PhotoViewControllerC", "PhotoManager"]
+- !private ["12ChousainPlus19PhotoViewControllerC", "PhotoNew"]
+- !private ["12ChousainPlus19PhotoViewControllerC", "Realm"]
+- ["12ChousainPlus19PhotoViewControllerC", "String"]
+- !private ["12ChousainPlus19PhotoViewControllerC", "UIAlertAction"]
+- !private ["12ChousainPlus19PhotoViewControllerC", "UIAlertController"]
+- ["12ChousainPlus19PhotoViewControllerC", "UIButton"]
+- !private ["12ChousainPlus19PhotoViewControllerC", "UIImage"]
+- ["12ChousainPlus19PhotoViewControllerC", "UIImageView"]
+- !private ["12ChousainPlus19PhotoViewControllerC", "Void"]
+- ["12ChousainPlus19PhotoViewControllerC", "alertFinish"]
+- ["12ChousainPlus19PhotoViewControllerC", "btnCloseup"]
+- ["12ChousainPlus19PhotoViewControllerC", "closeUpPhoto"]
+- ["12ChousainPlus19PhotoViewControllerC", "deletePhoto"]
+- !private ["12ChousainPlus19PhotoViewControllerC", "dismiss"]
+- ["12ChousainPlus19PhotoViewControllerC", "division"]
+- ["12ChousainPlus19PhotoViewControllerC", "dsp"]
+- ["12ChousainPlus19PhotoViewControllerC", "filename1"]
+- ["12ChousainPlus19PhotoViewControllerC", "filename2"]
+- ["12ChousainPlus19PhotoViewControllerC", "finishVIew"]
+- ["12ChousainPlus19PhotoViewControllerC", "image"]
+- ["12ChousainPlus19PhotoViewControllerC", "init"]
+- ["12ChousainPlus19PhotoViewControllerC", "photo_mode"]
+- ["12ChousainPlus19PhotoViewControllerC", "photo_num"]
+- !private ["12ChousainPlus19PhotoViewControllerC", "present"]
+- !private ["12ChousainPlus19PhotoViewControllerC", "presentingViewController"]
+- ["12ChousainPlus19PhotoViewControllerC", "room_name"]
+- ["12ChousainPlus19PhotoViewControllerC", "stage"]
+- !private ["12ChousainPlus19PhotoViewControllerC", "storyboard"]
+- ["12ChousainPlus19PhotoViewControllerC", "viewDidLoad"]
+- ["12ChousainPlus19PhotoViewControllerC", "viewWillAppear"]
+- ["12ChousainPlus19PhotoViewControllerC", "wb_id"]
+- !private ["So13RLMObjectBaseC", "status"]
+- !private ["So13RLMObjectBaseC", "url2"]
+- !private ["Sk", "count"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "status"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "url2"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "status"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "url2"]
+- !private ["SY", "alert"]
+- !private ["SY", "default"]
+- !private ["SY", "documentDirectory"]
+- !private ["SY", "userDomainMask"]
+- !private ["10RealmSwift0A0C", "delete"]
+- !private ["10RealmSwift0A0C", "init"]
+- !private ["10RealmSwift0A0C", "objects"]
+- !private ["10RealmSwift0A0C", "write"]
+- !private ["10RealmSwift0A10CollectionP", "count"]
+- !private ["10RealmSwift0A10CollectionP", "filter"]
+- !private ["10RealmSwift0A10CollectionP", "subscript"]
+- !private ["10RealmSwift0A14CollectionBaseP", "count"]
+- !private ["10RealmSwift0A14CollectionBaseP", "filter"]
+- !private ["10RealmSwift0A14CollectionBaseP", "subscript"]
+- !private ["10RealmSwift0A15CollectionValueP", "_getBuiltinLogicValue"]
+- !private ["10RealmSwift0A15CollectionValueP", "image"]
+- ["10RealmSwift0A15CollectionValueP", "init"]
+- ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "status"]
+- !private ["10RealmSwift0A15CollectionValueP", "url2"]
+- !private ["10RealmSwift0A12OptionalTypeP", "_getBuiltinLogicValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["10RealmSwift7ResultsC", "count"]
+- !private ["10RealmSwift7ResultsC", "filter"]
+- !private ["10RealmSwift7ResultsC", "subscript"]
+- !private ["So24SCNSceneRendererDelegateP", "division"]
+- !private ["So24SCNSceneRendererDelegateP", "photo_num"]
+- !private ["So24SCNSceneRendererDelegateP", "room_name"]
+- !private ["So24SCNSceneRendererDelegateP", "view"]
+- !private ["So24SCNSceneRendererDelegateP", "wb_id"]
+- !private ["So21NSSearchPathDirectoryV", "documentDirectory"]
+- !private ["So22NSSearchPathDomainMaskV", "userDomainMask"]
+- !private ["ST", "count"]
+- !private ["ST", "filter"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "status"]
+- !private ["ST", "subscript"]
+- !private ["ST", "url2"]
+- !private ["s10SetAlgebraP", "userDomainMask"]
+- !private ["s5SliceV", "status"]
+- !private ["s5SliceV", "url2"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- !private ["So22UIAlertControllerStyleV", "alert"]
+- !private ["So18UIAlertActionStyleV", "default"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["10RealmSwift14ThreadConfinedP", "count"]
+- !private ["10RealmSwift14ThreadConfinedP", "filter"]
+- !private ["10RealmSwift14ThreadConfinedP", "status"]
+- !private ["10RealmSwift14ThreadConfinedP", "subscript"]
+- !private ["10RealmSwift14ThreadConfinedP", "url2"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So13UIAlertActionC", "init"]
+- !private ["So17UIAlertControllerC", "addAction"]
+- !private ["So17UIAlertControllerC", "init"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So21UIAppearanceContainerP", "FileManager"]
+- !private ["So21UIAppearanceContainerP", "Photo"]
+- !private ["So21UIAppearanceContainerP", "PhotoManager"]
+- !private ["So21UIAppearanceContainerP", "PhotoNew"]
+- !private ["So21UIAppearanceContainerP", "Realm"]
+- !private ["So21UIAppearanceContainerP", "UIAlertAction"]
+- !private ["So21UIAppearanceContainerP", "UIAlertController"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addAction"]
+- !private ["So21UIAppearanceContainerP", "alertFinish"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "division"]
+- !private ["So21UIAppearanceContainerP", "dsp"]
+- !private ["So21UIAppearanceContainerP", "filename1"]
+- !private ["So21UIAppearanceContainerP", "filename2"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "photo_mode"]
+- !private ["So21UIAppearanceContainerP", "photo_num"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "presentingViewController"]
+- !private ["So21UIAppearanceContainerP", "room_name"]
+- !private ["So21UIAppearanceContainerP", "stage"]
+- !private ["So21UIAppearanceContainerP", "storyboard"]
+- !private ["So21UIAppearanceContainerP", "updateTableView"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "wb_id"]
+- !private ["So18UIContentContainerP", "FileManager"]
+- !private ["So18UIContentContainerP", "Photo"]
+- !private ["So18UIContentContainerP", "PhotoManager"]
+- !private ["So18UIContentContainerP", "PhotoNew"]
+- !private ["So18UIContentContainerP", "Realm"]
+- !private ["So18UIContentContainerP", "UIAlertAction"]
+- !private ["So18UIContentContainerP", "UIAlertController"]
+- !private ["So18UIContentContainerP", "UIImage"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "addAction"]
+- !private ["So18UIContentContainerP", "alertFinish"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "division"]
+- !private ["So18UIContentContainerP", "dsp"]
+- !private ["So18UIContentContainerP", "filename1"]
+- !private ["So18UIContentContainerP", "filename2"]
+- !private ["So18UIContentContainerP", "image"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "photo_mode"]
+- !private ["So18UIContentContainerP", "photo_num"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "presentingViewController"]
+- !private ["So18UIContentContainerP", "room_name"]
+- !private ["So18UIContentContainerP", "stage"]
+- !private ["So18UIContentContainerP", "storyboard"]
+- !private ["So18UIContentContainerP", "updateTableView"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "wb_id"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So18UIFocusEnvironmentP", "FileManager"]
+- !private ["So18UIFocusEnvironmentP", "Photo"]
+- !private ["So18UIFocusEnvironmentP", "PhotoManager"]
+- !private ["So18UIFocusEnvironmentP", "PhotoNew"]
+- !private ["So18UIFocusEnvironmentP", "Realm"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertAction"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertController"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addAction"]
+- !private ["So18UIFocusEnvironmentP", "alertFinish"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "division"]
+- !private ["So18UIFocusEnvironmentP", "dsp"]
+- !private ["So18UIFocusEnvironmentP", "filename1"]
+- !private ["So18UIFocusEnvironmentP", "filename2"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "photo_mode"]
+- !private ["So18UIFocusEnvironmentP", "photo_num"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "presentingViewController"]
+- !private ["So18UIFocusEnvironmentP", "room_name"]
+- !private ["So18UIFocusEnvironmentP", "stage"]
+- !private ["So18UIFocusEnvironmentP", "storyboard"]
+- !private ["So18UIFocusEnvironmentP", "updateTableView"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "wb_id"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So20UIFocusItemContainerP", "image"]
+- !private ["So7UIImageC", "init"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "FileManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "Photo"]
+- !private ["So30UIPasteConfigurationSupportingP", "PhotoManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "PhotoNew"]
+- !private ["So30UIPasteConfigurationSupportingP", "Realm"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "alertFinish"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "division"]
+- !private ["So30UIPasteConfigurationSupportingP", "dsp"]
+- !private ["So30UIPasteConfigurationSupportingP", "filename1"]
+- !private ["So30UIPasteConfigurationSupportingP", "filename2"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "photo_mode"]
+- !private ["So30UIPasteConfigurationSupportingP", "photo_num"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentingViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "room_name"]
+- !private ["So30UIPasteConfigurationSupportingP", "stage"]
+- !private ["So30UIPasteConfigurationSupportingP", "storyboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateTableView"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "wb_id"]
+- !private ["So22UIPickerViewDataSourceP", "updateTableView"]
+- !private ["So22UIPickerViewDataSourceP", "view"]
+- !private ["So20UIPickerViewDelegateP", "updateTableView"]
+- !private ["So20UIPickerViewDelegateP", "view"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "CameraCloseupViewController"]
+- !private ["So11UIResponderC", "FileManager"]
+- ["So11UIResponderC", "Int"]
+- !private ["So11UIResponderC", "Photo"]
+- !private ["So11UIResponderC", "PhotoController"]
+- !private ["So11UIResponderC", "PhotoManager"]
+- !private ["So11UIResponderC", "PhotoNew"]
+- !private ["So11UIResponderC", "Realm"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIAlertAction"]
+- !private ["So11UIResponderC", "UIAlertController"]
+- ["So11UIResponderC", "UIButton"]
+- !private ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UIImageView"]
+- !private ["So11UIResponderC", "Void"]
+- !private ["So11UIResponderC", "addAction"]
+- ["So11UIResponderC", "alertFinish"]
+- ["So11UIResponderC", "btnCloseup"]
+- ["So11UIResponderC", "closeUpPhoto"]
+- ["So11UIResponderC", "deletePhoto"]
+- !private ["So11UIResponderC", "dismiss"]
+- ["So11UIResponderC", "division"]
+- ["So11UIResponderC", "dsp"]
+- ["So11UIResponderC", "filename1"]
+- ["So11UIResponderC", "filename2"]
+- ["So11UIResponderC", "finishVIew"]
+- ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "photo_mode"]
+- ["So11UIResponderC", "photo_num"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "presentingViewController"]
+- ["So11UIResponderC", "room_name"]
+- ["So11UIResponderC", "stage"]
+- !private ["So11UIResponderC", "storyboard"]
+- !private ["So11UIResponderC", "updateTableView"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- ["So11UIResponderC", "wb_id"]
+- !private ["So30UIResponderStandardEditActionsP", "FileManager"]
+- !private ["So30UIResponderStandardEditActionsP", "Photo"]
+- !private ["So30UIResponderStandardEditActionsP", "PhotoManager"]
+- !private ["So30UIResponderStandardEditActionsP", "PhotoNew"]
+- !private ["So30UIResponderStandardEditActionsP", "Realm"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addAction"]
+- !private ["So30UIResponderStandardEditActionsP", "alertFinish"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "division"]
+- !private ["So30UIResponderStandardEditActionsP", "dsp"]
+- !private ["So30UIResponderStandardEditActionsP", "filename1"]
+- !private ["So30UIResponderStandardEditActionsP", "filename2"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "photo_mode"]
+- !private ["So30UIResponderStandardEditActionsP", "photo_num"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "presentingViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "room_name"]
+- !private ["So30UIResponderStandardEditActionsP", "stage"]
+- !private ["So30UIResponderStandardEditActionsP", "storyboard"]
+- !private ["So30UIResponderStandardEditActionsP", "updateTableView"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "wb_id"]
+- !private ["So20UIScrollViewDelegateP", "updateTableView"]
+- !private ["So20UIScrollViewDelegateP", "view"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So16UIStateRestoringP", "FileManager"]
+- !private ["So16UIStateRestoringP", "Photo"]
+- !private ["So16UIStateRestoringP", "PhotoManager"]
+- !private ["So16UIStateRestoringP", "PhotoNew"]
+- !private ["So16UIStateRestoringP", "Realm"]
+- !private ["So16UIStateRestoringP", "UIAlertAction"]
+- !private ["So16UIStateRestoringP", "UIAlertController"]
+- !private ["So16UIStateRestoringP", "UIImage"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "addAction"]
+- !private ["So16UIStateRestoringP", "alertFinish"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "division"]
+- !private ["So16UIStateRestoringP", "dsp"]
+- !private ["So16UIStateRestoringP", "filename1"]
+- !private ["So16UIStateRestoringP", "filename2"]
+- !private ["So16UIStateRestoringP", "image"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "photo_mode"]
+- !private ["So16UIStateRestoringP", "photo_num"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "presentingViewController"]
+- !private ["So16UIStateRestoringP", "room_name"]
+- !private ["So16UIStateRestoringP", "stage"]
+- !private ["So16UIStateRestoringP", "storyboard"]
+- !private ["So16UIStateRestoringP", "updateTableView"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "wb_id"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So21UITableViewDataSourceP", "updateTableView"]
+- !private ["So21UITableViewDataSourceP", "view"]
+- !private ["So19UITableViewDelegateP", "updateTableView"]
+- !private ["So19UITableViewDelegateP", "view"]
+- !private ["So18UITraitEnvironmentP", "FileManager"]
+- !private ["So18UITraitEnvironmentP", "Photo"]
+- !private ["So18UITraitEnvironmentP", "PhotoManager"]
+- !private ["So18UITraitEnvironmentP", "PhotoNew"]
+- !private ["So18UITraitEnvironmentP", "Realm"]
+- !private ["So18UITraitEnvironmentP", "UIAlertAction"]
+- !private ["So18UITraitEnvironmentP", "UIAlertController"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addAction"]
+- !private ["So18UITraitEnvironmentP", "alertFinish"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "division"]
+- !private ["So18UITraitEnvironmentP", "dsp"]
+- !private ["So18UITraitEnvironmentP", "filename1"]
+- !private ["So18UITraitEnvironmentP", "filename2"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "photo_mode"]
+- !private ["So18UITraitEnvironmentP", "photo_num"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "presentingViewController"]
+- !private ["So18UITraitEnvironmentP", "room_name"]
+- !private ["So18UITraitEnvironmentP", "stage"]
+- !private ["So18UITraitEnvironmentP", "storyboard"]
+- !private ["So18UITraitEnvironmentP", "updateTableView"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "wb_id"]
+- !private ["So23UIUserActivityRestoringP", "FileManager"]
+- !private ["So23UIUserActivityRestoringP", "Photo"]
+- !private ["So23UIUserActivityRestoringP", "PhotoManager"]
+- !private ["So23UIUserActivityRestoringP", "PhotoNew"]
+- !private ["So23UIUserActivityRestoringP", "Realm"]
+- !private ["So23UIUserActivityRestoringP", "UIAlertAction"]
+- !private ["So23UIUserActivityRestoringP", "UIAlertController"]
+- !private ["So23UIUserActivityRestoringP", "UIImage"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addAction"]
+- !private ["So23UIUserActivityRestoringP", "alertFinish"]
+- !private ["So23UIUserActivityRestoringP", "dismiss"]
+- !private ["So23UIUserActivityRestoringP", "division"]
+- !private ["So23UIUserActivityRestoringP", "dsp"]
+- !private ["So23UIUserActivityRestoringP", "filename1"]
+- !private ["So23UIUserActivityRestoringP", "filename2"]
+- !private ["So23UIUserActivityRestoringP", "image"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "photo_mode"]
+- !private ["So23UIUserActivityRestoringP", "photo_num"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "presentingViewController"]
+- !private ["So23UIUserActivityRestoringP", "room_name"]
+- !private ["So23UIUserActivityRestoringP", "stage"]
+- !private ["So23UIUserActivityRestoringP", "storyboard"]
+- !private ["So23UIUserActivityRestoringP", "updateTableView"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "wb_id"]
+- !private ["So6UIViewC", "image"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "CameraCloseupViewController"]
+- !private ["So16UIViewControllerC", "FileManager"]
+- ["So16UIViewControllerC", "Int"]
+- !private ["So16UIViewControllerC", "Photo"]
+- !private ["So16UIViewControllerC", "PhotoController"]
+- !private ["So16UIViewControllerC", "PhotoManager"]
+- !private ["So16UIViewControllerC", "PhotoNew"]
+- !private ["So16UIViewControllerC", "Realm"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIAlertAction"]
+- !private ["So16UIViewControllerC", "UIAlertController"]
+- ["So16UIViewControllerC", "UIButton"]
+- !private ["So16UIViewControllerC", "UIImage"]
+- ["So16UIViewControllerC", "UIImageView"]
+- !private ["So16UIViewControllerC", "Void"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "addAction"]
+- ["So16UIViewControllerC", "alertFinish"]
+- ["So16UIViewControllerC", "btnCloseup"]
+- ["So16UIViewControllerC", "closeUpPhoto"]
+- ["So16UIViewControllerC", "deletePhoto"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "division"]
+- ["So16UIViewControllerC", "dsp"]
+- ["So16UIViewControllerC", "filename1"]
+- ["So16UIViewControllerC", "filename2"]
+- ["So16UIViewControllerC", "finishVIew"]
+- ["So16UIViewControllerC", "image"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "photo_mode"]
+- ["So16UIViewControllerC", "photo_num"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "presentingViewController"]
+- ["So16UIViewControllerC", "room_name"]
+- ["So16UIViewControllerC", "stage"]
+- !private ["So16UIViewControllerC", "storyboard"]
+- !private ["So16UIViewControllerC", "updateTableView"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- ["So16UIViewControllerC", "wb_id"]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["9Alamofire14URLConvertibleP", "appendingPathComponent"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "path"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FileManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Photo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PhotoManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PhotoNew"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Realm"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "alertFinish"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deletePhoto"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "division"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dsp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "filename1"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "filename2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "filter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "photo_mode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "photo_num"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presentingViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "room_name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "status"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "storyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateTableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "urls"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wb_id"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "image"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "So17ARSCNViewDelegateP"
+- !private "So17ARSessionDelegateP"
+- !private "So17ARSessionObserverP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "10RealmSwift28AssistedObjectiveCBridgeableP"
+- "SK"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "12ChousainPlus27CameraCloseupViewControllerC"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "10RealmSwift26CustomObjectiveCBridgeableP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So13NSFileManagerC"
+- "SH"
+- !private "11LNZTreeView0aB10DataSourceP"
+- !private "11LNZTreeView0aB8DelegateP"
+- !private "s22LazyCollectionProtocolP"
+- !private "s20LazySequenceProtocolP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So17NSFastEnumerationP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "10RealmSwift6ObjectC"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "10RealmSwift16OptionalProtocolP"
+- !private "12ChousainPlus5PhotoC"
+- !private "12ChousainPlus15PhotoControllerC"
+- !private "12ChousainPlus12PhotoManagerC"
+- !private "12ChousainPlus8PhotoNewC"
+- "12ChousainPlus19PhotoViewControllerC"
+- !private "So13RLMObjectBaseC"
+- !private "Sk"
+- "Sm"
+- !private "SY"
+- !private "10RealmSwift0A0C"
+- !private "10RealmSwift0A10CollectionP"
+- !private "10RealmSwift0A14CollectionBaseP"
+- "10RealmSwift0A15CollectionValueP"
+- !private "10RealmSwift0A12OptionalTypeP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10RealmSwift7ResultsC"
+- !private "So24SCNSceneRendererDelegateP"
+- !private "So21NSSearchPathDirectoryV"
+- !private "So22NSSearchPathDomainMaskV"
+- "ST"
+- !private "s10SetAlgebraP"
+- !private "s5SliceV"
+- "SS"
+- "Sy"
+- !private "So22UIAlertControllerStyleV"
+- !private "So18UIAlertActionStyleV"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10RealmSwift14ThreadConfinedP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So13UIAlertActionC"
+- !private "So17UIAlertControllerC"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So7UIImageC"
+- !private "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- "So30UIPasteConfigurationSupportingP"
+- !private "So22UIPickerViewDataSourceP"
+- !private "So20UIPickerViewDelegateP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- !private "So21UITableViewDataSourceP"
+- !private "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- "9Alamofire14URLConvertibleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/LNZTreeView/LNZTreeView.framework/Modules/LNZTreeView.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/LNZTreeView/LNZTreeView.framework/Headers/LNZTreeView-umbrella.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/LNZTreeView/LNZTreeView.framework/Headers/LNZTreeView-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/LNZTreeView/LNZTreeView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f7f84d5d109d82d18b211eaceb6554e0"

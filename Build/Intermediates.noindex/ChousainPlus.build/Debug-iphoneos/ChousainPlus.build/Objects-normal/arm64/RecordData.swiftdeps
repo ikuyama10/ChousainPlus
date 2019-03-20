@@ -1,0 +1,861 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RecordData"
+provides-nominal:
+- "12ChousainPlus10RecordDataC"
+provides-member:
+- ["12ChousainPlus10RecordDataC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Object"
+- !private "Photo"
+- !private "Realm"
+- "RecordData"
+- "String"
+- "StringLiteralType"
+- "UnicodeScalarType"
+- !private "UserDefaults"
+- !private "WhiteBoardData"
+- !private "WhiteBoardMaster"
+- !private "print"
+depends-member:
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "Photo"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "Realm"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "UserDefaults"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "WhiteBoardData"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "WhiteBoardMaster"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", ""]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "building_id"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "division"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "filmed_at"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "filter"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "item1"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "item10"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "item2"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "item3"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "item4"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "item5"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "item6"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "item7"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "item8"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "item9"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "kind"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "label"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "number"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "number_sub"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "print"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "research_id"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "room_name"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "stage"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "status"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "subscript"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "url"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "userid"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "wb_id"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "wb_type"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "wbid"]
+- !private ["SK", "filter"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["SK", "wbid"]
+- !private ["s7CVarArgP", "Photo"]
+- !private ["s7CVarArgP", "Realm"]
+- !private ["s7CVarArgP", "UserDefaults"]
+- !private ["s7CVarArgP", "WhiteBoardData"]
+- !private ["s7CVarArgP", "WhiteBoardMaster"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "building_id"]
+- !private ["s7CVarArgP", "division"]
+- !private ["s7CVarArgP", "filmed_at"]
+- !private ["s7CVarArgP", "filter"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "item1"]
+- !private ["s7CVarArgP", "item10"]
+- !private ["s7CVarArgP", "item2"]
+- !private ["s7CVarArgP", "item3"]
+- !private ["s7CVarArgP", "item4"]
+- !private ["s7CVarArgP", "item5"]
+- !private ["s7CVarArgP", "item6"]
+- !private ["s7CVarArgP", "item7"]
+- !private ["s7CVarArgP", "item8"]
+- !private ["s7CVarArgP", "item9"]
+- !private ["s7CVarArgP", "kind"]
+- !private ["s7CVarArgP", "label"]
+- !private ["s7CVarArgP", "number"]
+- !private ["s7CVarArgP", "number_sub"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "research_id"]
+- !private ["s7CVarArgP", "room_name"]
+- !private ["s7CVarArgP", "stage"]
+- !private ["s7CVarArgP", "standard"]
+- !private ["s7CVarArgP", "status"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "url"]
+- !private ["s7CVarArgP", "userid"]
+- !private ["s7CVarArgP", "wb_id"]
+- !private ["s7CVarArgP", "wb_type"]
+- !private ["s7CVarArgP", "wbid"]
+- !private ["Sl", "filter"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "wbid"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["10RealmSwift0A0C13ConfigurationV", "defaultConfiguration"]
+- !private ["10RealmSwift0A0C13ConfigurationV", "fileURL"]
+- !private ["s28CustomDebugStringConvertibleP", "Photo"]
+- !private ["s28CustomDebugStringConvertibleP", "Realm"]
+- !private ["s28CustomDebugStringConvertibleP", "UserDefaults"]
+- !private ["s28CustomDebugStringConvertibleP", "WhiteBoardData"]
+- !private ["s28CustomDebugStringConvertibleP", "WhiteBoardMaster"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "building_id"]
+- !private ["s28CustomDebugStringConvertibleP", "division"]
+- !private ["s28CustomDebugStringConvertibleP", "filmed_at"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "item1"]
+- !private ["s28CustomDebugStringConvertibleP", "item10"]
+- !private ["s28CustomDebugStringConvertibleP", "item2"]
+- !private ["s28CustomDebugStringConvertibleP", "item3"]
+- !private ["s28CustomDebugStringConvertibleP", "item4"]
+- !private ["s28CustomDebugStringConvertibleP", "item5"]
+- !private ["s28CustomDebugStringConvertibleP", "item6"]
+- !private ["s28CustomDebugStringConvertibleP", "item7"]
+- !private ["s28CustomDebugStringConvertibleP", "item8"]
+- !private ["s28CustomDebugStringConvertibleP", "item9"]
+- !private ["s28CustomDebugStringConvertibleP", "kind"]
+- !private ["s28CustomDebugStringConvertibleP", "label"]
+- !private ["s28CustomDebugStringConvertibleP", "number"]
+- !private ["s28CustomDebugStringConvertibleP", "number_sub"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "research_id"]
+- !private ["s28CustomDebugStringConvertibleP", "room_name"]
+- !private ["s28CustomDebugStringConvertibleP", "stage"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s28CustomDebugStringConvertibleP", "status"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s28CustomDebugStringConvertibleP", "userid"]
+- !private ["s28CustomDebugStringConvertibleP", "wb_id"]
+- !private ["s28CustomDebugStringConvertibleP", "wb_type"]
+- !private ["s28CustomDebugStringConvertibleP", "wbid"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Photo"]
+- !private ["s23CustomStringConvertibleP", "Realm"]
+- !private ["s23CustomStringConvertibleP", "UserDefaults"]
+- !private ["s23CustomStringConvertibleP", "WhiteBoardData"]
+- !private ["s23CustomStringConvertibleP", "WhiteBoardMaster"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "building_id"]
+- !private ["s23CustomStringConvertibleP", "defaultConfiguration"]
+- !private ["s23CustomStringConvertibleP", "division"]
+- !private ["s23CustomStringConvertibleP", "fileURL"]
+- !private ["s23CustomStringConvertibleP", "filmed_at"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "item1"]
+- !private ["s23CustomStringConvertibleP", "item10"]
+- !private ["s23CustomStringConvertibleP", "item2"]
+- !private ["s23CustomStringConvertibleP", "item3"]
+- !private ["s23CustomStringConvertibleP", "item4"]
+- !private ["s23CustomStringConvertibleP", "item5"]
+- !private ["s23CustomStringConvertibleP", "item6"]
+- !private ["s23CustomStringConvertibleP", "item7"]
+- !private ["s23CustomStringConvertibleP", "item8"]
+- !private ["s23CustomStringConvertibleP", "item9"]
+- !private ["s23CustomStringConvertibleP", "kind"]
+- !private ["s23CustomStringConvertibleP", "label"]
+- !private ["s23CustomStringConvertibleP", "number"]
+- !private ["s23CustomStringConvertibleP", "number_sub"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "research_id"]
+- !private ["s23CustomStringConvertibleP", "room_name"]
+- !private ["s23CustomStringConvertibleP", "stage"]
+- !private ["s23CustomStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "status"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s23CustomStringConvertibleP", "userid"]
+- !private ["s23CustomStringConvertibleP", "wb_id"]
+- !private ["s23CustomStringConvertibleP", "wb_type"]
+- !private ["s23CustomStringConvertibleP", "wbid"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "subscript"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Configuration"]
+- !private ["SQ", "Photo"]
+- !private ["SQ", "Realm"]
+- !private ["SQ", "UserDefaults"]
+- !private ["SQ", "WhiteBoardData"]
+- !private ["SQ", "WhiteBoardMaster"]
+- ["SQ", ""]
+- !private ["SQ", "add"]
+- !private ["SQ", "building_id"]
+- !private ["SQ", "division"]
+- !private ["SQ", "filmed_at"]
+- !private ["SQ", "filter"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "item1"]
+- !private ["SQ", "item10"]
+- !private ["SQ", "item2"]
+- !private ["SQ", "item3"]
+- !private ["SQ", "item4"]
+- !private ["SQ", "item5"]
+- !private ["SQ", "item6"]
+- !private ["SQ", "item7"]
+- !private ["SQ", "item8"]
+- !private ["SQ", "item9"]
+- !private ["SQ", "kind"]
+- !private ["SQ", "label"]
+- !private ["SQ", "number"]
+- !private ["SQ", "number_sub"]
+- !private ["SQ", "objects"]
+- !private ["SQ", "print"]
+- !private ["SQ", "research_id"]
+- !private ["SQ", "room_name"]
+- !private ["SQ", "stage"]
+- !private ["SQ", "standard"]
+- !private ["SQ", "status"]
+- !private ["SQ", "string"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "url"]
+- !private ["SQ", "userid"]
+- !private ["SQ", "wb_id"]
+- !private ["SQ", "wb_type"]
+- !private ["SQ", "wbid"]
+- !private ["SQ", "write"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "Photo"]
+- !private ["SH", "Realm"]
+- !private ["SH", "UserDefaults"]
+- !private ["SH", "WhiteBoardData"]
+- !private ["SH", "WhiteBoardMaster"]
+- ["SH", ""]
+- !private ["SH", "building_id"]
+- !private ["SH", "division"]
+- !private ["SH", "filmed_at"]
+- !private ["SH", "filter"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "item1"]
+- !private ["SH", "item10"]
+- !private ["SH", "item2"]
+- !private ["SH", "item3"]
+- !private ["SH", "item4"]
+- !private ["SH", "item5"]
+- !private ["SH", "item6"]
+- !private ["SH", "item7"]
+- !private ["SH", "item8"]
+- !private ["SH", "item9"]
+- !private ["SH", "kind"]
+- !private ["SH", "label"]
+- !private ["SH", "number"]
+- !private ["SH", "number_sub"]
+- !private ["SH", "print"]
+- !private ["SH", "research_id"]
+- !private ["SH", "room_name"]
+- !private ["SH", "stage"]
+- !private ["SH", "standard"]
+- !private ["SH", "status"]
+- !private ["SH", "string"]
+- !private ["SH", "subscript"]
+- !private ["SH", "url"]
+- !private ["SH", "userid"]
+- !private ["SH", "wb_id"]
+- !private ["SH", "wb_type"]
+- !private ["SH", "wbid"]
+- !private ["s22LazyCollectionProtocolP", "filter"]
+- !private ["s22LazyCollectionProtocolP", "subscript"]
+- !private ["s22LazyCollectionProtocolP", "wbid"]
+- !private ["s20LazySequenceProtocolP", "filter"]
+- !private ["s20LazySequenceProtocolP", "subscript"]
+- !private ["s20LazySequenceProtocolP", "wbid"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "subscript"]
+- !private ["SM", "wbid"]
+- !private ["So17NSFastEnumerationP", "filter"]
+- !private ["So17NSFastEnumerationP", "subscript"]
+- !private ["So8NSObjectC", "Photo"]
+- !private ["So8NSObjectC", "Realm"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UserDefaults"]
+- !private ["So8NSObjectC", "WhiteBoardData"]
+- !private ["So8NSObjectC", "WhiteBoardMaster"]
+- ["So8NSObjectC", "building_id"]
+- ["So8NSObjectC", "division"]
+- !private ["So8NSObjectC", "filmed_at"]
+- !private ["So8NSObjectC", "filter"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "item1"]
+- !private ["So8NSObjectC", "item10"]
+- !private ["So8NSObjectC", "item2"]
+- !private ["So8NSObjectC", "item3"]
+- !private ["So8NSObjectC", "item4"]
+- !private ["So8NSObjectC", "item5"]
+- !private ["So8NSObjectC", "item6"]
+- !private ["So8NSObjectC", "item7"]
+- !private ["So8NSObjectC", "item8"]
+- !private ["So8NSObjectC", "item9"]
+- ["So8NSObjectC", "kind"]
+- !private ["So8NSObjectC", "label"]
+- !private ["So8NSObjectC", "number"]
+- !private ["So8NSObjectC", "number_sub"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "research_id"]
+- ["So8NSObjectC", "room_name"]
+- ["So8NSObjectC", "savePhoto"]
+- ["So8NSObjectC", "saveWhiteboard"]
+- ["So8NSObjectC", "setDivision"]
+- ["So8NSObjectC", "setKind"]
+- ["So8NSObjectC", "setParameter"]
+- ["So8NSObjectC", "setRoomName"]
+- ["So8NSObjectC", "setUserid"]
+- ["So8NSObjectC", "stage"]
+- !private ["So8NSObjectC", "standard"]
+- !private ["So8NSObjectC", "status"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "subscript"]
+- !private ["So8NSObjectC", "url"]
+- ["So8NSObjectC", "userid"]
+- ["So8NSObjectC", "wb_id"]
+- ["So8NSObjectC", "wb_type"]
+- !private ["So8NSObjectC", "wbid"]
+- !private ["So8NSObjectP", "Photo"]
+- !private ["So8NSObjectP", "Realm"]
+- !private ["So8NSObjectP", "UserDefaults"]
+- !private ["So8NSObjectP", "WhiteBoardData"]
+- !private ["So8NSObjectP", "WhiteBoardMaster"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "building_id"]
+- !private ["So8NSObjectP", "division"]
+- !private ["So8NSObjectP", "filmed_at"]
+- !private ["So8NSObjectP", "filter"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "item1"]
+- !private ["So8NSObjectP", "item10"]
+- !private ["So8NSObjectP", "item2"]
+- !private ["So8NSObjectP", "item3"]
+- !private ["So8NSObjectP", "item4"]
+- !private ["So8NSObjectP", "item5"]
+- !private ["So8NSObjectP", "item6"]
+- !private ["So8NSObjectP", "item7"]
+- !private ["So8NSObjectP", "item8"]
+- !private ["So8NSObjectP", "item9"]
+- !private ["So8NSObjectP", "kind"]
+- !private ["So8NSObjectP", "label"]
+- !private ["So8NSObjectP", "number"]
+- !private ["So8NSObjectP", "number_sub"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "research_id"]
+- !private ["So8NSObjectP", "room_name"]
+- !private ["So8NSObjectP", "stage"]
+- !private ["So8NSObjectP", "standard"]
+- !private ["So8NSObjectP", "status"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "subscript"]
+- !private ["So8NSObjectP", "url"]
+- !private ["So8NSObjectP", "userid"]
+- !private ["So8NSObjectP", "wb_id"]
+- !private ["So8NSObjectP", "wb_type"]
+- !private ["So8NSObjectP", "wbid"]
+- !private ["10RealmSwift6ObjectC", "Photo"]
+- !private ["10RealmSwift6ObjectC", "Realm"]
+- ["10RealmSwift6ObjectC", "String"]
+- !private ["10RealmSwift6ObjectC", "UserDefaults"]
+- !private ["10RealmSwift6ObjectC", "WhiteBoardData"]
+- !private ["10RealmSwift6ObjectC", "WhiteBoardMaster"]
+- ["10RealmSwift6ObjectC", ""]
+- ["10RealmSwift6ObjectC", "building_id"]
+- ["10RealmSwift6ObjectC", "division"]
+- !private ["10RealmSwift6ObjectC", "filmed_at"]
+- ["10RealmSwift6ObjectC", "init"]
+- !private ["10RealmSwift6ObjectC", "init"]
+- !private ["10RealmSwift6ObjectC", "item1"]
+- !private ["10RealmSwift6ObjectC", "item10"]
+- !private ["10RealmSwift6ObjectC", "item2"]
+- !private ["10RealmSwift6ObjectC", "item3"]
+- !private ["10RealmSwift6ObjectC", "item4"]
+- !private ["10RealmSwift6ObjectC", "item5"]
+- !private ["10RealmSwift6ObjectC", "item6"]
+- !private ["10RealmSwift6ObjectC", "item7"]
+- !private ["10RealmSwift6ObjectC", "item8"]
+- !private ["10RealmSwift6ObjectC", "item9"]
+- ["10RealmSwift6ObjectC", "kind"]
+- !private ["10RealmSwift6ObjectC", "label"]
+- !private ["10RealmSwift6ObjectC", "number"]
+- !private ["10RealmSwift6ObjectC", "number_sub"]
+- !private ["10RealmSwift6ObjectC", "print"]
+- ["10RealmSwift6ObjectC", "research_id"]
+- ["10RealmSwift6ObjectC", "room_name"]
+- ["10RealmSwift6ObjectC", "savePhoto"]
+- ["10RealmSwift6ObjectC", "saveWhiteboard"]
+- ["10RealmSwift6ObjectC", "setDivision"]
+- ["10RealmSwift6ObjectC", "setKind"]
+- ["10RealmSwift6ObjectC", "setParameter"]
+- ["10RealmSwift6ObjectC", "setRoomName"]
+- ["10RealmSwift6ObjectC", "setUserid"]
+- ["10RealmSwift6ObjectC", "stage"]
+- !private ["10RealmSwift6ObjectC", "status"]
+- !private ["10RealmSwift6ObjectC", "url"]
+- ["10RealmSwift6ObjectC", "userid"]
+- ["10RealmSwift6ObjectC", "wb_id"]
+- ["10RealmSwift6ObjectC", "wb_type"]
+- !private ["10RealmSwift6ObjectC", "wbid"]
+- !private ["12ChousainPlus5PhotoC", "building_id"]
+- !private ["12ChousainPlus5PhotoC", "deinit"]
+- !private ["12ChousainPlus5PhotoC", "division"]
+- !private ["12ChousainPlus5PhotoC", "filmed_at"]
+- !private ["12ChousainPlus5PhotoC", "init"]
+- !private ["12ChousainPlus5PhotoC", "item1"]
+- !private ["12ChousainPlus5PhotoC", "item10"]
+- !private ["12ChousainPlus5PhotoC", "item2"]
+- !private ["12ChousainPlus5PhotoC", "item3"]
+- !private ["12ChousainPlus5PhotoC", "item4"]
+- !private ["12ChousainPlus5PhotoC", "item5"]
+- !private ["12ChousainPlus5PhotoC", "item6"]
+- !private ["12ChousainPlus5PhotoC", "item7"]
+- !private ["12ChousainPlus5PhotoC", "item8"]
+- !private ["12ChousainPlus5PhotoC", "item9"]
+- !private ["12ChousainPlus5PhotoC", "kind"]
+- !private ["12ChousainPlus5PhotoC", "label"]
+- !private ["12ChousainPlus5PhotoC", "number"]
+- !private ["12ChousainPlus5PhotoC", "number_sub"]
+- !private ["12ChousainPlus5PhotoC", "research_id"]
+- !private ["12ChousainPlus5PhotoC", "room_name"]
+- !private ["12ChousainPlus5PhotoC", "stage"]
+- !private ["12ChousainPlus5PhotoC", "status"]
+- !private ["12ChousainPlus5PhotoC", "url"]
+- !private ["12ChousainPlus5PhotoC", "userid"]
+- !private ["12ChousainPlus5PhotoC", "wb_id"]
+- !private ["12ChousainPlus5PhotoC", "wb_type"]
+- !private ["So13RLMObjectBaseC", "Photo"]
+- !private ["So13RLMObjectBaseC", "Realm"]
+- ["So13RLMObjectBaseC", "String"]
+- !private ["So13RLMObjectBaseC", "UserDefaults"]
+- !private ["So13RLMObjectBaseC", "WhiteBoardData"]
+- !private ["So13RLMObjectBaseC", "WhiteBoardMaster"]
+- ["So13RLMObjectBaseC", "building_id"]
+- ["So13RLMObjectBaseC", "division"]
+- !private ["So13RLMObjectBaseC", "filmed_at"]
+- ["So13RLMObjectBaseC", "init"]
+- !private ["So13RLMObjectBaseC", "init"]
+- !private ["So13RLMObjectBaseC", "item1"]
+- !private ["So13RLMObjectBaseC", "item10"]
+- !private ["So13RLMObjectBaseC", "item2"]
+- !private ["So13RLMObjectBaseC", "item3"]
+- !private ["So13RLMObjectBaseC", "item4"]
+- !private ["So13RLMObjectBaseC", "item5"]
+- !private ["So13RLMObjectBaseC", "item6"]
+- !private ["So13RLMObjectBaseC", "item7"]
+- !private ["So13RLMObjectBaseC", "item8"]
+- !private ["So13RLMObjectBaseC", "item9"]
+- ["So13RLMObjectBaseC", "kind"]
+- !private ["So13RLMObjectBaseC", "label"]
+- !private ["So13RLMObjectBaseC", "number"]
+- !private ["So13RLMObjectBaseC", "number_sub"]
+- !private ["So13RLMObjectBaseC", "print"]
+- ["So13RLMObjectBaseC", "research_id"]
+- ["So13RLMObjectBaseC", "room_name"]
+- ["So13RLMObjectBaseC", "savePhoto"]
+- ["So13RLMObjectBaseC", "saveWhiteboard"]
+- ["So13RLMObjectBaseC", "setDivision"]
+- ["So13RLMObjectBaseC", "setKind"]
+- ["So13RLMObjectBaseC", "setParameter"]
+- ["So13RLMObjectBaseC", "setRoomName"]
+- ["So13RLMObjectBaseC", "setUserid"]
+- ["So13RLMObjectBaseC", "stage"]
+- !private ["So13RLMObjectBaseC", "status"]
+- !private ["So13RLMObjectBaseC", "url"]
+- ["So13RLMObjectBaseC", "userid"]
+- ["So13RLMObjectBaseC", "wb_id"]
+- ["So13RLMObjectBaseC", "wb_type"]
+- !private ["So13RLMObjectBaseC", "wbid"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "wbid"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "wbid"]
+- !private ["10RealmSwift0A0C", "Configuration"]
+- !private ["10RealmSwift0A0C", "add"]
+- !private ["10RealmSwift0A0C", "init"]
+- !private ["10RealmSwift0A0C", "objects"]
+- !private ["10RealmSwift0A0C", "write"]
+- !private ["10RealmSwift0A10CollectionP", "filter"]
+- !private ["10RealmSwift0A10CollectionP", "subscript"]
+- !private ["10RealmSwift0A14CollectionBaseP", "filter"]
+- !private ["10RealmSwift0A14CollectionBaseP", "subscript"]
+- !private ["10RealmSwift0A15CollectionValueP", "Photo"]
+- !private ["10RealmSwift0A15CollectionValueP", "Realm"]
+- !private ["10RealmSwift0A15CollectionValueP", "UserDefaults"]
+- !private ["10RealmSwift0A15CollectionValueP", "WhiteBoardData"]
+- !private ["10RealmSwift0A15CollectionValueP", "WhiteBoardMaster"]
+- ["10RealmSwift0A15CollectionValueP", ""]
+- !private ["10RealmSwift0A15CollectionValueP", "building_id"]
+- !private ["10RealmSwift0A15CollectionValueP", "division"]
+- !private ["10RealmSwift0A15CollectionValueP", "filmed_at"]
+- ["10RealmSwift0A15CollectionValueP", "init"]
+- ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "item1"]
+- !private ["10RealmSwift0A15CollectionValueP", "item10"]
+- !private ["10RealmSwift0A15CollectionValueP", "item2"]
+- !private ["10RealmSwift0A15CollectionValueP", "item3"]
+- !private ["10RealmSwift0A15CollectionValueP", "item4"]
+- !private ["10RealmSwift0A15CollectionValueP", "item5"]
+- !private ["10RealmSwift0A15CollectionValueP", "item6"]
+- !private ["10RealmSwift0A15CollectionValueP", "item7"]
+- !private ["10RealmSwift0A15CollectionValueP", "item8"]
+- !private ["10RealmSwift0A15CollectionValueP", "item9"]
+- !private ["10RealmSwift0A15CollectionValueP", "kind"]
+- !private ["10RealmSwift0A15CollectionValueP", "label"]
+- !private ["10RealmSwift0A15CollectionValueP", "number"]
+- !private ["10RealmSwift0A15CollectionValueP", "number_sub"]
+- !private ["10RealmSwift0A15CollectionValueP", "print"]
+- !private ["10RealmSwift0A15CollectionValueP", "research_id"]
+- !private ["10RealmSwift0A15CollectionValueP", "room_name"]
+- !private ["10RealmSwift0A15CollectionValueP", "stage"]
+- !private ["10RealmSwift0A15CollectionValueP", "status"]
+- !private ["10RealmSwift0A15CollectionValueP", "url"]
+- !private ["10RealmSwift0A15CollectionValueP", "userid"]
+- !private ["10RealmSwift0A15CollectionValueP", "wb_id"]
+- !private ["10RealmSwift0A15CollectionValueP", "wb_type"]
+- !private ["10RealmSwift0A15CollectionValueP", "wbid"]
+- !private ["12ChousainPlus10RecordDataC", "Photo"]
+- !private ["12ChousainPlus10RecordDataC", "Realm"]
+- ["12ChousainPlus10RecordDataC", "String"]
+- !private ["12ChousainPlus10RecordDataC", "UserDefaults"]
+- !private ["12ChousainPlus10RecordDataC", "WhiteBoardData"]
+- !private ["12ChousainPlus10RecordDataC", "WhiteBoardMaster"]
+- ["12ChousainPlus10RecordDataC", "building_id"]
+- ["12ChousainPlus10RecordDataC", "division"]
+- ["12ChousainPlus10RecordDataC", "init"]
+- ["12ChousainPlus10RecordDataC", "kind"]
+- !private ["12ChousainPlus10RecordDataC", "print"]
+- ["12ChousainPlus10RecordDataC", "research_id"]
+- ["12ChousainPlus10RecordDataC", "room_name"]
+- ["12ChousainPlus10RecordDataC", "savePhoto"]
+- ["12ChousainPlus10RecordDataC", "saveWhiteboard"]
+- ["12ChousainPlus10RecordDataC", "setDivision"]
+- ["12ChousainPlus10RecordDataC", "setKind"]
+- ["12ChousainPlus10RecordDataC", "setParameter"]
+- ["12ChousainPlus10RecordDataC", "setRoomName"]
+- ["12ChousainPlus10RecordDataC", "setUserid"]
+- ["12ChousainPlus10RecordDataC", "stage"]
+- ["12ChousainPlus10RecordDataC", "userid"]
+- ["12ChousainPlus10RecordDataC", "wb_id"]
+- ["12ChousainPlus10RecordDataC", "wb_type"]
+- !private ["10RealmSwift7ResultsC", "filter"]
+- !private ["10RealmSwift7ResultsC", "subscript"]
+- !private ["ST", "filter"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["ST", "wbid"]
+- !private ["s5SliceV", "wbid"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["10RealmSwift14ThreadConfinedP", "Photo"]
+- !private ["10RealmSwift14ThreadConfinedP", "Realm"]
+- !private ["10RealmSwift14ThreadConfinedP", "UserDefaults"]
+- !private ["10RealmSwift14ThreadConfinedP", "WhiteBoardData"]
+- !private ["10RealmSwift14ThreadConfinedP", "WhiteBoardMaster"]
+- ["10RealmSwift14ThreadConfinedP", ""]
+- !private ["10RealmSwift14ThreadConfinedP", "building_id"]
+- !private ["10RealmSwift14ThreadConfinedP", "division"]
+- !private ["10RealmSwift14ThreadConfinedP", "filmed_at"]
+- !private ["10RealmSwift14ThreadConfinedP", "filter"]
+- !private ["10RealmSwift14ThreadConfinedP", "init"]
+- !private ["10RealmSwift14ThreadConfinedP", "init"]
+- !private ["10RealmSwift14ThreadConfinedP", "item1"]
+- !private ["10RealmSwift14ThreadConfinedP", "item10"]
+- !private ["10RealmSwift14ThreadConfinedP", "item2"]
+- !private ["10RealmSwift14ThreadConfinedP", "item3"]
+- !private ["10RealmSwift14ThreadConfinedP", "item4"]
+- !private ["10RealmSwift14ThreadConfinedP", "item5"]
+- !private ["10RealmSwift14ThreadConfinedP", "item6"]
+- !private ["10RealmSwift14ThreadConfinedP", "item7"]
+- !private ["10RealmSwift14ThreadConfinedP", "item8"]
+- !private ["10RealmSwift14ThreadConfinedP", "item9"]
+- !private ["10RealmSwift14ThreadConfinedP", "kind"]
+- !private ["10RealmSwift14ThreadConfinedP", "label"]
+- !private ["10RealmSwift14ThreadConfinedP", "number"]
+- !private ["10RealmSwift14ThreadConfinedP", "number_sub"]
+- !private ["10RealmSwift14ThreadConfinedP", "print"]
+- !private ["10RealmSwift14ThreadConfinedP", "research_id"]
+- !private ["10RealmSwift14ThreadConfinedP", "room_name"]
+- !private ["10RealmSwift14ThreadConfinedP", "stage"]
+- !private ["10RealmSwift14ThreadConfinedP", "status"]
+- !private ["10RealmSwift14ThreadConfinedP", "subscript"]
+- !private ["10RealmSwift14ThreadConfinedP", "url"]
+- !private ["10RealmSwift14ThreadConfinedP", "userid"]
+- !private ["10RealmSwift14ThreadConfinedP", "wb_id"]
+- !private ["10RealmSwift14ThreadConfinedP", "wb_type"]
+- !private ["10RealmSwift14ThreadConfinedP", "wbid"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- !private ["So14NSUserDefaultsC", "standard"]
+- !private ["So14NSUserDefaultsC", "string"]
+- !private ["12ChousainPlus14WhiteBoardDataC", "items"]
+- !private ["12ChousainPlus14WhiteBoardDataC", "shared"]
+- !private ["12ChousainPlus16WhiteBoardMasterC", "deinit"]
+- !private ["12ChousainPlus16WhiteBoardMasterC", "wbid"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Photo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Realm"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserDefaults"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "WhiteBoardData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "WhiteBoardMaster"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "building_id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "division"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "filmed_at"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "filter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "item1"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "item10"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "item2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "item3"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "item4"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "item5"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "item6"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "item7"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "item8"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "item9"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kind"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "label"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "number"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "number_sub"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "research_id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "room_name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "status"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wb_id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wb_type"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wbid"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "10RealmSwift28AssistedObjectiveCBridgeableP"
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "10RealmSwift0A0C13ConfigurationV"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s22LazyCollectionProtocolP"
+- !private "s20LazySequenceProtocolP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "So17NSFastEnumerationP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "10RealmSwift6ObjectC"
+- !private "12ChousainPlus5PhotoC"
+- "So13RLMObjectBaseC"
+- !private "Sk"
+- "Sm"
+- !private "10RealmSwift0A0C"
+- !private "10RealmSwift0A10CollectionP"
+- !private "10RealmSwift0A14CollectionBaseP"
+- "10RealmSwift0A15CollectionValueP"
+- "12ChousainPlus10RecordDataC"
+- !private "10RealmSwift7ResultsC"
+- "ST"
+- !private "s5SliceV"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "10RealmSwift14ThreadConfinedP"
+- "9Alamofire14URLConvertibleP"
+- !private "So14NSUserDefaultsC"
+- !private "12ChousainPlus14WhiteBoardDataC"
+- !private "12ChousainPlus16WhiteBoardMasterC"
+- !private "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/LNZTreeView/LNZTreeView.framework/Modules/LNZTreeView.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/LNZTreeView/LNZTreeView.framework/Headers/LNZTreeView-umbrella.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/LNZTreeView/LNZTreeView.framework/Headers/LNZTreeView-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/LNZTreeView/LNZTreeView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "db65f73285b6beabe49d8c9936de7d61"

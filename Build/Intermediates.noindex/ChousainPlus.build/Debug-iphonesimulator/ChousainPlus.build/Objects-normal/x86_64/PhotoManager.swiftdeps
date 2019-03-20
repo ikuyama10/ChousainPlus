@@ -1,0 +1,972 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PhotoManager"
+provides-nominal:
+- "12ChousainPlus12PhotoManagerC"
+provides-member:
+- ["12ChousainPlus12PhotoManagerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "=="
+- "AssignmentPrecedence"
+- !private "CameraLocate"
+- "CastingPrecedence"
+- !private "Date"
+- !private "DateFormatter"
+- !private "FileManager"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "Locale"
+- !private "NSLocale"
+- "NSObject"
+- !private "NSUUID"
+- !private "PhotoLocate"
+- "PhotoManager"
+- !private "Realm"
+- !private "RecordData"
+- "String"
+- !private "StringLiteralType"
+- "UIImage"
+- !private "UnicodeScalarType"
+- !private "print"
+- "simd_float4x4"
+depends-member:
+- !private ["10RealmSwift11AddableTypeP", "description"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "m0x"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "m0y"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "m0z"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "m1x"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "m1y"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "m1z"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "m2x"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "m2y"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "m2z"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "m3x"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "m3y"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "m3z"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "number"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "savePhoto"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "setDivision"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "setKind"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "setParameter"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "setRoomName"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "setUserid"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "url"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["SK", "write"]
+- !private ["Sz", "description"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "CameraLocate"]
+- !private ["s7CVarArgP", "Date"]
+- !private ["s7CVarArgP", "DateFormatter"]
+- !private ["s7CVarArgP", "FileManager"]
+- !private ["s7CVarArgP", "NSLocale"]
+- !private ["s7CVarArgP", "NSUUID"]
+- !private ["s7CVarArgP", "PhotoLocate"]
+- !private ["s7CVarArgP", "Realm"]
+- !private ["s7CVarArgP", "RecordData"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "fileExists"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jpegData"]
+- !private ["s7CVarArgP", "locale"]
+- !private ["s7CVarArgP", "m0x"]
+- !private ["s7CVarArgP", "m0y"]
+- !private ["s7CVarArgP", "m0z"]
+- !private ["s7CVarArgP", "m1x"]
+- !private ["s7CVarArgP", "m1y"]
+- !private ["s7CVarArgP", "m1z"]
+- !private ["s7CVarArgP", "m2x"]
+- !private ["s7CVarArgP", "m2y"]
+- !private ["s7CVarArgP", "m2z"]
+- !private ["s7CVarArgP", "m3x"]
+- !private ["s7CVarArgP", "m3y"]
+- !private ["s7CVarArgP", "m3z"]
+- !private ["s7CVarArgP", "number"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "removeItem"]
+- !private ["s7CVarArgP", "savePhoto"]
+- !private ["s7CVarArgP", "setDivision"]
+- !private ["s7CVarArgP", "setKind"]
+- !private ["s7CVarArgP", "setParameter"]
+- !private ["s7CVarArgP", "setRoomName"]
+- !private ["s7CVarArgP", "setUserid"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "url"]
+- !private ["s7CVarArgP", "urls"]
+- !private ["s7CVarArgP", "uuidString"]
+- !private ["12ChousainPlus12CameraLocateC", "init"]
+- !private ["12ChousainPlus12CameraLocateC", "m0x"]
+- !private ["12ChousainPlus12CameraLocateC", "m0y"]
+- !private ["12ChousainPlus12CameraLocateC", "m0z"]
+- !private ["12ChousainPlus12CameraLocateC", "m1x"]
+- !private ["12ChousainPlus12CameraLocateC", "m1y"]
+- !private ["12ChousainPlus12CameraLocateC", "m1z"]
+- !private ["12ChousainPlus12CameraLocateC", "m2x"]
+- !private ["12ChousainPlus12CameraLocateC", "m2y"]
+- !private ["12ChousainPlus12CameraLocateC", "m2z"]
+- !private ["12ChousainPlus12CameraLocateC", "m3x"]
+- !private ["12ChousainPlus12CameraLocateC", "m3y"]
+- !private ["12ChousainPlus12CameraLocateC", "m3z"]
+- !private ["12ChousainPlus12CameraLocateC", "number"]
+- !private ["12ChousainPlus12CameraLocateC", "url"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "write"]
+- !private ["Sl", "x"]
+- !private ["Sl", "y"]
+- !private ["Sl", "z"]
+- !private ["SL", "description"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CameraLocate"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "FileManager"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLocale"]
+- !private ["s28CustomDebugStringConvertibleP", "NSUUID"]
+- !private ["s28CustomDebugStringConvertibleP", "PhotoLocate"]
+- !private ["s28CustomDebugStringConvertibleP", "Realm"]
+- !private ["s28CustomDebugStringConvertibleP", "RecordData"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "columns"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "fileExists"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jpegData"]
+- !private ["s28CustomDebugStringConvertibleP", "locale"]
+- !private ["s28CustomDebugStringConvertibleP", "m0x"]
+- !private ["s28CustomDebugStringConvertibleP", "m0y"]
+- !private ["s28CustomDebugStringConvertibleP", "m0z"]
+- !private ["s28CustomDebugStringConvertibleP", "m1x"]
+- !private ["s28CustomDebugStringConvertibleP", "m1y"]
+- !private ["s28CustomDebugStringConvertibleP", "m1z"]
+- !private ["s28CustomDebugStringConvertibleP", "m2x"]
+- !private ["s28CustomDebugStringConvertibleP", "m2y"]
+- !private ["s28CustomDebugStringConvertibleP", "m2z"]
+- !private ["s28CustomDebugStringConvertibleP", "m3x"]
+- !private ["s28CustomDebugStringConvertibleP", "m3y"]
+- !private ["s28CustomDebugStringConvertibleP", "m3z"]
+- !private ["s28CustomDebugStringConvertibleP", "number"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "removeItem"]
+- !private ["s28CustomDebugStringConvertibleP", "savePhoto"]
+- !private ["s28CustomDebugStringConvertibleP", "setDivision"]
+- !private ["s28CustomDebugStringConvertibleP", "setKind"]
+- !private ["s28CustomDebugStringConvertibleP", "setParameter"]
+- !private ["s28CustomDebugStringConvertibleP", "setRoomName"]
+- !private ["s28CustomDebugStringConvertibleP", "setUserid"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s28CustomDebugStringConvertibleP", "urls"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s28CustomDebugStringConvertibleP", "write"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s28CustomDebugStringConvertibleP", "z"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "description"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "path"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "write"]
+- !private ["s23CustomStringConvertibleP", "CameraLocate"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "DateFormatter"]
+- !private ["s23CustomStringConvertibleP", "FileManager"]
+- !private ["s23CustomStringConvertibleP", "NSLocale"]
+- !private ["s23CustomStringConvertibleP", "NSUUID"]
+- !private ["s23CustomStringConvertibleP", "PhotoLocate"]
+- !private ["s23CustomStringConvertibleP", "Realm"]
+- !private ["s23CustomStringConvertibleP", "RecordData"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "fileExists"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jpegData"]
+- !private ["s23CustomStringConvertibleP", "locale"]
+- !private ["s23CustomStringConvertibleP", "m0x"]
+- !private ["s23CustomStringConvertibleP", "m0y"]
+- !private ["s23CustomStringConvertibleP", "m0z"]
+- !private ["s23CustomStringConvertibleP", "m1x"]
+- !private ["s23CustomStringConvertibleP", "m1y"]
+- !private ["s23CustomStringConvertibleP", "m1z"]
+- !private ["s23CustomStringConvertibleP", "m2x"]
+- !private ["s23CustomStringConvertibleP", "m2y"]
+- !private ["s23CustomStringConvertibleP", "m2z"]
+- !private ["s23CustomStringConvertibleP", "m3x"]
+- !private ["s23CustomStringConvertibleP", "m3y"]
+- !private ["s23CustomStringConvertibleP", "m3z"]
+- !private ["s23CustomStringConvertibleP", "number"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "removeItem"]
+- !private ["s23CustomStringConvertibleP", "savePhoto"]
+- !private ["s23CustomStringConvertibleP", "setDivision"]
+- !private ["s23CustomStringConvertibleP", "setKind"]
+- !private ["s23CustomStringConvertibleP", "setParameter"]
+- !private ["s23CustomStringConvertibleP", "setRoomName"]
+- !private ["s23CustomStringConvertibleP", "setUserid"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s23CustomStringConvertibleP", "urls"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "write"]
+- !private ["10Foundation4DataV", "write"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["So15NSDateFormatterC", "dateFormat"]
+- !private ["So15NSDateFormatterC", "init"]
+- !private ["So15NSDateFormatterC", "locale"]
+- !private ["So15NSDateFormatterC", "string"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "appendingPathComponent"]
+- !private ["Se", "description"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "path"]
+- !private ["Se", "subscript"]
+- !private ["Se", "write"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "appendingPathComponent"]
+- !private ["SE", "description"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "path"]
+- !private ["SE", "subscript"]
+- !private ["SE", "write"]
+- !private ["SQ", "CameraLocate"]
+- !private ["SQ", "Date"]
+- !private ["SQ", "DateFormatter"]
+- !private ["SQ", "FileManager"]
+- !private ["SQ", "NSLocale"]
+- !private ["SQ", "NSUUID"]
+- !private ["SQ", "PhotoLocate"]
+- !private ["SQ", "Realm"]
+- !private ["SQ", "RecordData"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "add"]
+- !private ["SQ", "appendingPathComponent"]
+- !private ["SQ", "columns"]
+- !private ["SQ", "dateFormat"]
+- !private ["SQ", "debugDescription"]
+- !private ["SQ", "default"]
+- !private ["SQ", "description"]
+- !private ["SQ", "documentDirectory"]
+- !private ["SQ", "fileExists"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "jpegData"]
+- !private ["SQ", "locale"]
+- !private ["SQ", "m0x"]
+- !private ["SQ", "m0y"]
+- !private ["SQ", "m0z"]
+- !private ["SQ", "m1x"]
+- !private ["SQ", "m1y"]
+- !private ["SQ", "m1z"]
+- !private ["SQ", "m2x"]
+- !private ["SQ", "m2y"]
+- !private ["SQ", "m2z"]
+- !private ["SQ", "m3x"]
+- !private ["SQ", "m3y"]
+- !private ["SQ", "m3z"]
+- !private ["SQ", "number"]
+- !private ["SQ", "path"]
+- !private ["SQ", "print"]
+- !private ["SQ", "removeItem"]
+- !private ["SQ", "savePhoto"]
+- !private ["SQ", "setDivision"]
+- !private ["SQ", "setKind"]
+- !private ["SQ", "setParameter"]
+- !private ["SQ", "setRoomName"]
+- !private ["SQ", "setUserid"]
+- !private ["SQ", "string"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "url"]
+- !private ["SQ", "urls"]
+- !private ["SQ", "userDomainMask"]
+- !private ["SQ", "uuidString"]
+- !private ["SQ", "write"]
+- !private ["SQ", "x"]
+- !private ["SQ", "y"]
+- !private ["SQ", "z"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["s25ExpressibleByArrayLiteralP", "x"]
+- !private ["s25ExpressibleByArrayLiteralP", "y"]
+- !private ["s25ExpressibleByArrayLiteralP", "z"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "description"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So13NSFileManagerC", "default"]
+- !private ["So13NSFileManagerC", "fileExists"]
+- !private ["So13NSFileManagerC", "removeItem"]
+- !private ["So13NSFileManagerC", "urls"]
+- !private ["s17FixedWidthIntegerP", "description"]
+- !private ["So11NSFormatterC", "dateFormat"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "locale"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["SH", "CameraLocate"]
+- !private ["SH", "Date"]
+- !private ["SH", "DateFormatter"]
+- !private ["SH", "FileManager"]
+- !private ["SH", "NSLocale"]
+- !private ["SH", "NSUUID"]
+- !private ["SH", "PhotoLocate"]
+- !private ["SH", "Realm"]
+- !private ["SH", "RecordData"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "appendingPathComponent"]
+- !private ["SH", "dateFormat"]
+- !private ["SH", "default"]
+- !private ["SH", "description"]
+- !private ["SH", "documentDirectory"]
+- !private ["SH", "fileExists"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "jpegData"]
+- !private ["SH", "locale"]
+- !private ["SH", "m0x"]
+- !private ["SH", "m0y"]
+- !private ["SH", "m0z"]
+- !private ["SH", "m1x"]
+- !private ["SH", "m1y"]
+- !private ["SH", "m1z"]
+- !private ["SH", "m2x"]
+- !private ["SH", "m2y"]
+- !private ["SH", "m2z"]
+- !private ["SH", "m3x"]
+- !private ["SH", "m3y"]
+- !private ["SH", "m3z"]
+- !private ["SH", "number"]
+- !private ["SH", "path"]
+- !private ["SH", "print"]
+- !private ["SH", "removeItem"]
+- !private ["SH", "savePhoto"]
+- !private ["SH", "setDivision"]
+- !private ["SH", "setKind"]
+- !private ["SH", "setParameter"]
+- !private ["SH", "setRoomName"]
+- !private ["SH", "setUserid"]
+- !private ["SH", "string"]
+- !private ["SH", "subscript"]
+- !private ["SH", "url"]
+- !private ["SH", "urls"]
+- !private ["SH", "uuidString"]
+- !private ["SH", "write"]
+- !private ["Si", "description"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "description"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["10RealmSwift10MinMaxTypeP", "description"]
+- !private ["10RealmSwift10MinMaxTypeP", "init"]
+- !private ["s10MirrorPathP", "description"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "subscript"]
+- !private ["SM", "write"]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "jpegData"]
+- !private ["So8NSCodingP", "locale"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "uuidString"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "locale"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "uuidString"]
+- !private ["So21NSItemProviderReadingP", "jpegData"]
+- !private ["So21NSItemProviderWritingP", "jpegData"]
+- !private ["So8NSLocaleC", "init"]
+- !private ["So8NSObjectC", "CameraLocate"]
+- !private ["So8NSObjectC", "Date"]
+- !private ["So8NSObjectC", "DateFormatter"]
+- !private ["So8NSObjectC", "FileManager"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "Locale"]
+- !private ["So8NSObjectC", "NSLocale"]
+- !private ["So8NSObjectC", "NSUUID"]
+- !private ["So8NSObjectC", "PhotoLocate"]
+- !private ["So8NSObjectC", "Realm"]
+- !private ["So8NSObjectC", "RecordData"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "dateFormat"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "deletePhoto"]
+- !private ["So8NSObjectC", "fileExists"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "jpegData"]
+- !private ["So8NSObjectC", "locale"]
+- !private ["So8NSObjectC", "m0x"]
+- !private ["So8NSObjectC", "m0y"]
+- !private ["So8NSObjectC", "m0z"]
+- !private ["So8NSObjectC", "m1x"]
+- !private ["So8NSObjectC", "m1y"]
+- !private ["So8NSObjectC", "m1z"]
+- !private ["So8NSObjectC", "m2x"]
+- !private ["So8NSObjectC", "m2y"]
+- !private ["So8NSObjectC", "m2z"]
+- !private ["So8NSObjectC", "m3x"]
+- !private ["So8NSObjectC", "m3y"]
+- !private ["So8NSObjectC", "m3z"]
+- !private ["So8NSObjectC", "number"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "removeItem"]
+- ["So8NSObjectC", "savePhoto"]
+- ["So8NSObjectC", "savePhotoWorldMap"]
+- ["So8NSObjectC", "saveWorldMap"]
+- !private ["So8NSObjectC", "setDivision"]
+- !private ["So8NSObjectC", "setKind"]
+- !private ["So8NSObjectC", "setParameter"]
+- !private ["So8NSObjectC", "setRoomName"]
+- !private ["So8NSObjectC", "setUserid"]
+- ["So8NSObjectC", "simd_float4x4"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "url"]
+- !private ["So8NSObjectC", "urls"]
+- !private ["So8NSObjectC", "uuidString"]
+- !private ["So8NSObjectP", "CameraLocate"]
+- !private ["So8NSObjectP", "Date"]
+- !private ["So8NSObjectP", "DateFormatter"]
+- !private ["So8NSObjectP", "FileManager"]
+- !private ["So8NSObjectP", "NSLocale"]
+- !private ["So8NSObjectP", "NSUUID"]
+- !private ["So8NSObjectP", "PhotoLocate"]
+- !private ["So8NSObjectP", "Realm"]
+- !private ["So8NSObjectP", "RecordData"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "dateFormat"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "fileExists"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "jpegData"]
+- !private ["So8NSObjectP", "locale"]
+- !private ["So8NSObjectP", "m0x"]
+- !private ["So8NSObjectP", "m0y"]
+- !private ["So8NSObjectP", "m0z"]
+- !private ["So8NSObjectP", "m1x"]
+- !private ["So8NSObjectP", "m1y"]
+- !private ["So8NSObjectP", "m1z"]
+- !private ["So8NSObjectP", "m2x"]
+- !private ["So8NSObjectP", "m2y"]
+- !private ["So8NSObjectP", "m2z"]
+- !private ["So8NSObjectP", "m3x"]
+- !private ["So8NSObjectP", "m3y"]
+- !private ["So8NSObjectP", "m3z"]
+- !private ["So8NSObjectP", "number"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "removeItem"]
+- !private ["So8NSObjectP", "savePhoto"]
+- !private ["So8NSObjectP", "setDivision"]
+- !private ["So8NSObjectP", "setKind"]
+- !private ["So8NSObjectP", "setParameter"]
+- !private ["So8NSObjectP", "setRoomName"]
+- !private ["So8NSObjectP", "setUserid"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "url"]
+- !private ["So8NSObjectP", "urls"]
+- !private ["So8NSObjectP", "uuidString"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "jpegData"]
+- !private ["So14NSSecureCodingP", "uuidString"]
+- !private ["So6NSUUIDC", "init"]
+- !private ["So6NSUUIDC", "uuidString"]
+- !private ["Sj", "description"]
+- !private ["10RealmSwift6ObjectC", "init"]
+- !private ["10RealmSwift6ObjectC", "m0x"]
+- !private ["10RealmSwift6ObjectC", "m0y"]
+- !private ["10RealmSwift6ObjectC", "m0z"]
+- !private ["10RealmSwift6ObjectC", "m1x"]
+- !private ["10RealmSwift6ObjectC", "m1y"]
+- !private ["10RealmSwift6ObjectC", "m1z"]
+- !private ["10RealmSwift6ObjectC", "m2x"]
+- !private ["10RealmSwift6ObjectC", "m2y"]
+- !private ["10RealmSwift6ObjectC", "m2z"]
+- !private ["10RealmSwift6ObjectC", "m3x"]
+- !private ["10RealmSwift6ObjectC", "m3y"]
+- !private ["10RealmSwift6ObjectC", "m3z"]
+- !private ["10RealmSwift6ObjectC", "number"]
+- !private ["10RealmSwift6ObjectC", "savePhoto"]
+- !private ["10RealmSwift6ObjectC", "setDivision"]
+- !private ["10RealmSwift6ObjectC", "setKind"]
+- !private ["10RealmSwift6ObjectC", "setParameter"]
+- !private ["10RealmSwift6ObjectC", "setRoomName"]
+- !private ["10RealmSwift6ObjectC", "setUserid"]
+- !private ["10RealmSwift6ObjectC", "url"]
+- !private ["s9OptionSetP", "userDomainMask"]
+- !private ["12ChousainPlus11PhotoLocateC", "init"]
+- !private ["12ChousainPlus11PhotoLocateC", "m0x"]
+- !private ["12ChousainPlus11PhotoLocateC", "m0y"]
+- !private ["12ChousainPlus11PhotoLocateC", "m0z"]
+- !private ["12ChousainPlus11PhotoLocateC", "m1x"]
+- !private ["12ChousainPlus11PhotoLocateC", "m1y"]
+- !private ["12ChousainPlus11PhotoLocateC", "m1z"]
+- !private ["12ChousainPlus11PhotoLocateC", "m2x"]
+- !private ["12ChousainPlus11PhotoLocateC", "m2y"]
+- !private ["12ChousainPlus11PhotoLocateC", "m2z"]
+- !private ["12ChousainPlus11PhotoLocateC", "m3x"]
+- !private ["12ChousainPlus11PhotoLocateC", "m3y"]
+- !private ["12ChousainPlus11PhotoLocateC", "m3z"]
+- !private ["12ChousainPlus11PhotoLocateC", "number"]
+- !private ["12ChousainPlus11PhotoLocateC", "url"]
+- !private ["12ChousainPlus12PhotoManagerC", "CameraLocate"]
+- !private ["12ChousainPlus12PhotoManagerC", "Date"]
+- !private ["12ChousainPlus12PhotoManagerC", "DateFormatter"]
+- !private ["12ChousainPlus12PhotoManagerC", "FileManager"]
+- ["12ChousainPlus12PhotoManagerC", "Int"]
+- !private ["12ChousainPlus12PhotoManagerC", "Locale"]
+- !private ["12ChousainPlus12PhotoManagerC", "NSLocale"]
+- !private ["12ChousainPlus12PhotoManagerC", "NSUUID"]
+- !private ["12ChousainPlus12PhotoManagerC", "PhotoLocate"]
+- !private ["12ChousainPlus12PhotoManagerC", "Realm"]
+- !private ["12ChousainPlus12PhotoManagerC", "RecordData"]
+- ["12ChousainPlus12PhotoManagerC", "String"]
+- ["12ChousainPlus12PhotoManagerC", "UIImage"]
+- ["12ChousainPlus12PhotoManagerC", "deinit"]
+- ["12ChousainPlus12PhotoManagerC", "deletePhoto"]
+- ["12ChousainPlus12PhotoManagerC", "init"]
+- !private ["12ChousainPlus12PhotoManagerC", "print"]
+- ["12ChousainPlus12PhotoManagerC", "savePhoto"]
+- ["12ChousainPlus12PhotoManagerC", "savePhotoWorldMap"]
+- ["12ChousainPlus12PhotoManagerC", "saveWorldMap"]
+- ["12ChousainPlus12PhotoManagerC", "simd_float4x4"]
+- !private ["So13RLMObjectBaseC", "init"]
+- !private ["So13RLMObjectBaseC", "m0x"]
+- !private ["So13RLMObjectBaseC", "m0y"]
+- !private ["So13RLMObjectBaseC", "m0z"]
+- !private ["So13RLMObjectBaseC", "m1x"]
+- !private ["So13RLMObjectBaseC", "m1y"]
+- !private ["So13RLMObjectBaseC", "m1z"]
+- !private ["So13RLMObjectBaseC", "m2x"]
+- !private ["So13RLMObjectBaseC", "m2y"]
+- !private ["So13RLMObjectBaseC", "m2z"]
+- !private ["So13RLMObjectBaseC", "m3x"]
+- !private ["So13RLMObjectBaseC", "m3y"]
+- !private ["So13RLMObjectBaseC", "m3z"]
+- !private ["So13RLMObjectBaseC", "number"]
+- !private ["So13RLMObjectBaseC", "savePhoto"]
+- !private ["So13RLMObjectBaseC", "setDivision"]
+- !private ["So13RLMObjectBaseC", "setKind"]
+- !private ["So13RLMObjectBaseC", "setParameter"]
+- !private ["So13RLMObjectBaseC", "setRoomName"]
+- !private ["So13RLMObjectBaseC", "setUserid"]
+- !private ["So13RLMObjectBaseC", "url"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "write"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "write"]
+- !private ["SY", "documentDirectory"]
+- !private ["SY", "userDomainMask"]
+- !private ["10RealmSwift0A0C", "add"]
+- !private ["10RealmSwift0A0C", "init"]
+- !private ["10RealmSwift0A0C", "write"]
+- !private ["10RealmSwift0A15CollectionValueP", "_getBuiltinLogicValue"]
+- !private ["10RealmSwift0A15CollectionValueP", "description"]
+- !private ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "m0x"]
+- !private ["10RealmSwift0A15CollectionValueP", "m0y"]
+- !private ["10RealmSwift0A15CollectionValueP", "m0z"]
+- !private ["10RealmSwift0A15CollectionValueP", "m1x"]
+- !private ["10RealmSwift0A15CollectionValueP", "m1y"]
+- !private ["10RealmSwift0A15CollectionValueP", "m1z"]
+- !private ["10RealmSwift0A15CollectionValueP", "m2x"]
+- !private ["10RealmSwift0A15CollectionValueP", "m2y"]
+- !private ["10RealmSwift0A15CollectionValueP", "m2z"]
+- !private ["10RealmSwift0A15CollectionValueP", "m3x"]
+- !private ["10RealmSwift0A15CollectionValueP", "m3y"]
+- !private ["10RealmSwift0A15CollectionValueP", "m3z"]
+- !private ["10RealmSwift0A15CollectionValueP", "number"]
+- !private ["10RealmSwift0A15CollectionValueP", "savePhoto"]
+- !private ["10RealmSwift0A15CollectionValueP", "setDivision"]
+- !private ["10RealmSwift0A15CollectionValueP", "setKind"]
+- !private ["10RealmSwift0A15CollectionValueP", "setParameter"]
+- !private ["10RealmSwift0A15CollectionValueP", "setRoomName"]
+- !private ["10RealmSwift0A15CollectionValueP", "setUserid"]
+- !private ["10RealmSwift0A15CollectionValueP", "url"]
+- !private ["10RealmSwift0A15CollectionValueP", "write"]
+- !private ["10RealmSwift0A12OptionalTypeP", "_getBuiltinLogicValue"]
+- !private ["10RealmSwift0A12OptionalTypeP", "description"]
+- !private ["12ChousainPlus10RecordDataC", "init"]
+- !private ["12ChousainPlus10RecordDataC", "savePhoto"]
+- !private ["12ChousainPlus10RecordDataC", "setDivision"]
+- !private ["12ChousainPlus10RecordDataC", "setKind"]
+- !private ["12ChousainPlus10RecordDataC", "setParameter"]
+- !private ["12ChousainPlus10RecordDataC", "setRoomName"]
+- !private ["12ChousainPlus10RecordDataC", "setUserid"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["10Foundation20ReferenceConvertibleP", "write"]
+- !private ["So21NSSearchPathDirectoryV", "documentDirectory"]
+- !private ["So22NSSearchPathDomainMaskV", "userDomainMask"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["ST", "write"]
+- !private ["ST", "x"]
+- !private ["ST", "y"]
+- !private ["ST", "z"]
+- !private ["s10SetAlgebraP", "userDomainMask"]
+- !private ["SZ", "description"]
+- !private ["s13SignedNumericP", "description"]
+- !private ["Sx", "description"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10RealmSwift14ThreadConfinedP", "init"]
+- !private ["10RealmSwift14ThreadConfinedP", "m0x"]
+- !private ["10RealmSwift14ThreadConfinedP", "m0y"]
+- !private ["10RealmSwift14ThreadConfinedP", "m0z"]
+- !private ["10RealmSwift14ThreadConfinedP", "m1x"]
+- !private ["10RealmSwift14ThreadConfinedP", "m1y"]
+- !private ["10RealmSwift14ThreadConfinedP", "m1z"]
+- !private ["10RealmSwift14ThreadConfinedP", "m2x"]
+- !private ["10RealmSwift14ThreadConfinedP", "m2y"]
+- !private ["10RealmSwift14ThreadConfinedP", "m2z"]
+- !private ["10RealmSwift14ThreadConfinedP", "m3x"]
+- !private ["10RealmSwift14ThreadConfinedP", "m3y"]
+- !private ["10RealmSwift14ThreadConfinedP", "m3z"]
+- !private ["10RealmSwift14ThreadConfinedP", "number"]
+- !private ["10RealmSwift14ThreadConfinedP", "savePhoto"]
+- !private ["10RealmSwift14ThreadConfinedP", "setDivision"]
+- !private ["10RealmSwift14ThreadConfinedP", "setKind"]
+- !private ["10RealmSwift14ThreadConfinedP", "setParameter"]
+- !private ["10RealmSwift14ThreadConfinedP", "setRoomName"]
+- !private ["10RealmSwift14ThreadConfinedP", "setUserid"]
+- !private ["10RealmSwift14ThreadConfinedP", "url"]
+- !private ["So29UIAccessibilityIdentificationP", "jpegData"]
+- !private ["So7UIImageC", "jpegData"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "jpegData"]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["9Alamofire14URLConvertibleP", "appendingPathComponent"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "path"]
+- !private ["s18_BitwiseOperationsP", "description"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "description"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- !private ["s26_ExpressibleByImageLiteralP", "jpegData"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "description"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "uuidString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CameraLocate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FileManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLocale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSUUID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PhotoLocate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Realm"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RecordData"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileExists"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jpegData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "m0x"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "m0y"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "m0z"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "m1x"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "m1y"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "m1z"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "m2x"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "m2y"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "m2z"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "m3x"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "m3y"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "m3z"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "number"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "savePhoto"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setDivision"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setKind"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setParameter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setRoomName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUserid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "urls"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uuidString"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "write"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["4simd6float4V", "x"]
+- !private ["4simd6float4V", "y"]
+- !private ["4simd6float4V", "z"]
+- !private ["So13simd_float4x4a", "columns"]
+- !private ["So13simd_float4x4a", "debugDescription"]
+depends-nominal:
+- !private "10RealmSwift11AddableTypeP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "10RealmSwift28AssistedObjectiveCBridgeableP"
+- !private "SK"
+- !private "Sz"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "12ChousainPlus12CameraLocateC"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation4DateV"
+- !private "So15NSDateFormatterC"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So13NSFileManagerC"
+- !private "s17FixedWidthIntegerP"
+- !private "So11NSFormatterC"
+- "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "10RealmSwift10MinMaxTypeP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So8NSLocaleC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So6NSUUIDC"
+- !private "Sj"
+- !private "10RealmSwift6ObjectC"
+- !private "s9OptionSetP"
+- !private "12ChousainPlus11PhotoLocateC"
+- "12ChousainPlus12PhotoManagerC"
+- !private "So13RLMObjectBaseC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10RealmSwift0A0C"
+- !private "10RealmSwift0A15CollectionValueP"
+- !private "10RealmSwift0A12OptionalTypeP"
+- !private "12ChousainPlus10RecordDataC"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So21NSSearchPathDirectoryV"
+- !private "So22NSSearchPathDomainMaskV"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10RealmSwift14ThreadConfinedP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+- !private "4simd6float4V"
+- !private "So13simd_float4x4a"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/LNZTreeView/LNZTreeView.framework/Modules/LNZTreeView.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/LNZTreeView/LNZTreeView.framework/Headers/LNZTreeView-umbrella.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/LNZTreeView/LNZTreeView.framework/Headers/LNZTreeView-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphonesimulator/LNZTreeView/LNZTreeView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "48be289dd3446176016e7d70c291c6e5"

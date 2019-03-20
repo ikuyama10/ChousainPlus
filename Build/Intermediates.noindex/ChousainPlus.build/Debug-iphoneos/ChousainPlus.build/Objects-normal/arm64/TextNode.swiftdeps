@@ -1,0 +1,585 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TextNode"
+provides-nominal:
+- "12ChousainPlus8TextNodeC"
+provides-member:
+- ["12ChousainPlus8TextNodeC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "-"
+- "AssignmentPrecedence"
+- !private "CGFloat"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSCoder"
+- "SCNNode"
+- !private "SCNText"
+- !private "SCNVector3"
+- "String"
+- !private "StringLiteralType"
+- "TextNode"
+- !private "UIColor"
+- !private "UIFont"
+- !private "abs"
+- !private "fatalError"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SB", "init"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["s7CVarArgP", "CGFloat"]
+- !private ["s7CVarArgP", "SCNNode"]
+- !private ["s7CVarArgP", "SCNText"]
+- !private ["s7CVarArgP", "SCNVector3"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UIFont"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "abs"]
+- !private ["s7CVarArgP", "addChildNode"]
+- !private ["s7CVarArgP", "boundingBox"]
+- !private ["s7CVarArgP", "contents"]
+- !private ["s7CVarArgP", "diffuse"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "firstMaterial"]
+- !private ["s7CVarArgP", "font"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "scale"]
+- !private ["s7CVarArgP", "white"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- !private ["s28CustomDebugStringConvertibleP", "SCNNode"]
+- !private ["s28CustomDebugStringConvertibleP", "SCNText"]
+- !private ["s28CustomDebugStringConvertibleP", "SCNVector3"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIFont"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "abs"]
+- !private ["s28CustomDebugStringConvertibleP", "addChildNode"]
+- !private ["s28CustomDebugStringConvertibleP", "boundingBox"]
+- !private ["s28CustomDebugStringConvertibleP", "contents"]
+- !private ["s28CustomDebugStringConvertibleP", "diffuse"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "firstMaterial"]
+- !private ["s28CustomDebugStringConvertibleP", "font"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "scale"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- !private ["s23CustomStringConvertibleP", "SCNNode"]
+- !private ["s23CustomStringConvertibleP", "SCNText"]
+- !private ["s23CustomStringConvertibleP", "SCNVector3"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UIFont"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "abs"]
+- !private ["s23CustomStringConvertibleP", "addChildNode"]
+- !private ["s23CustomStringConvertibleP", "boundingBox"]
+- !private ["s23CustomStringConvertibleP", "contents"]
+- !private ["s23CustomStringConvertibleP", "diffuse"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "firstMaterial"]
+- !private ["s23CustomStringConvertibleP", "font"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "scale"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "CGFloat"]
+- !private ["SQ", "SCNNode"]
+- !private ["SQ", "SCNText"]
+- !private ["SQ", "SCNVector3"]
+- !private ["SQ", "UIColor"]
+- !private ["SQ", "UIFont"]
+- ["SQ", ""]
+- !private ["SQ", "abs"]
+- !private ["SQ", "addChildNode"]
+- !private ["SQ", "boundingBox"]
+- !private ["SQ", "contents"]
+- !private ["SQ", "diffuse"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "firstMaterial"]
+- !private ["SQ", "font"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "scale"]
+- !private ["SQ", "white"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "CGFloat"]
+- !private ["SH", "SCNNode"]
+- !private ["SH", "SCNText"]
+- !private ["SH", "SCNVector3"]
+- !private ["SH", "UIColor"]
+- !private ["SH", "UIFont"]
+- ["SH", ""]
+- !private ["SH", "abs"]
+- !private ["SH", "addChildNode"]
+- !private ["SH", "boundingBox"]
+- !private ["SH", "contents"]
+- !private ["SH", "diffuse"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "firstMaterial"]
+- !private ["SH", "font"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "scale"]
+- !private ["SH", "white"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "CGFloat"]
+- !private ["So8NSCodingP", "SCNNode"]
+- !private ["So8NSCodingP", "SCNText"]
+- !private ["So8NSCodingP", "SCNVector3"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "UIFont"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "abs"]
+- !private ["So8NSCodingP", "addChildNode"]
+- !private ["So8NSCodingP", "boundingBox"]
+- !private ["So8NSCodingP", "contents"]
+- !private ["So8NSCodingP", "diffuse"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "firstMaterial"]
+- !private ["So8NSCodingP", "font"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "scale"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "CGFloat"]
+- !private ["So9NSCopyingP", "SCNNode"]
+- !private ["So9NSCopyingP", "SCNText"]
+- !private ["So9NSCopyingP", "SCNVector3"]
+- !private ["So9NSCopyingP", "UIColor"]
+- !private ["So9NSCopyingP", "UIFont"]
+- ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "abs"]
+- !private ["So9NSCopyingP", "addChildNode"]
+- !private ["So9NSCopyingP", "boundingBox"]
+- !private ["So9NSCopyingP", "diffuse"]
+- !private ["So9NSCopyingP", "fatalError"]
+- !private ["So9NSCopyingP", "firstMaterial"]
+- !private ["So9NSCopyingP", "font"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "scale"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- !private ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "SCNNode"]
+- !private ["So8NSObjectC", "SCNText"]
+- !private ["So8NSObjectC", "SCNVector3"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "UIFont"]
+- !private ["So8NSObjectC", "abs"]
+- !private ["So8NSObjectC", "addChildNode"]
+- !private ["So8NSObjectC", "boundingBox"]
+- !private ["So8NSObjectC", "contents"]
+- !private ["So8NSObjectC", "diffuse"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "firstMaterial"]
+- !private ["So8NSObjectC", "font"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "scale"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So8NSObjectP", "CGFloat"]
+- !private ["So8NSObjectP", "SCNNode"]
+- !private ["So8NSObjectP", "SCNText"]
+- !private ["So8NSObjectP", "SCNVector3"]
+- !private ["So8NSObjectP", "UIColor"]
+- !private ["So8NSObjectP", "UIFont"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "abs"]
+- !private ["So8NSObjectP", "addChildNode"]
+- !private ["So8NSObjectP", "boundingBox"]
+- !private ["So8NSObjectP", "contents"]
+- !private ["So8NSObjectP", "diffuse"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "firstMaterial"]
+- !private ["So8NSObjectP", "font"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "scale"]
+- !private ["So8NSObjectP", "white"]
+- !private ["So14NSSecureCodingP", "CGFloat"]
+- !private ["So14NSSecureCodingP", "SCNNode"]
+- !private ["So14NSSecureCodingP", "SCNText"]
+- !private ["So14NSSecureCodingP", "SCNVector3"]
+- !private ["So14NSSecureCodingP", "UIColor"]
+- !private ["So14NSSecureCodingP", "UIFont"]
+- ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "abs"]
+- !private ["So14NSSecureCodingP", "addChildNode"]
+- !private ["So14NSSecureCodingP", "boundingBox"]
+- !private ["So14NSSecureCodingP", "contents"]
+- !private ["So14NSSecureCodingP", "diffuse"]
+- !private ["So14NSSecureCodingP", "fatalError"]
+- !private ["So14NSSecureCodingP", "firstMaterial"]
+- !private ["So14NSSecureCodingP", "font"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "scale"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["Sj", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["So13SCNActionableP", "CGFloat"]
+- !private ["So13SCNActionableP", "SCNNode"]
+- !private ["So13SCNActionableP", "SCNText"]
+- !private ["So13SCNActionableP", "SCNVector3"]
+- !private ["So13SCNActionableP", "UIColor"]
+- !private ["So13SCNActionableP", "UIFont"]
+- ["So13SCNActionableP", ""]
+- !private ["So13SCNActionableP", "abs"]
+- !private ["So13SCNActionableP", "addChildNode"]
+- !private ["So13SCNActionableP", "boundingBox"]
+- !private ["So13SCNActionableP", "fatalError"]
+- !private ["So13SCNActionableP", "init"]
+- !private ["So13SCNActionableP", "scale"]
+- !private ["So13SCNAnimatableP", "CGFloat"]
+- !private ["So13SCNAnimatableP", "SCNNode"]
+- !private ["So13SCNAnimatableP", "SCNText"]
+- !private ["So13SCNAnimatableP", "SCNVector3"]
+- !private ["So13SCNAnimatableP", "UIColor"]
+- !private ["So13SCNAnimatableP", "UIFont"]
+- ["So13SCNAnimatableP", ""]
+- !private ["So13SCNAnimatableP", "abs"]
+- !private ["So13SCNAnimatableP", "addChildNode"]
+- !private ["So13SCNAnimatableP", "boundingBox"]
+- !private ["So13SCNAnimatableP", "contents"]
+- !private ["So13SCNAnimatableP", "diffuse"]
+- !private ["So13SCNAnimatableP", "fatalError"]
+- !private ["So13SCNAnimatableP", "firstMaterial"]
+- !private ["So13SCNAnimatableP", "font"]
+- !private ["So13SCNAnimatableP", "init"]
+- !private ["So13SCNAnimatableP", "scale"]
+- !private ["So17SCNBoundingVolumeP", "CGFloat"]
+- !private ["So17SCNBoundingVolumeP", "SCNNode"]
+- !private ["So17SCNBoundingVolumeP", "SCNText"]
+- !private ["So17SCNBoundingVolumeP", "SCNVector3"]
+- !private ["So17SCNBoundingVolumeP", "UIColor"]
+- !private ["So17SCNBoundingVolumeP", "UIFont"]
+- ["So17SCNBoundingVolumeP", ""]
+- !private ["So17SCNBoundingVolumeP", "abs"]
+- !private ["So17SCNBoundingVolumeP", "addChildNode"]
+- !private ["So17SCNBoundingVolumeP", "boundingBox"]
+- !private ["So17SCNBoundingVolumeP", "fatalError"]
+- !private ["So17SCNBoundingVolumeP", "firstMaterial"]
+- !private ["So17SCNBoundingVolumeP", "font"]
+- !private ["So17SCNBoundingVolumeP", "init"]
+- !private ["So17SCNBoundingVolumeP", "scale"]
+- !private ["So11SCNGeometryC", "firstMaterial"]
+- !private ["So11SCNGeometryC", "font"]
+- !private ["So11SCNGeometryC", "init"]
+- !private ["So11SCNMaterialC", "diffuse"]
+- !private ["So19SCNMaterialPropertyC", "contents"]
+- !private ["So7SCNNodeC", "CGFloat"]
+- ["So7SCNNodeC", "NSCoder"]
+- !private ["So7SCNNodeC", "SCNNode"]
+- !private ["So7SCNNodeC", "SCNText"]
+- !private ["So7SCNNodeC", "SCNVector3"]
+- ["So7SCNNodeC", "String"]
+- !private ["So7SCNNodeC", "UIColor"]
+- !private ["So7SCNNodeC", "UIFont"]
+- ["So7SCNNodeC", ""]
+- !private ["So7SCNNodeC", "abs"]
+- !private ["So7SCNNodeC", "addChildNode"]
+- !private ["So7SCNNodeC", "boundingBox"]
+- !private ["So7SCNNodeC", "fatalError"]
+- ["So7SCNNodeC", "init"]
+- !private ["So7SCNNodeC", "scale"]
+- !private ["So11SCNShadableP", "diffuse"]
+- !private ["So11SCNShadableP", "firstMaterial"]
+- !private ["So11SCNShadableP", "font"]
+- !private ["So11SCNShadableP", "init"]
+- !private ["So7SCNTextC", "firstMaterial"]
+- !private ["So7SCNTextC", "font"]
+- !private ["So7SCNTextC", "init"]
+- !private ["So10SCNVector3V", "init"]
+- !private ["So10SCNVector3V", "x"]
+- !private ["So10SCNVector3V", "y"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["12ChousainPlus8TextNodeC", "CGFloat"]
+- ["12ChousainPlus8TextNodeC", "NSCoder"]
+- !private ["12ChousainPlus8TextNodeC", "SCNNode"]
+- !private ["12ChousainPlus8TextNodeC", "SCNText"]
+- !private ["12ChousainPlus8TextNodeC", "SCNVector3"]
+- ["12ChousainPlus8TextNodeC", "String"]
+- !private ["12ChousainPlus8TextNodeC", "UIColor"]
+- !private ["12ChousainPlus8TextNodeC", "UIFont"]
+- !private ["12ChousainPlus8TextNodeC", "abs"]
+- !private ["12ChousainPlus8TextNodeC", "addChildNode"]
+- !private ["12ChousainPlus8TextNodeC", "fatalError"]
+- ["12ChousainPlus8TextNodeC", "init"]
+- !private ["12ChousainPlus8TextNodeC", "scale"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So7UIColorC", "white"]
+- !private ["So18UIFocusEnvironmentP", "CGFloat"]
+- !private ["So18UIFocusEnvironmentP", "SCNNode"]
+- !private ["So18UIFocusEnvironmentP", "SCNText"]
+- !private ["So18UIFocusEnvironmentP", "SCNVector3"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "UIFont"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "abs"]
+- !private ["So18UIFocusEnvironmentP", "addChildNode"]
+- !private ["So18UIFocusEnvironmentP", "boundingBox"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "scale"]
+- !private ["So11UIFocusItemP", "CGFloat"]
+- !private ["So11UIFocusItemP", "SCNNode"]
+- !private ["So11UIFocusItemP", "SCNText"]
+- !private ["So11UIFocusItemP", "SCNVector3"]
+- !private ["So11UIFocusItemP", "UIColor"]
+- !private ["So11UIFocusItemP", "UIFont"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "abs"]
+- !private ["So11UIFocusItemP", "addChildNode"]
+- !private ["So11UIFocusItemP", "boundingBox"]
+- !private ["So11UIFocusItemP", "fatalError"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "scale"]
+- !private ["So6UIFontC", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SCNNode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SCNText"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SCNVector3"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "abs"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addChildNode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "boundingBox"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "diffuse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "firstMaterial"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "font"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "SB"
+- !private "12CoreGraphics7CGFloatV"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- !private "Sj"
+- !private "Sm"
+- !private "10RealmSwift0A15CollectionValueP"
+- "So13SCNActionableP"
+- "So13SCNAnimatableP"
+- "So17SCNBoundingVolumeP"
+- !private "So11SCNGeometryC"
+- !private "So11SCNMaterialC"
+- !private "So19SCNMaterialPropertyC"
+- "So7SCNNodeC"
+- !private "So11SCNShadableP"
+- !private "So7SCNTextC"
+- !private "So10SCNVector3V"
+- !private "ST"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- "12ChousainPlus8TextNodeC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So7UIColorC"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "So6UIFontC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/LNZTreeView/LNZTreeView.framework/Modules/LNZTreeView.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/LNZTreeView/LNZTreeView.framework/Headers/LNZTreeView-umbrella.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/LNZTreeView/LNZTreeView.framework/Headers/LNZTreeView-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/LNZTreeView/LNZTreeView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2305fe9f795bcd0ee55fe708250b89c2"

@@ -1,0 +1,527 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+- "WhiteBoardData"
+- "PhotoNumber"
+provides-nominal:
+- "12ChousainPlus11AppDelegateC"
+- "12ChousainPlus14WhiteBoardDataC"
+- "12ChousainPlus11PhotoNumberC"
+provides-member:
+- ["12ChousainPlus11AppDelegateC", ""]
+- ["12ChousainPlus14WhiteBoardDataC", ""]
+- ["12ChousainPlus11PhotoNumberC", ""]
+provides-dynamic-lookup:
+- "application"
+- "applicationDidBecomeActive"
+- "applicationDidEnterBackground"
+- "applicationWillEnterForeground"
+- "applicationWillResignActive"
+- "applicationWillTerminate"
+- "window"
+depends-top-level:
+- !private "..<"
+- "AppDelegate"
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Float"
+- "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "PhotoNumber"
+- "StringLiteralType"
+- "UIApplication"
+- "UIApplicationDelegate"
+- "UIResponder"
+- "UIWindow"
+- "WhiteBoardData"
+depends-member:
+- ["12ChousainPlus11AppDelegateC", "Bool"]
+- ["12ChousainPlus11AppDelegateC", "UIApplication"]
+- ["12ChousainPlus11AppDelegateC", "UIWindow"]
+- ["12ChousainPlus11AppDelegateC", "application"]
+- ["12ChousainPlus11AppDelegateC", "applicationDidBecomeActive"]
+- ["12ChousainPlus11AppDelegateC", "applicationDidEnterBackground"]
+- ["12ChousainPlus11AppDelegateC", "applicationDidFinishLaunching"]
+- ["12ChousainPlus11AppDelegateC", "applicationDidReceiveMemoryWarning"]
+- ["12ChousainPlus11AppDelegateC", "applicationProtectedDataDidBecomeAvailable"]
+- ["12ChousainPlus11AppDelegateC", "applicationProtectedDataWillBecomeUnavailable"]
+- ["12ChousainPlus11AppDelegateC", "applicationShouldRequestHealthAuthorization"]
+- ["12ChousainPlus11AppDelegateC", "applicationSignificantTimeChange"]
+- ["12ChousainPlus11AppDelegateC", "applicationWillEnterForeground"]
+- ["12ChousainPlus11AppDelegateC", "applicationWillResignActive"]
+- ["12ChousainPlus11AppDelegateC", "applicationWillTerminate"]
+- ["12ChousainPlus11AppDelegateC", "deinit"]
+- ["12ChousainPlus11AppDelegateC", "init"]
+- ["12ChousainPlus11AppDelegateC", "window"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "subscript"]
+- ["s7CVarArgP", "LaunchOptionsKey"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "application"]
+- ["s7CVarArgP", "applicationDidBecomeActive"]
+- ["s7CVarArgP", "applicationDidEnterBackground"]
+- ["s7CVarArgP", "applicationDidFinishLaunching"]
+- ["s7CVarArgP", "applicationDidReceiveMemoryWarning"]
+- ["s7CVarArgP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s7CVarArgP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s7CVarArgP", "applicationShouldRequestHealthAuthorization"]
+- ["s7CVarArgP", "applicationSignificantTimeChange"]
+- ["s7CVarArgP", "applicationWillEnterForeground"]
+- ["s7CVarArgP", "applicationWillResignActive"]
+- ["s7CVarArgP", "applicationWillTerminate"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "window"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "LaunchOptionsKey"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "application"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidEnterBackground"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidFinishLaunching"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidReceiveMemoryWarning"]
+- ["s28CustomDebugStringConvertibleP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s28CustomDebugStringConvertibleP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s28CustomDebugStringConvertibleP", "applicationShouldRequestHealthAuthorization"]
+- ["s28CustomDebugStringConvertibleP", "applicationSignificantTimeChange"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillEnterForeground"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "window"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "LaunchOptionsKey"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "application"]
+- ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
+- ["s23CustomStringConvertibleP", "applicationDidEnterBackground"]
+- ["s23CustomStringConvertibleP", "applicationDidFinishLaunching"]
+- ["s23CustomStringConvertibleP", "applicationDidReceiveMemoryWarning"]
+- ["s23CustomStringConvertibleP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s23CustomStringConvertibleP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s23CustomStringConvertibleP", "applicationShouldRequestHealthAuthorization"]
+- ["s23CustomStringConvertibleP", "applicationSignificantTimeChange"]
+- ["s23CustomStringConvertibleP", "applicationWillEnterForeground"]
+- ["s23CustomStringConvertibleP", "applicationWillResignActive"]
+- ["s23CustomStringConvertibleP", "applicationWillTerminate"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "window"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "subscript"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "subscript"]
+- ["SQ", "LaunchOptionsKey"]
+- ["SQ", ""]
+- ["SQ", "application"]
+- ["SQ", "applicationDidBecomeActive"]
+- ["SQ", "applicationDidEnterBackground"]
+- ["SQ", "applicationDidFinishLaunching"]
+- ["SQ", "applicationDidReceiveMemoryWarning"]
+- ["SQ", "applicationProtectedDataDidBecomeAvailable"]
+- ["SQ", "applicationProtectedDataWillBecomeUnavailable"]
+- ["SQ", "applicationShouldRequestHealthAuthorization"]
+- ["SQ", "applicationSignificantTimeChange"]
+- ["SQ", "applicationWillEnterForeground"]
+- ["SQ", "applicationWillResignActive"]
+- ["SQ", "applicationWillTerminate"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "subscript"]
+- ["SQ", "window"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "LaunchOptionsKey"]
+- ["SH", ""]
+- ["SH", "application"]
+- ["SH", "applicationDidBecomeActive"]
+- ["SH", "applicationDidEnterBackground"]
+- ["SH", "applicationDidFinishLaunching"]
+- ["SH", "applicationDidReceiveMemoryWarning"]
+- ["SH", "applicationProtectedDataDidBecomeAvailable"]
+- ["SH", "applicationProtectedDataWillBecomeUnavailable"]
+- ["SH", "applicationShouldRequestHealthAuthorization"]
+- ["SH", "applicationSignificantTimeChange"]
+- ["SH", "applicationWillEnterForeground"]
+- ["SH", "applicationWillResignActive"]
+- ["SH", "applicationWillTerminate"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "subscript"]
+- ["SH", "window"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "subscript"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "LaunchOptionsKey"]
+- ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UIWindow"]
+- ["So8NSObjectC", "application"]
+- ["So8NSObjectC", "applicationDidBecomeActive"]
+- ["So8NSObjectC", "applicationDidEnterBackground"]
+- ["So8NSObjectC", "applicationDidFinishLaunching"]
+- ["So8NSObjectC", "applicationDidReceiveMemoryWarning"]
+- ["So8NSObjectC", "applicationProtectedDataDidBecomeAvailable"]
+- ["So8NSObjectC", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So8NSObjectC", "applicationShouldRequestHealthAuthorization"]
+- ["So8NSObjectC", "applicationSignificantTimeChange"]
+- ["So8NSObjectC", "applicationWillEnterForeground"]
+- ["So8NSObjectC", "applicationWillResignActive"]
+- ["So8NSObjectC", "applicationWillTerminate"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "window"]
+- ["So8NSObjectP", "LaunchOptionsKey"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "application"]
+- ["So8NSObjectP", "applicationDidBecomeActive"]
+- ["So8NSObjectP", "applicationDidEnterBackground"]
+- ["So8NSObjectP", "applicationDidFinishLaunching"]
+- ["So8NSObjectP", "applicationDidReceiveMemoryWarning"]
+- ["So8NSObjectP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So8NSObjectP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So8NSObjectP", "applicationShouldRequestHealthAuthorization"]
+- ["So8NSObjectP", "applicationSignificantTimeChange"]
+- ["So8NSObjectP", "applicationWillEnterForeground"]
+- ["So8NSObjectP", "applicationWillResignActive"]
+- ["So8NSObjectP", "applicationWillTerminate"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "window"]
+- ["12ChousainPlus11PhotoNumberC", "Float"]
+- ["12ChousainPlus11PhotoNumberC", "Int"]
+- ["12ChousainPlus11PhotoNumberC", "PhotoNumber"]
+- ["12ChousainPlus11PhotoNumberC", "deinit"]
+- ["12ChousainPlus11PhotoNumberC", "division"]
+- ["12ChousainPlus11PhotoNumberC", "init"]
+- ["12ChousainPlus11PhotoNumberC", "initial"]
+- ["12ChousainPlus11PhotoNumberC", "photo_gen_num"]
+- ["12ChousainPlus11PhotoNumberC", "photo_num"]
+- ["12ChousainPlus11PhotoNumberC", "pre_stage"]
+- ["12ChousainPlus11PhotoNumberC", "room_name"]
+- ["12ChousainPlus11PhotoNumberC", "shared"]
+- ["12ChousainPlus11PhotoNumberC", "width"]
+- !private ["Sk", "subscript"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- ["10RealmSwift0A15CollectionValueP", "init"]
+- ["10RealmSwift0A15CollectionValueP", "init"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "subscript"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["So13UIApplicationC", "LaunchOptionsKey"]
+- ["So21UIApplicationDelegateP", ""]
+- ["So21UIApplicationDelegateP", "application"]
+- ["So21UIApplicationDelegateP", "applicationDidBecomeActive"]
+- ["So21UIApplicationDelegateP", "applicationDidEnterBackground"]
+- ["So21UIApplicationDelegateP", "applicationDidFinishLaunching"]
+- ["So21UIApplicationDelegateP", "applicationDidReceiveMemoryWarning"]
+- ["So21UIApplicationDelegateP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So21UIApplicationDelegateP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So21UIApplicationDelegateP", "applicationShouldRequestHealthAuthorization"]
+- ["So21UIApplicationDelegateP", "applicationSignificantTimeChange"]
+- ["So21UIApplicationDelegateP", "applicationWillEnterForeground"]
+- ["So21UIApplicationDelegateP", "applicationWillResignActive"]
+- ["So21UIApplicationDelegateP", "applicationWillTerminate"]
+- ["So21UIApplicationDelegateP", "window"]
+- ["So30UIPasteConfigurationSupportingP", "LaunchOptionsKey"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "application"]
+- ["So30UIPasteConfigurationSupportingP", "applicationDidBecomeActive"]
+- ["So30UIPasteConfigurationSupportingP", "applicationDidEnterBackground"]
+- ["So30UIPasteConfigurationSupportingP", "applicationDidFinishLaunching"]
+- ["So30UIPasteConfigurationSupportingP", "applicationDidReceiveMemoryWarning"]
+- ["So30UIPasteConfigurationSupportingP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So30UIPasteConfigurationSupportingP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So30UIPasteConfigurationSupportingP", "applicationShouldRequestHealthAuthorization"]
+- ["So30UIPasteConfigurationSupportingP", "applicationSignificantTimeChange"]
+- ["So30UIPasteConfigurationSupportingP", "applicationWillEnterForeground"]
+- ["So30UIPasteConfigurationSupportingP", "applicationWillResignActive"]
+- ["So30UIPasteConfigurationSupportingP", "applicationWillTerminate"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "window"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "LaunchOptionsKey"]
+- ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "UIWindow"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "application"]
+- ["So11UIResponderC", "applicationDidBecomeActive"]
+- ["So11UIResponderC", "applicationDidEnterBackground"]
+- ["So11UIResponderC", "applicationDidFinishLaunching"]
+- ["So11UIResponderC", "applicationDidReceiveMemoryWarning"]
+- ["So11UIResponderC", "applicationProtectedDataDidBecomeAvailable"]
+- ["So11UIResponderC", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So11UIResponderC", "applicationShouldRequestHealthAuthorization"]
+- ["So11UIResponderC", "applicationSignificantTimeChange"]
+- ["So11UIResponderC", "applicationWillEnterForeground"]
+- ["So11UIResponderC", "applicationWillResignActive"]
+- ["So11UIResponderC", "applicationWillTerminate"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "window"]
+- ["So30UIResponderStandardEditActionsP", "LaunchOptionsKey"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "application"]
+- ["So30UIResponderStandardEditActionsP", "applicationDidBecomeActive"]
+- ["So30UIResponderStandardEditActionsP", "applicationDidEnterBackground"]
+- ["So30UIResponderStandardEditActionsP", "applicationDidFinishLaunching"]
+- ["So30UIResponderStandardEditActionsP", "applicationDidReceiveMemoryWarning"]
+- ["So30UIResponderStandardEditActionsP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So30UIResponderStandardEditActionsP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So30UIResponderStandardEditActionsP", "applicationShouldRequestHealthAuthorization"]
+- ["So30UIResponderStandardEditActionsP", "applicationSignificantTimeChange"]
+- ["So30UIResponderStandardEditActionsP", "applicationWillEnterForeground"]
+- ["So30UIResponderStandardEditActionsP", "applicationWillResignActive"]
+- ["So30UIResponderStandardEditActionsP", "applicationWillTerminate"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "window"]
+- ["So23UIUserActivityRestoringP", "LaunchOptionsKey"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "application"]
+- ["So23UIUserActivityRestoringP", "applicationDidBecomeActive"]
+- ["So23UIUserActivityRestoringP", "applicationDidEnterBackground"]
+- ["So23UIUserActivityRestoringP", "applicationDidFinishLaunching"]
+- ["So23UIUserActivityRestoringP", "applicationDidReceiveMemoryWarning"]
+- ["So23UIUserActivityRestoringP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So23UIUserActivityRestoringP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So23UIUserActivityRestoringP", "applicationShouldRequestHealthAuthorization"]
+- ["So23UIUserActivityRestoringP", "applicationSignificantTimeChange"]
+- ["So23UIUserActivityRestoringP", "applicationWillEnterForeground"]
+- ["So23UIUserActivityRestoringP", "applicationWillResignActive"]
+- ["So23UIUserActivityRestoringP", "applicationWillTerminate"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "window"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["12ChousainPlus14WhiteBoardDataC", "WhiteBoardData"]
+- ["12ChousainPlus14WhiteBoardDataC", "clear"]
+- ["12ChousainPlus14WhiteBoardDataC", "init"]
+- ["12ChousainPlus14WhiteBoardDataC", "items"]
+- ["12ChousainPlus14WhiteBoardDataC", "shared"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "LaunchOptionsKey"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "application"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidEnterBackground"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidFinishLaunching"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidReceiveMemoryWarning"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationProtectedDataDidBecomeAvailable"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationShouldRequestHealthAuthorization"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationSignificantTimeChange"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillEnterForeground"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "12ChousainPlus11AppDelegateC"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "12ChousainPlus11PhotoNumberC"
+- !private "Sk"
+- "Sm"
+- "10RealmSwift0A15CollectionValueP"
+- "ST"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So13UIApplicationC"
+- "So21UIApplicationDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So23UIUserActivityRestoringP"
+- "9Alamofire14URLConvertibleP"
+- "12ChousainPlus14WhiteBoardDataC"
+- !private "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/LNZTreeView/LNZTreeView.framework/Modules/LNZTreeView.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/LNZTreeView/LNZTreeView.framework/Headers/LNZTreeView-umbrella.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/LNZTreeView/LNZTreeView.framework/Headers/LNZTreeView-Swift.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/LNZTreeView/LNZTreeView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "df38aedf6499a920662efddcb94199a8"

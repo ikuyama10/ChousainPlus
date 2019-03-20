@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Products/Debug-iphoneos/LNZTreeView/LNZTreeView.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/yamaguchiMacPro/Documents/work/ChousainPlus/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/LNZTreeView.build/unextended-module.modulemap",
+    }]
+  }]
+}

@@ -1,0 +1,10 @@
+framework module LNZTreeView {
+  umbrella header "LNZTreeView-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module LNZTreeView.__Swift {
+    exclude header "LNZTreeView-Swift.h"
+}
