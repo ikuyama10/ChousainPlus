@@ -539,7 +539,9 @@ class CameraCloseupViewController: UIViewController, ARSCNViewDelegate, ARSessio
         self.present(next!,animated: true, completion: nil)
         
     }
-    func viewWhiteBoard(){
+    func viewWhiteBoard(room:String){
+        self.room_name = room
+        lblRoomName.text = room
         stopAR = true
         self.whiteBoardMake = true
         let documentsURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]

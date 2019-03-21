@@ -714,19 +714,23 @@ class CameraViewController: UIViewController , ARSCNViewDelegate ,ARSessionDeleg
             let photoNumber = PhotoNumber.shared
             photoNumber.photo_gen_num[Int(self.division)! - 1] = photo_num + 1
         }
+
         //PhotoControllerに戻る
         let controller = self.presentingViewController as? PhotoController
         let next = storyboard!.instantiateViewController(withIdentifier: "photolist") as? PhotoController
         let _ = next?.view // ** hack code **
         
         self.present(next!,animated: true, completion: {
+            controller?.updateRommName(room: self.room_name)
             controller?.updateTableView()
         })
         
     }
 
-    func viewWhiteBoard(){
+    func viewWhiteBoard(room:String){
         stopAR = true
+        self.room_name = room
+        lblRoomName.text = room
         //起動時に白板を表示した時は表示しない
         if bViewWhiteBoard == true{
             let documentsURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]

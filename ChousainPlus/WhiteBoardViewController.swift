@@ -57,12 +57,12 @@ class WhiteBoardViewController: UIViewController, UIPickerViewDelegate, UIPicker
         if photo_mode == 2{
             let controller = self.presentingViewController as? CameraViewController
             self.dismiss(animated: true, completion: {
-                controller?.viewWhiteBoard()
+                controller?.viewWhiteBoard(room: self.room_name)
             })
         }else{
             let controller = self.presentingViewController as? CameraCloseupViewController
             self.dismiss(animated: true, completion: {
-                controller?.viewWhiteBoard()
+                controller?.viewWhiteBoard(room: self.room_name)
             })
         }
     }
@@ -241,6 +241,9 @@ class WhiteBoardViewController: UIViewController, UIPickerViewDelegate, UIPicker
         let whiteBoard = WhiteBoardData.shared
         for i in 0..<10 {
             whiteBoard.items[i] = buttonArray[i].currentTitle!
+            if i == 0 {
+                self.room_name = whiteBoard.items[i]
+            }
         }
         //白板画像保存
         buttonArray[selctedItem].backgroundColor = UIColor.init(red: 1, green: 1, blue: 1, alpha: 1)
@@ -274,12 +277,12 @@ class WhiteBoardViewController: UIViewController, UIPickerViewDelegate, UIPicker
         if photo_mode == 2{
             let controller = self.presentingViewController as? CameraViewController
             self.dismiss(animated: true, completion: {
-                controller?.viewWhiteBoard()
+                controller?.viewWhiteBoard(room: self.room_name)
             })
         }else{
             let controller = self.presentingViewController as? CameraCloseupViewController
             self.dismiss(animated: true, completion: {
-                controller?.viewWhiteBoard()
+                controller?.viewWhiteBoard(room: self.room_name)
             })
         }
     }

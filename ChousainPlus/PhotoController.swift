@@ -856,7 +856,6 @@ class PhotoController: UIViewController,UIPickerViewDelegate, UIPickerViewDataSo
             pickerRoomName.reloadComponent(0)
             
         }
-
     }
     //--------------------------------------------------------
     //WorldMap保存
@@ -872,8 +871,19 @@ class PhotoController: UIViewController,UIPickerViewDelegate, UIPickerViewDataSo
     @IBAction func startWorldMap(_ sender: Any) {
         self.mapStart = false
     }
+    func updateRommName(room:String){
+        //部屋が変わった場合
+        if room != self.room_name{
+            self.room_name = room
+            self.room[Int(self.division)! - 1] = room
+            //部屋情報初期化
+            lblRoomName.text = room
+            let photoNumber = PhotoNumber.shared
+            photoNumber.room_name[Int(self.division)! - 1] = self.room_name
 
-
+            self.mapStart = false
+        }
+    }
 }
 extension PhotoController: UITableViewDelegate,UITableViewDataSource {
     
@@ -996,6 +1006,7 @@ extension PhotoController: UITableViewDelegate,UITableViewDataSource {
         return cell
         
     }
+
 }
 extension PhotoController: LNZTreeViewDataSource {
     func numberOfSections(in treeView: LNZTreeView) -> Int {
